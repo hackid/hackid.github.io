@@ -1,6 +1,6 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
@@ -8,14 +8,12 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Hack ID
+tagline: Resources for Self-Taught Instructional Designer and Developers
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : K. Anthony
+  email : kristin@knanthony.com
+  twitter : anthkris
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -25,7 +23,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://hackid.github.io
 
 gems: ["jekyll-sitemap"]
 
@@ -71,6 +69,13 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
+
+  collections :
+    cupcakes :
+      output : true
+      permalink : /cupcakes/:path/
+    resources :
+      output : true
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
@@ -82,7 +87,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -102,7 +107,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
-    provider : google
+    provider : false
     gauges :
         site_id : 'SITE ID'
     google :

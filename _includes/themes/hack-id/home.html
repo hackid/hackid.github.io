@@ -1,0 +1,23 @@
+
+        <!-- Page Header -->
+        <div class="page-header">
+          <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+        </div>
+
+        <!-- Projects Row -->
+        <p>Category filter here</p>
+        {{ collection }}
+        <div class="row">
+          {% for item in site.resources %}
+            <div class="col-md-3 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">{{ item[0] | join: "/" }}</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            {% endfor %}
+        </div>
+        <!-- /.row -->

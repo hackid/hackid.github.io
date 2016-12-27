@@ -6,22 +6,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Jekyll Introduction</title>
+    <title>Jekyll Intro</title>
     
-    <meta name="author" content="Name Lastname">
+    <meta name="author" content="K. Anthony">
 
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap styles -->
-    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/hack-id/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Optional theme -->
-    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/assets/themes/hack-id/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
     <!-- Sticky Footer -->
-    <link href="/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    <link href="/assets/themes/hack-id/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
     
     <!-- Custom styles -->
-    <link href="/assets/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/hack-id/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,7 +55,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Jekyll Bootstrap</a>
+          <a class="navbar-brand" href="/">Hack ID</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -128,13 +128,13 @@
         
 
 <div class="page-header">
-  <h1>Jekyll Introduction <small>Supporting tagline</small></h1>
+  <h1>Jekyll Intro <small>Supporting tagline</small></h1>
 </div>
 
 <div class="row post-full">
   <div class="col-xs-12">
     <div class="date">
-      <span>29 December 2011</span>
+      <span>27 December 2016</span>
     </div>
     <div class="content">
       
@@ -155,11 +155,11 @@ dynamic components such as templates, partials, liquid code, markdown, etc. Jeky
 <h3 id="what-does-jekyll-do">What does Jekyll Do?</h3>
 
 <p>Jekyll is a ruby gem you install on your local system.
-Once there you can call <code>jekyll --server</code> on a directory and provided that directory
+Once there you can call <code class="highlighter-rouge">jekyll --server</code> on a directory and provided that directory
 is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files,
 compute categories, tags, permalinks, and construct your pages from layout templates and partials.</p>
 
-<p>Once parsed, Jekyll stores the result in a self-contained static <code>_site</code> folder.
+<p>Once parsed, Jekyll stores the result in a self-contained static <code class="highlighter-rouge">_site</code> folder.
 The intention here is that you can serve all contents in this folder statically from a plain static web-server.</p>
 
 <p>You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags
@@ -214,7 +214,7 @@ Jekyll-bootstrap conveniently provides the base directory format.</p>
 
 <p>Jekyll expects your website directory to be laid out like so:</p>
 
-<pre><code>.
+<div class="highlighter-rouge"><pre class="highlight"><code>.
 |-- _config.yml
 |-- _includes
 |-- _layouts
@@ -230,6 +230,7 @@ Jekyll-bootstrap conveniently provides the base directory format.</p>
         |-- style.css
     |-- javascripts
 </code></pre>
+</div>
 
 <ul>
   <li>
@@ -248,7 +249,7 @@ Jekyll-bootstrap conveniently provides the base directory format.</p>
   <li>
     <p><strong>_posts</strong>
   This folder contains your dynamic content/posts.
-  the naming format is required to be <code>@YEAR-MONTH-DATE-title.MARKUP@</code>.</p>
+  the naming format is required to be <code class="highlighter-rouge">@YEAR-MONTH-DATE-title.MARKUP@</code>.</p>
   </li>
   <li>
     <p><strong>_site</strong>
@@ -282,10 +283,10 @@ Both posts and pages can have meta-data assigned on a per-page basis such as tit
 <h3 id="working-with-posts">Working With Posts</h3>
 
 <p><strong>Creating a Post</strong>
-Posts are created by properly formatting a file and placing it the <code>_posts</code> folder.</p>
+Posts are created by properly formatting a file and placing it the <code class="highlighter-rouge">_posts</code> folder.</p>
 
 <p><strong>Formatting</strong>
-A post must have a valid filename in the form <code>YEAR-MONTH-DATE-title.MARKUP</code> and be placed in the <code>_posts</code> directory.
+A post must have a valid filename in the form <code class="highlighter-rouge">YEAR-MONTH-DATE-title.MARKUP</code> and be placed in the <code class="highlighter-rouge">_posts</code> directory.
 If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file.
 Additionally, each file must have <a href="https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter">YAML Front-Matter</a> prepended to its content.
 YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.</p>
@@ -308,11 +309,12 @@ Note categories in Jekyll work in a specific way.
 If you define more than one category you are defining a category hierarchy “set”.
 Example:</p>
 
-<pre><code>---
+<div class="highlighter-rouge"><pre class="highlight"><code>---
 title :  Hello World
 categories : [lessons, beginner]
 ---
 </code></pre>
+</div>
 
 <p>This defines the category hierarchy “lessons/beginner”. Note this is <em>one category</em> node in Jekyll.
 You won’t find “lessons” and “beginner” as two separate categories unless you define them elsewhere as singular categories.</p>
@@ -324,7 +326,7 @@ Pages are created by properly formatting a file and placing it anywhere in the r
 
 <p><strong>Formatting</strong>
 In order to register as a Jekyll page the file must contain <a href="https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter">YAML Front-Matter</a>.
-Registering a page means 1) that Jekyll will process the page and 2) that the page object will be available in the <code>site.pages</code> array for inclusion into your templates.</p>
+Registering a page means 1) that Jekyll will process the page and 2) that the page object will be available in the <code class="highlighter-rouge">site.pages</code> array for inclusion into your templates.</p>
 
 <p><strong>Categories and Tags</strong>
 Pages do not compute categories nor tags so defining them will have no effect.</p>
@@ -333,13 +335,14 @@ Pages do not compute categories nor tags so defining them will have no effect.</
 If pages are defined in sub-directories, the path to the page will be reflected in the url.
 Example:</p>
 
-<pre><code>.
+<div class="highlighter-rouge"><pre class="highlight"><code>.
 |-- people
     |-- bob
         |-- essay.html
 </code></pre>
+</div>
 
-<p>This page will be available at <code>http://yourdomain.com/people/bob/essay.html</code></p>
+<p>This page will be available at <code class="highlighter-rouge">http://yourdomain.com/people/bob/essay.html</code></p>
 
 <p><strong>Recommended Pages</strong></p>
 
@@ -357,20 +360,20 @@ A nice about page is easy to do and gives the human perspective to your website.
 <h2 id="templates-in-jekyll">Templates in Jekyll</h2>
 
 <p>Templates are used to contain a page’s or post’s content.
-All templates have access to a global site object variable: <code>site</code> as well as a page object variable: <code>page</code>.
+All templates have access to a global site object variable: <code class="highlighter-rouge">site</code> as well as a page object variable: <code class="highlighter-rouge">page</code>.
 The site variable holds all accessible content and metadata relative to the site.
 The page variable holds accessible data for the given page or post being rendered at that point.</p>
 
 <p><strong>Create a Template</strong>
-Templates are created by properly formatting a file and placing it in the <code>_layouts</code> directory.</p>
+Templates are created by properly formatting a file and placing it in the <code class="highlighter-rouge">_layouts</code> directory.</p>
 
 <p><strong>Formatting</strong>
 Templates should be coded in HTML and contain YAML Front Matter.
 All templates can contain Liquid code to work with your site’s data.</p>
 
 <p><strong>Rending Page/Post Content in a Template</strong>
-There is a special variable in all templates named : <code>content</code>.
-The <code>content</code> variable holds the page/post content including any sub-template content previously defined.
+There is a special variable in all templates named : <code class="highlighter-rouge">content</code>.
+The <code class="highlighter-rouge">content</code> variable holds the page/post content including any sub-template content previously defined.
 Render the content variable wherever you want your main content to be injected into your template:</p>
 
 <pre><code>...
@@ -389,7 +392,7 @@ define another “root” layout/template within their YAML Front Matter.
 This essentially means a template will render inside of another template.</p>
 
 <h3 id="includes">Includes</h3>
-<p>In Jekyll you can define include files by placing them in the <code>_includes</code> folder.
+<p>In Jekyll you can define include files by placing them in the <code class="highlighter-rouge">_includes</code> folder.
 Includes are NOT templates, rather they are just code snippets that get included into templates.
 In this way, you can treat the code inside includes as if it was native to the parent template.</p>
 
@@ -457,7 +460,7 @@ This is done with the liquid templating language.</li>
   <li><strong>Post and Page files.</strong>
 All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.</li>
   <li><strong>Template files.</strong>
-  These files go in <code>_layouts</code> folder and contain your blogs <strong>templates</strong>. They should be made in HTML with the help of Liquid syntax.
+  These files go in <code class="highlighter-rouge">_layouts</code> folder and contain your blogs <strong>templates</strong>. They should be made in HTML with the help of Liquid syntax.
   Since include files are simply injected into templates they are essentially parsed as if they were native to the template.</li>
 </ul>
 
@@ -473,7 +476,7 @@ This is the only way Jekyll knows you want the file processed.</p>
 
 <p>YAML Front Matter must be prepended to the top of template/post/page files:</p>
 
-<pre><code>---
+<div class="highlighter-rouge"><pre class="highlight"><code>---
 layout: post
 category : pages
 tags : [how-to, jekyll]
@@ -481,6 +484,7 @@ tags : [how-to, jekyll]
 
 ... contents ...
 </code></pre>
+</div>
 
 <p>Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block.
 The data inside the block must be valid YAML.</p>
@@ -490,8 +494,8 @@ The data inside the block must be valid YAML.</p>
 
 <h4 id="defining-layouts-for-posts-and-templates-parsing">Defining Layouts for Posts and Templates Parsing.</h4>
 
-<p>The <code>layout</code> parameter in the YAML Front Matter defines the template file for which the given post or template should be injected into.
-If a template file specifies its own layout, it is effectively being used as a <code>sub-template.</code>
+<p>The <code class="highlighter-rouge">layout</code> parameter in the YAML Front Matter defines the template file for which the given post or template should be injected into.
+If a template file specifies its own layout, it is effectively being used as a <code class="highlighter-rouge">sub-template.</code>
 That is to say loading a post file into a template file that refers to another template file with work in the way you’d expect; as a nested sub-template.</p>
 
 <h2 id="how-jekyll-generates-the-final-static-files">How Jekyll Generates the Final Static Files.</h2>
@@ -507,7 +511,7 @@ The following is an outline of how that’s done:</p>
   <li>
     <p><strong>Jekyll computes data.</strong>
   Jekyll takes these objects, computes metadata (permalinks, tags, categories, titles, dates) from them and constructs one
-  big <code>site</code> object that holds all the posts, pages, layouts, and respective metadata.
+  big <code class="highlighter-rouge">site</code> object that holds all the posts, pages, layouts, and respective metadata.
   At this stage your site is one big computed ruby object.</p>
   </li>
   <li>
@@ -526,7 +530,7 @@ The following is an outline of how that’s done:</p>
 
 <p><strong>Notes.</strong>
 Because Jekyll computes the entire site in one fell swoop, each template is given access to
-a global <code>site</code> hash that contains useful data. It is this data that you’ll iterate through and format
+a global <code class="highlighter-rouge">site</code> hash that contains useful data. It is this data that you’ll iterate through and format
 using the Liquid tags and filters in order to render it onto a given page.</p>
 
 <p>Remember, in Jekyll you are an end-user. Your API has only two components:</p>
@@ -564,15 +568,15 @@ or jump right into <a href="">Usage</a> if you’d like.</p>
 
   
      
-    	<li><a href="/categories.html#lessons-ref">
-    		lessons <span>1</span>
+    	<li><a href="/categories.html#jekyll-ref">
+    		jekyll <span>1</span>
     	</a></li>
     
   
 
 
     </ul>
-    
+  
 
   
     <ul class="tag_box inline">
@@ -596,8 +600,8 @@ or jump right into <a href="">Usage</a> if you’d like.</p>
 
 
     </ul>
-    
   
+
     <hr>
     <ul class="pagination">
     
@@ -610,27 +614,6 @@ or jump right into <a href="">Usage</a> if you’d like.</p>
     </ul>
     <hr>
     
-
-
-  <div id="disqus_thread"></div>
-<script type="text/javascript">
-    
-    var disqus_developer = 1;
-    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-
-
   </div>
 </div>
 
@@ -641,7 +624,7 @@ or jump right into <a href="">Usage</a> if you’d like.</p>
 
     <div id="footer">
       <div class="container">
-        <p>&copy; 2016 Name Lastname
+        <p>&copy; 2016 K. Anthony
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
         </p>
@@ -657,7 +640,7 @@ or jump right into <a href="">Usage</a> if you’d like.</p>
     <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/themes/hack-id/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
 
