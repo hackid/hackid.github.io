@@ -1,8 +1,10 @@
 ---
-layout: post
-category: jekyll
+layout: cat-page
+title: Microlearning
+group: categories
+category: microlearning-cat
 tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial, visual-design-cat]
+permalink: /microlearning
 ---
 {% include JB/setup %}
 

@@ -1,7 +1,10 @@
 ---
-layout: resources
+layout: cat-page
+title: Responsive Design
+group: categories
+category: responsive-design-cat
 tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+permalink: /responsive-design
 ---
 {% include JB/setup %}
 

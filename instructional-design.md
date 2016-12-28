@@ -1,14 +1,17 @@
 ---
-layout: resources
+layout: cat-page
+title: Instructional Design
+group: categories
+category: instructional-design-cat
 tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+permalink: /instructional-design
 ---
 {% include JB/setup %}
 
 This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 
-## Accessibility
+## Overview
 
 ### What is Jekyll?
 

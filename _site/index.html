@@ -19,8 +19,9 @@
     <link href="/assets/themes/hack-id/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
     <!-- Sticky Footer -->
     <link href="/assets/themes/hack-id/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
-    
+
     <!-- Custom styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400i,700" rel="stylesheet">
     <link href="/assets/themes/hack-id/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -45,6 +46,7 @@
   </head>
 
   <body>
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
     <div id="wrap">
       <nav class="navbar navbar-default" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -61,11 +63,15 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="jb-navbar-collapse">
           <ul class="nav navbar-nav">
-            
+            <!-- 
             
             
 
 
+  
+    
+      
+    
   
     
       
@@ -93,9 +99,25 @@
   
     
       
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
       	
       	<li><a href="/pages">Pages</a></li>
       	
+      
+    
+  
+    
       
     
   
@@ -111,32 +133,77 @@
       
     
   
+    
+      
+    
+  
 
 
-
+ -->
+            <li><a href="/categories">View by Category</a></li>
+            <li><a href="/">View All</a></li>
           </ul>
-          <form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form>
         </div><!-- /.navbar-collapse -->
       </nav>
 
-      <div class="container">
+      <div id="content" class="container" tabindex="-1">
         
-
 
         <!-- Page Header -->
         <div class="page-header">
           <h1>Hack ID  <small>Resources for Self-Taught Instructional Designers</small></h1>
         </div>
-
+        <div class="button-group filter-button-group">
+          
+            <a class="button" data-filter=".accessibility-cat">Accessibility</a>
+          
+            <a class="button" data-filter=".instructional-design-cat">Instructional design</a>
+          
+            <a class="button" data-filter=".visual-design-cat">Visual design</a>
+          
+            <a class="button" data-filter=".intro">Intro</a>
+          
+            <a class="button" data-filter=".beginner">Beginner</a>
+          
+            <a class="button" data-filter=".jekyll">Jekyll</a>
+          
+            <a class="button" data-filter=".tutorial">Tutorial</a>
+          
+          <a class="button active" data-filter="*">All</a>
+        </div>
         <!-- Projects Row -->
-        <p>Category filter here</p>
-        
-        <div class="row">
+        <div class="row experiences">
+          
+            
+                <div class="col-md-4 learning-item intro beginner jekyll tutorial visual-design-cat">
+                    <a href="#">
+                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                    </a>
+                    <h3>
+                        <a href="#">Jekyll Intro</a>
+                    </h3>
+                    This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we’ll learn exactly how Jekyll does what it does. Overview What is Jekyll? Jekyll is a parsing engine bundled as a ruby gem used to build static websites from...
+                </div>
+          
+                <div class="col-md-4 learning-item accessibility-cat visual-design-cat">
+                    <a href="#">
+                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                    </a>
+                    <h3>
+                        <a href="#">Ebook 2</a>
+                    </h3>
+                    This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we’ll learn exactly how Jekyll does what it does. Ebook 1 What is Jekyll? Jekyll is a parsing engine bundled as a ruby gem used to build static websites...
+                </div>
+          
+                <div class="col-md-4 learning-item accessibility-cat instructional-design-cat">
+                    <a href="#">
+                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                    </a>
+                    <h3>
+                        <a href="#">Ebook 1</a>
+                    </h3>
+                    This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we’ll learn exactly how Jekyll does what it does. Ebook 1 What is Jekyll? Jekyll is a parsing engine bundled as a ruby gem used to build static websites...
+                </div>
           
         </div>
         <!-- /.row -->
@@ -161,10 +228,27 @@
 
 
 
-    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Latest compiled and minified JavaScript, requires jQuery 3.x (2.x+ not supported in IE8) -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <script src="/assets/themes/hack-id/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      // init Isotope
+      var $grid = $('.experiences').isotope({
+        // options
+        itemSelector: '.learning-item'
+      });
+      // filter items on button click
+      $('.filter-button-group').on( 'click', 'a', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+      });
+      $('.button-group a.button').on('click', function(){
+      	$('.button-group a.button').removeClass('active');
+      	$(this).addClass('active');
+      });
+    </script>
   </body>
 </html>
 

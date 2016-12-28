@@ -14,15 +14,51 @@
   float: right; }*/
 
 /* Jekyll Bootstrap Colors */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 h1, h2, h3, h4 {
   color: #f22430;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
+
+a {
+  color: #64cdf2;
+}
+
+.button {
+  border-radius: 0.3em;
+  border: 1px solid;
+  display: inline-block;
+  margin: 1em 0;
+  padding: 0.5em 0.75em;
+  color: #64cdf2;
+}
+
+.button.active {
+  background: #64cdf2;
+  color: #FFF;
+}
+
+#content:focus {
+  outline: none;
+}
+
 #footer {
   background-color: #fdcd60;
 }
 
+/* home page items */
 
+.learning-item {
+  margin-bottom: 20px;
+}
 
+.hidden {
+  display: none;
+}
 /* posts index */
 .post > h3.title {
   position: relative;
