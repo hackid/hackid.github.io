@@ -4,12 +4,14 @@
   <a href="{{ BASE_PATH }}/categories"><p class="small">Back to Categories</p></a>
 </div>
 
-<div class="row">
+<div class="row experiences">
     {% for post in site.posts %}
       {% if post.tags contains page.category %}
-        <div class="col-md-4 learning-item">
+        <div class="col-md-4 col-sm-6 learning-item">
             <a href="#">
-                <img class="img-responsive" src="{{ post.image }}" alt="">
+              <picture class="intrinsic intrinsic-item">
+                <img class="img-responsive intrinsic-item" src="{{ post.image }}" alt="">
+              </picture>
             </a>
             <h2>
                 <a href="#">{{ post.title }}</a>

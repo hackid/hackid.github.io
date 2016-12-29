@@ -5,10 +5,22 @@
         <description>Hack ID - K. Anthony</description>
         <link>http://hackid.github.io</link>
         <atom:link href="http://hackid.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 28 Dec 2016 23:49:17 -0600</lastBuildDate>
-        <pubDate>Wed, 28 Dec 2016 23:49:17 -0600</pubDate>
+        <lastBuildDate>Thu, 29 Dec 2016 00:53:45 -0600</lastBuildDate>
+        <pubDate>Thu, 29 Dec 2016 00:53:45 -0600</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>How to Use Typography to Improve Your E-Learning</title>
+                <description>
+&lt;p&gt;Typography—or the art of creating characters for print—is a powerful tool for setting the right mood and tone for your e-learning course. Choosing the right typefaces will help you create clear, beautiful, and legible text that complements the content, interactions, and graphics in your course.&lt;/p&gt;
+
+&lt;p&gt;In this rich guide to typography for e-learning designers, we’ll show you how to create a professional, elegant look for your course by choosing the right typefaces.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/typography-improve-elearning</link>
+                <guid>http://hackid.github.io/typography-improve-elearning</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
 
         <item>
                 <title>Writing Tips to Grab Your Learners' Attention and Keep it!</title>
@@ -23,6 +35,16 @@
         </item>
 
         <item>
+                <title>Using Instructional Interactivity to Improve e-Learning Designs!</title>
+                <description>
+&lt;p&gt;In this e-book, Ethan Edwards covers the concept of instructional interactivity, and demonstrates how it can transform the learning experience for learners working independently through an e-learning program. Gain understanding of the four essential components of instructional interactivity, CCAF, which include: Context, Challenge, Activity, and Feedback.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/using-instructional-interactivity</link>
+                <guid>http://hackid.github.io/using-instructional-interactivity</guid>
+                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
                 <title>Avoiding Ugly e-Learning: Lessons from Holiday Sweaters</title>
                 <description>
 &lt;p&gt;Tis the season of holiday sweaters—each lovingly created with good intent, sometimes gaudy, sometimes uncomfortable, sometimes utilitarian, but rarely as beautiful as imagined. The same can often be said about e-learning course designs.&lt;/p&gt;
@@ -31,6 +53,28 @@
 </description>
                 <link>http://hackid.github.io/ugly-sweater-lessons</link>
                 <guid>http://hackid.github.io/ugly-sweater-lessons</guid>
+                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>Saving the World from Boring Training</title>
+                <description>
+&lt;p&gt;In this 23-page ebook, you’ll learn 6 steps for saving the world from boring training courses.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/save-from-boring-training</link>
+                <guid>http://hackid.github.io/save-from-boring-training</guid>
+                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>6 Rules to Designing e-Learning for Maximum Motivation</title>
+                <description>
+&lt;p&gt;In an individualized learning setting, like asynchronous web-based training programs, active learner engagement is necessary for learning to occur.So while it is important for the instructional designer to get the content “right,” it is even more vital (and usually more challenging) to design interactivity to draw in the learner to commit to the authentic behavior needed for learning to occur.&lt;/p&gt;
+
+&lt;p&gt;This e-book presents six straightforward and effective design strategies to create learner motivation in e-learning.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/rules-for-max-motivation</link>
+                <guid>http://hackid.github.io/rules-for-max-motivation</guid>
                 <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
@@ -62,6 +106,76 @@
 </description>
                 <link>http://hackid.github.io/improved-elearning-challenges</link>
                 <guid>http://hackid.github.io/improved-elearning-challenges</guid>
+                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>E-Learning for Beginners</title>
+                <description>
+&lt;p&gt;New to e-learning? Our in-depth e-book will tell you everything you need to know. You’ll be creating great courses in no time!&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/elearning-for-beginners</link>
+                <guid>http://hackid.github.io/elearning-for-beginners</guid>
+                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>Unleash the Potential of Elearning in Your Business</title>
+                <description>
+&lt;p&gt;Are you thinking about implementing an e-learning programme within your business but not sure where to start? Or are you already delivering online training and not seeing the levels of engagement you know are possible? Then this course is for you!&lt;/p&gt;
+
+&lt;p&gt;In this email crash course you’ll learn:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Why many e-learning programmes fail&lt;/li&gt;
+  &lt;li&gt;How to guarantee engagement with your audience&lt;/li&gt;
+  &lt;li&gt;How to demonstrate a tangible return on investment&lt;/li&gt;
+  &lt;li&gt;The basic components required for a successful e-learning programme&lt;/li&gt;
+  &lt;li&gt;Specific, actionable techniques you can apply to your business today&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <link>http://hackid.github.io/elearning-business-potential</link>
+                <guid>http://hackid.github.io/elearning-business-potential</guid>
+                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>5 Highly Effective Strategies for Creating Engaging E-Learning</title>
+                <description>
+&lt;p&gt;Want to create more engaging e-learning courses, but aren’t sure where to start? In this go-to guide, you’ll learn how to attract—and keep—your learners’ attention.&lt;/p&gt;
+
+&lt;p&gt;From demystifying visual design principles to uncovering the secret to building great interactions, this e-book shares the pro strategies you need to make more compelling, more engaging, and more effective courses.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/effective-elearning-strategies</link>
+                <guid>http://hackid.github.io/effective-elearning-strategies</guid>
+                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>Disney Princesses Reimagined As E-Learning Disasters</title>
+                <description>
+&lt;p&gt;One of the more robust Internet trends has been reimagining the well-loved Disney Princesses in different situations. From the imaginative Disney Princesses Reimagined as “Real Life” Women to the provocative Disney Princesses Reimagined as Different Races to the absurd Disney Princesses Reimagined as Hot Dogs, these iconic characters seem to be useful in revealing aspects of our world that might otherwise go unrecognized.&lt;/p&gt;
+
+&lt;p&gt;In this spirit, Ethan Edwards puts this lens to the design of e-learning to shed new light on some problems and risks that we face and have become blind to by illustrating 12 Disney Princesses Reimagined as e-Learning Disasters.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/disney-princesses-disasters</link>
+                <guid>http://hackid.github.io/disney-princesses-disasters</guid>
+                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>The Definitive Guide to Multi-Device E-Learning</title>
+                <description>
+&lt;p&gt;Learners don’t just access e-learning from their desktop computers anymore. They’re using all kinds of devices, including smartphones and laptops. That means e-learning professionals are being asked to build courses that work on any device and screen size.&lt;/p&gt;
+
+&lt;p&gt;This request comes with a lot of new design and development considerations. How do you create e-learning that’s effective and looks great across multiple types of devices? How do you choose the right mobile learning development tools?&lt;/p&gt;
+
+&lt;p&gt;This e-book answers those big questions and more. In this definitive guide, we explain what multi-device e-learning is, break down the approaches to creating multi-device e-learning, and talk through what to consider when evaluating different mobile e-learning solutions.&lt;/p&gt;
+
+&lt;p&gt;You’ll also get insights, tips, and tricks for creating multi-device e-learning that you can apply immediately, whether you’re just getting started or want to take your courses to the next-level.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/definitive-guide-to-multidevice</link>
+                <guid>http://hackid.github.io/definitive-guide-to-multidevice</guid>
                 <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
