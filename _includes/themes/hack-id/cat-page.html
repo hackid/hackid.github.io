@@ -8,11 +8,9 @@
     {% for post in site.posts %}
       {% if post.tags contains page.category %}
         <div class="col-md-4 col-sm-6 learning-item">
-            <a href="#">
               <picture class="intrinsic intrinsic-item">
-                <img class="img-responsive intrinsic-item" src="{{ post.image }}" alt="">
+                <img class="img-responsive intrinsic-img" src="{{ post.image }}" alt="">
               </picture>
-            </a>
             <h2>
                 <a href="#">{{ post.title }}</a>
             </h2>
@@ -31,13 +29,25 @@
                 <i class="glyphicon glyphicon-blackboard"></i>
               {% endif %}
               {% if post.resource-type == "Email Course" %}
-                <i class="glyphicon glyphicon-envelope"></i>
+                <i class="glyphicon glyphicon-send"></i>
+              {% endif %}
+              {% if post.resource-type == "Website" %}
+                <i class="glyphicon glyphicon-link"></i>
+              {% endif %}
+              {% if post.resource-type == "Podcast" %}
+                <i class="glyphicon glyphicon-headphones"></i>
               {% endif %}
                 {{post.resource-type}} |
               {% if post.access == "Requires Email" %}
-                <i class="glyphicon glyphicon-user"></i>
-                {{post.access}}
+                <i class="glyphicon glyphicon-envelope"></i>
               {% endif %}
+              {% if post.access == "Requires Registration" %}
+                <i class="glyphicon glyphicon-user"></i>
+              {% endif %}
+              {% if post.access == "Free" %}
+                <i class="glyphicon glyphicon-download-alt"></i>
+              {% endif %}
+              {{post.access}}
             </div>
             <a href="{{post.resource-url}}" target="_blank" class="button view-button">View</a>
         </div>

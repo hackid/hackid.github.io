@@ -5,10 +5,66 @@
         <description>Hack ID - K. Anthony</description>
         <link>http://hackid.github.io</link>
         <atom:link href="http://hackid.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 29 Dec 2016 00:53:45 -0600</lastBuildDate>
-        <pubDate>Thu, 29 Dec 2016 00:53:45 -0600</pubDate>
+        <lastBuildDate>Thu, 29 Dec 2016 17:05:14 -0600</lastBuildDate>
+        <pubDate>Thu, 29 Dec 2016 17:05:14 -0600</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>xAPI Learning Cohort</title>
+                <description>
+&lt;p&gt;Join us for another dive into xAPI and what you can do to make it work for you, your organization, and the entire industry!&lt;/p&gt;
+
+&lt;p&gt;No xAPI experience necessary. Lots of friendly, curious folks. Real, live projects with real, live products. Virtual meetings so anyone in the world can participate. It’s all plus with no minus!&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/xapi-learning-cohort</link>
+                <guid>http://hackid.github.io/xapi-learning-cohort</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>xAPI: An Introductory Guide</title>
+                <description>
+&lt;p&gt;Consider this introductory e-book a crash course – everything you’ll need to know to have a basic understanding of the Experience API™, otherwise known as xAPI. xAPI is an open data interoperability specification originally developed to get a better picture of how, when, and why learning happens both on and offline.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/xapi-intro-guide</link>
+                <guid>http://hackid.github.io/xapi-intro-guide</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>The Essential Guide to Working with Subject Matter Experts</title>
+                <description>
+&lt;p&gt;If you’re like most e-learning developers, working with subject matter experts (SMEs) is one of your toughest challenges. But don’t worry, we’re here to help.&lt;/p&gt;
+
+&lt;p&gt;Download this e-book to learn effective strategies for partnering with your SMEs to create awesome e-learning. You’ll learn how to get the information and feedback that you need—and how to make collaborating on courses a positive experience for everyone.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/working-with-smes</link>
+                <guid>http://hackid.github.io/working-with-smes</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>The Fundamentals Of User Experience</title>
+                <description>
+&lt;p&gt;Change the way you think and look at products (digital and otherwise) forever. Learn what user experience is and how it affects every decision you and your users will ever make.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/ux-fundamentals</link>
+                <guid>http://hackid.github.io/ux-fundamentals</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>Unity Programming for Human Beings</title>
+                <description>
+&lt;p&gt;We are stoked to announce the launch of our free ebook Unity Programming for Human Beings, authored by software engineer and game developer Jesse Glove, in collaboration with Pablo Farias Navarro, founder of Zenva.&lt;/p&gt;
+
+&lt;p&gt;In over 230 pages of awesomeness, the book starts from zero and covers all the way to building simple 2D and 3D games with Unity.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/unity-for-humans</link>
+                <guid>http://hackid.github.io/unity-for-humans</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
 
         <item>
                 <title>How to Use Typography to Improve Your E-Learning</title>
@@ -23,186 +79,170 @@
         </item>
 
         <item>
-                <title>Writing Tips to Grab Your Learners' Attention and Keep it!</title>
+                <title>Sponge UK Elearning Podcast</title>
                 <description>
-&lt;p&gt;On-screen text can be a powerful tool to motivate, inspire, entertain, and educate. Instructional designers can use many tools to help make onscreen text Meaningful, Memorable, and Motivational.&lt;/p&gt;
-
-&lt;p&gt;This e-book, perfect for all instructional designers, outlines 5 practical writing tips that can be used to grab learner attention and keep it!&lt;/p&gt;
+&lt;p&gt;Getting to the heart of great elearning with absorbing interviews, ideas, and tips. The perfect show for L&amp;amp;D professionals, instructional designers, and anyone interested in digital learning. We cover the technology behind learning, as well as the theory and practice that goes into absorbing online learning.&lt;/p&gt;
 </description>
-                <link>http://hackid.github.io/writing-tips-attention</link>
-                <guid>http://hackid.github.io/writing-tips-attention</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+                <link>http://hackid.github.io/sponge-uk-podcast</link>
+                <guid>http://hackid.github.io/sponge-uk-podcast</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
         <item>
-                <title>Using Instructional Interactivity to Improve e-Learning Designs!</title>
+                <title>The Secret to Create Great E-Learning Videos</title>
                 <description>
-&lt;p&gt;In this e-book, Ethan Edwards covers the concept of instructional interactivity, and demonstrates how it can transform the learning experience for learners working independently through an e-learning program. Gain understanding of the four essential components of instructional interactivity, CCAF, which include: Context, Challenge, Activity, and Feedback.&lt;/p&gt;
+&lt;p&gt;Videos let you show a learner what they need to know, not just tell them. And for soft-skills training, they’re invaluable for capturing the subtleties of personal interactions. In this e-book, we’ll share our expert tips on creating compelling videos and screencasts.&lt;/p&gt;
+
+&lt;p&gt;Learn how to set up a professional-quality studio with simple, affordable equipment, including lighting you can find at your local hardware store. Get tips for speaking or narrating with a natural, authentic tone. Save time by effectively preparing your desktop for screen recordings. Enhance your videos with captions and interactions to make sure they communicate key points.&lt;/p&gt;
 </description>
-                <link>http://hackid.github.io/using-instructional-interactivity</link>
-                <guid>http://hackid.github.io/using-instructional-interactivity</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+                <link>http://hackid.github.io/secret-elearning-videos</link>
+                <guid>http://hackid.github.io/secret-elearning-videos</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
         <item>
-                <title>Avoiding Ugly e-Learning: Lessons from Holiday Sweaters</title>
+                <title>Sales: Blended Learning That Works</title>
                 <description>
-&lt;p&gt;Tis the season of holiday sweaters—each lovingly created with good intent, sometimes gaudy, sometimes uncomfortable, sometimes utilitarian, but rarely as beautiful as imagined. The same can often be said about e-learning course designs.&lt;/p&gt;
-
-&lt;p&gt;We start out with the intention to create something uniquely satisfying for our learners, but after accounting for strained resources, limited time, imperfect development tools, complex subject matter, and unpredictable learners, we end up with something not quite as beautiful as we’d hoped.&lt;/p&gt;
+&lt;p&gt;Helping organisations improve the sales and product knowledge training they deliver, focusing in increasing ROI and sales performance through blended learning.&lt;/p&gt;
 </description>
-                <link>http://hackid.github.io/ugly-sweater-lessons</link>
-                <guid>http://hackid.github.io/ugly-sweater-lessons</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+                <link>http://hackid.github.io/sales-learning-that-works</link>
+                <guid>http://hackid.github.io/sales-learning-that-works</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
         <item>
-                <title>Saving the World from Boring Training</title>
+                <title>A Rough Guide to Multi-device</title>
                 <description>
-&lt;p&gt;In this 23-page ebook, you’ll learn 6 steps for saving the world from boring training courses.&lt;/p&gt;
+&lt;p&gt;If your training needs to be delivered to a wide audience, or could last beyond the life of your current desktop or laptop systems then it could benefit from a multi-device approach.&lt;/p&gt;
+
+&lt;p&gt;In this guide we’ll give you the information you need to make an informed decision about the right option for your learning approach.&lt;/p&gt;
 </description>
-                <link>http://hackid.github.io/save-from-boring-training</link>
-                <guid>http://hackid.github.io/save-from-boring-training</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+                <link>http://hackid.github.io/rough-guide-multidevice</link>
+                <guid>http://hackid.github.io/rough-guide-multidevice</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
         <item>
-                <title>6 Rules to Designing e-Learning for Maximum Motivation</title>
+                <title>A Rough Guide to Interactive Video</title>
                 <description>
-&lt;p&gt;In an individualized learning setting, like asynchronous web-based training programs, active learner engagement is necessary for learning to occur.So while it is important for the instructional designer to get the content “right,” it is even more vital (and usually more challenging) to design interactivity to draw in the learner to commit to the authentic behavior needed for learning to occur.&lt;/p&gt;
+&lt;p&gt;Employees expect more than ever before from their digital learning.&lt;/p&gt;
 
-&lt;p&gt;This e-book presents six straightforward and effective design strategies to create learner motivation in e-learning.&lt;/p&gt;
+&lt;p&gt;Interactive video is a way to transform workplace learning into a creative and effective experience, but it is still a relatively new kid on the block. Find out how interactive video training can make a real difference in your organisation with our complimentary handbook, A Rough Guide to Interactive video.&lt;/p&gt;
 </description>
-                <link>http://hackid.github.io/rules-for-max-motivation</link>
-                <guid>http://hackid.github.io/rules-for-max-motivation</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+                <link>http://hackid.github.io/rough-guide-interactive-video</link>
+                <guid>http://hackid.github.io/rough-guide-interactive-video</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
         <item>
-                <title>10 Practical Principles for Creating Impactful e-Learning</title>
+                <title>A Rough Guide to Induction</title>
                 <description>
-&lt;p&gt;Instructional designers of e-learning face a constant challenge of how to create learning experiences that actually make a difference. Too many of the accepted and easy approaches result in e-learning courses that fail to motivate, engage, or empower learners. Sophisticated simulations and technically-sophisticated designs seem out of reach for many instructional designers.&lt;/p&gt;
+&lt;p&gt;The first day of a new job.&lt;/p&gt;
 
-&lt;p&gt;In this e-book, learn:&lt;/p&gt;
+&lt;p&gt;It’s a pivotal moment for both new employee and employer, but without the right induction or onboarding this new working relationship could be short-lived.&lt;/p&gt;
+
+&lt;p&gt;Businesses with effective induction training have a 50% higher retention rate of new staff, as well as improved employee engagement and productivity.&lt;/p&gt;
+
+&lt;p&gt;Find out how elearning can help your organisation deliver a high quality, consistent induction experience with our complimentary handbook, A rough guide to induction.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/rough-guide-induction</link>
+                <guid>http://hackid.github.io/rough-guide-induction</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>A Rough Guide to Games</title>
+                <description>
+&lt;p&gt;Games are gaining ground in workplace elearning with an estimated 40% of global organisations already using them in some shape or form. Learn more about what makes a good elearning game and why you should be using games in your elearning.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/rough-guide-games</link>
+                <guid>http://hackid.github.io/rough-guide-games</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>How To Shoot Rich Cultural Training Videos on a Smartphone (A Guide)</title>
+                <description>
+&lt;p&gt;The value of creating rich, engaging cultural stories using video is often outweighed by the perceived time, expertise and outside resources needed to produce these videos. Especially in the L&amp;amp;D world, where video creation is one area where content creators and instructional designers don’t feel as comfortable giving it a shot.&lt;/p&gt;
+
+&lt;p&gt;In this guide, we will take you step-by-step through the proven Wisetail video production process from a filmmaking novice’s point of view. We’ll give you both the insight and techniques needed to tell your rich cultural stories using the tools (smartphone &amp;amp; laptop) already at your disposal.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/rich-cultural-video</link>
+                <guid>http://hackid.github.io/rich-cultural-video</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>Responsive eLearning Design &amp; Development</title>
+                <description>
+&lt;p&gt;Today’s learners use multiple computing/communication devices during the course of the day - for learning, work, entertainment, and decision making. They are on the move, both within and outside the workplace, and want to use their “downtime” effectively. Responsive eLearning helps organizations to leverage this “downtime” while extending the reach and availability of their training.&lt;/p&gt;
+
+&lt;p&gt;Like any other approach, Responsive eLearning comes with its own set of planning, design, development and testing considerations and guidelines - and it forces those of us who create responsive eLearning to think beyond just one fixed display size and one uniform use context. Hence, understanding the key features, benefits, types, examples of Responsive eLearning is important in drawing up a strategy that works for your organization. With respect to the strategy, decision factors like when to use responsive eLearning, how to get started and the various challenges you may encounter in the design, development and testing process are crucial to the success of your strategy. Learn about it all in this eBook.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/responsive-design-development</link>
+                <guid>http://hackid.github.io/responsive-design-development</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>Resonate Multi-Touch Book</title>
+                <description>
+&lt;p&gt;Resonate Multi-Touch Book is like having a portable story writing workshop in your hands as you prepare your next presentation. You’ll learn a new presentation development methodology informed by cinema, literature, and the greatest speeches of all time.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/resonate-multi-touch</link>
+                <guid>http://hackid.github.io/resonate-multi-touch</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>Ready, Set, Curate!</title>
+                <description>
+&lt;p&gt;Let’s face it, the internet isn’t getting any smaller. How do we separate the valuable content from the noise, how do we organise the good stuff in ways that tell coherent stories about our businesses and our interests? In this latest offering from HT2 you’ll be able to inform your own practice by taking a look at ‘Curation’ and answering these questions.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;10 practical principles that should be implemented at any level of complexity to create training experiences that are transforming and memorable.&lt;/li&gt;
-  &lt;li&gt;Actionable tips to implement these principles into your e-learning designs.&lt;/li&gt;
+  &lt;li&gt;What is it (and why do we need it)?&lt;/li&gt;
+  &lt;li&gt;What are the ‘pros’ &amp;amp; ‘cons’?&lt;/li&gt;
+  &lt;li&gt;What do I need to think about before I get started?&lt;/li&gt;
+  &lt;li&gt;What tools are available for me to use?&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-                <link>http://hackid.github.io/principles-for-impactful-elearning</link>
-                <guid>http://hackid.github.io/principles-for-impactful-elearning</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+                <link>http://hackid.github.io/ready-set-curate</link>
+                <guid>http://hackid.github.io/ready-set-curate</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
         <item>
-                <title>7 Steps To Improved E-Learning Challenges</title>
+                <title>Product Psychology</title>
                 <description>
-&lt;p&gt;The Context, Challenge, Activity, and Feedback (CCAF) Instructional Design Model is a powerful tool to guide the design of engaging and effective online interactions.&lt;/p&gt;
+&lt;p&gt;This content is designed for people who want to know the deeper reasons behind why people do what they do. This is for the busy entrepreneur, designer, or marketer who wants to know techniques they can use to help build better products and ultimately improve people’s lives.&lt;/p&gt;
 
-&lt;p&gt;Instructional designers appreciate the power of these elements and are impressed when presented with finished interactions that exemplify these principles. However, when faced with designing an interaction from scratch, many designers find it difficult to break out of the traditional tedious multiple choice and true/false formats that are used so often.&lt;/p&gt;
-
-&lt;p&gt;This e-book provides seven small steps to improved interactions while recognizing that capabilities with authoring software might be quite limited. If you begin applying these steps while you are designing questions, you will quickly open up a world of much more powerful design possibilities.&lt;/p&gt;
+&lt;p&gt;We’ve asked our friends and colleagues for their top three to five resources on important topics related to product psychology and user behavior. They’ve taken the time to dig up their favorite articles, videos, and resources to get you up to speed quickly.&lt;/p&gt;
 </description>
-                <link>http://hackid.github.io/improved-elearning-challenges</link>
-                <guid>http://hackid.github.io/improved-elearning-challenges</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+                <link>http://hackid.github.io/product-psychology</link>
+                <guid>http://hackid.github.io/product-psychology</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
         <item>
-                <title>E-Learning for Beginners</title>
+                <title>What Type of Presenter Are You?</title>
                 <description>
-&lt;p&gt;New to e-learning? Our in-depth e-book will tell you everything you need to know. You’ll be creating great courses in no time!&lt;/p&gt;
+&lt;p&gt;Presentations are planned conversations and prescheduled leadership opportunities where you have a chance to shine as a leader - and influence conversations. Take a short survey and receive a deeper profile of your Presenter Type. By understanding your Presenter Type, you will be better able to reframe your audience’s thinking and incite them to action.&lt;/p&gt;
 </description>
-                <link>http://hackid.github.io/elearning-for-beginners</link>
-                <guid>http://hackid.github.io/elearning-for-beginners</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+                <link>http://hackid.github.io/presenter-profile</link>
+                <guid>http://hackid.github.io/presenter-profile</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
         <item>
-                <title>Unleash the Potential of Elearning in Your Business</title>
+                <title>Platform games: a primer</title>
                 <description>
-&lt;p&gt;Are you thinking about implementing an e-learning programme within your business but not sure where to start? Or are you already delivering online training and not seeing the levels of engagement you know are possible? Then this course is for you!&lt;/p&gt;
+&lt;p&gt;Little Big Planet will turn everyone into a platform game designer - however, it might not make them a good game designer.&lt;/p&gt;
 
-&lt;p&gt;In this email crash course you’ll learn:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Why many e-learning programmes fail&lt;/li&gt;
-  &lt;li&gt;How to guarantee engagement with your audience&lt;/li&gt;
-  &lt;li&gt;How to demonstrate a tangible return on investment&lt;/li&gt;
-  &lt;li&gt;The basic components required for a successful e-learning programme&lt;/li&gt;
-  &lt;li&gt;Specific, actionable techniques you can apply to your business today&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;So here is a primer on platform games I’ve put together for anyone who wants to make their game a little better or, more importantly, a little fairer. Enjoy!&lt;/p&gt;
 </description>
-                <link>http://hackid.github.io/elearning-business-potential</link>
-                <guid>http://hackid.github.io/elearning-business-potential</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
-        </item>
-
-        <item>
-                <title>5 Highly Effective Strategies for Creating Engaging E-Learning</title>
-                <description>
-&lt;p&gt;Want to create more engaging e-learning courses, but aren’t sure where to start? In this go-to guide, you’ll learn how to attract—and keep—your learners’ attention.&lt;/p&gt;
-
-&lt;p&gt;From demystifying visual design principles to uncovering the secret to building great interactions, this e-book shares the pro strategies you need to make more compelling, more engaging, and more effective courses.&lt;/p&gt;
-</description>
-                <link>http://hackid.github.io/effective-elearning-strategies</link>
-                <guid>http://hackid.github.io/effective-elearning-strategies</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
-        </item>
-
-        <item>
-                <title>Disney Princesses Reimagined As E-Learning Disasters</title>
-                <description>
-&lt;p&gt;One of the more robust Internet trends has been reimagining the well-loved Disney Princesses in different situations. From the imaginative Disney Princesses Reimagined as “Real Life” Women to the provocative Disney Princesses Reimagined as Different Races to the absurd Disney Princesses Reimagined as Hot Dogs, these iconic characters seem to be useful in revealing aspects of our world that might otherwise go unrecognized.&lt;/p&gt;
-
-&lt;p&gt;In this spirit, Ethan Edwards puts this lens to the design of e-learning to shed new light on some problems and risks that we face and have become blind to by illustrating 12 Disney Princesses Reimagined as e-Learning Disasters.&lt;/p&gt;
-</description>
-                <link>http://hackid.github.io/disney-princesses-disasters</link>
-                <guid>http://hackid.github.io/disney-princesses-disasters</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
-        </item>
-
-        <item>
-                <title>The Definitive Guide to Multi-Device E-Learning</title>
-                <description>
-&lt;p&gt;Learners don’t just access e-learning from their desktop computers anymore. They’re using all kinds of devices, including smartphones and laptops. That means e-learning professionals are being asked to build courses that work on any device and screen size.&lt;/p&gt;
-
-&lt;p&gt;This request comes with a lot of new design and development considerations. How do you create e-learning that’s effective and looks great across multiple types of devices? How do you choose the right mobile learning development tools?&lt;/p&gt;
-
-&lt;p&gt;This e-book answers those big questions and more. In this definitive guide, we explain what multi-device e-learning is, break down the approaches to creating multi-device e-learning, and talk through what to consider when evaluating different mobile e-learning solutions.&lt;/p&gt;
-
-&lt;p&gt;You’ll also get insights, tips, and tricks for creating multi-device e-learning that you can apply immediately, whether you’re just getting started or want to take your courses to the next-level.&lt;/p&gt;
-</description>
-                <link>http://hackid.github.io/definitive-guide-to-multidevice</link>
-                <guid>http://hackid.github.io/definitive-guide-to-multidevice</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
-        </item>
-
-        <item>
-                <title>A Bite-Sized Guide to Microlearning</title>
-                <description>
-&lt;p&gt;You have heard the buzz and excitement in the learning industry about microlearning—but how do you put the principles and theories behind microlearning into action?&lt;/p&gt;
-
-&lt;p&gt;Explore the basics of microlearning design and get foundational knowledge on implementing microlearning at your organization!&lt;/p&gt;
-
-&lt;p&gt;This e-book delivers insights into what makes successful microlearning gleaned from Ellen’s experience working with varied companies and organizations.&lt;/p&gt;
-</description>
-                <link>http://hackid.github.io/bitesize-microlearning</link>
-                <guid>http://hackid.github.io/bitesize-microlearning</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
-        </item>
-
-        <item>
-                <title>14 Tips for Preparing an e-Learning Feast</title>
-                <description>
-&lt;p&gt;As we all get ready to join our family and friends for the Thanksgiving holidays and prepare for the big meal, it’s nearly impossible to avoid the endless advice on TV, radio, and online about how to prepare the perfect feast.&lt;/p&gt;
-
-&lt;p&gt;As it turns out, so much of that advice can easily be related to planning and preparing perfect e-learning.&lt;/p&gt;
-</description>
-                <link>http://hackid.github.io/14-tips-elearning-feast</link>
-                <guid>http://hackid.github.io/14-tips-elearning-feast</guid>
-                <pubDate>Wed, 28 Dec 2016 00:00:00 -0600</pubDate>
+                <link>http://hackid.github.io/platform-game-primer</link>
+                <guid>http://hackid.github.io/platform-game-primer</guid>
+                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
 

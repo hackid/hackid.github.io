@@ -3,7 +3,7 @@ layout: post
 image: http://placehold.it/700x400
 tags: [elearning-cat, instructional-design-cat]
 resource-url: https://community.articulate.com/e-books/e-learning-for-beginners
-access: Requires Email
+access: Requires Registration
 resource-type: Ebook
 resource-org: Articulate
 title: "E-Learning for Beginners"

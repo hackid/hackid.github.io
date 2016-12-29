@@ -4,20 +4,19 @@
           <h2>{% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h2>
         </div>
         <div class="button-group filter-button-group">
-          {% for tag in site.tags %}
-            <a class="button" href="javascript:void(0);" data-filter=".{{ tag | first }}">{{ tag | first | replace:'-cat','' | replace:'-',' ' | capitalize}}</a>
-          {% endfor %}
           <a href="javascript:void(0);" class="button active" data-filter="*">All</a>
+          {% assign tags_sorted = site.tags | sort %}
+          {% for tag in tags_sorted %}
+            <a class="button" href="javascript:void(0);" data-filter=".{{ tag | first }}">{{ tag | first | replace:'-cat','' | replace:'-',' ' | capitalize }}</a>
+          {% endfor %}
         </div>
         <!-- Projects Row -->
       <div class="row experiences">
           {% for post in site.posts %}
               <div class="col-md-4 col-sm-6 learning-item {{ post.tags | join: " " }}">
-                  <a href="#">
                     <picture class="intrinsic intrinsic-item">
                       <img class="img-responsive intrinsic-img" src="{{ post.image }}" alt="{{post.title}} book cover">
                     </picture>
-                  </a>
                   <h2>
                       <a href="#">{{ post.title }}</a>
                   </h2>
@@ -36,16 +35,25 @@
                       <i class="glyphicon glyphicon-blackboard"></i>
                     {% endif %}
                     {% if post.resource-type == "Email Course" %}
-                      <i class="glyphicon glyphicon-envelope"></i>
+                      <i class="glyphicon glyphicon-send"></i>
+                    {% endif %}
+                    {% if post.resource-type == "Website" %}
+                      <i class="glyphicon glyphicon-link"></i>
+                    {% endif %}
+                    {% if post.resource-type == "Podcast" %}
+                      <i class="glyphicon glyphicon-headphones"></i>
                     {% endif %}
                       {{post.resource-type}} |
                     {% if post.access == "Requires Email" %}
+                      <i class="glyphicon glyphicon-envelope"></i>
+                    {% endif %}
+                    {% if post.access == "Requires Registration" %}
                       <i class="glyphicon glyphicon-user"></i>
-                    {% else %}
+                    {% endif %}
+                    {% if post.access == "Free" %}
                       <i class="glyphicon glyphicon-download-alt"></i>
                     {% endif %}
                     {{post.access}}
-
                   </div>
                   <a href="{{post.resource-url}}" target="_blank" class="button view-button">View</a>
               </div>

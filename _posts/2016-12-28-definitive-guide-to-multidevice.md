@@ -3,7 +3,7 @@ layout: post
 image: http://placehold.it/700x400
 tags: [elearning-cat, responsive-design-cat]
 resource-url: https://community.articulate.com/e-books/the-definitive-guide-to-multi-device-e-learning
-access: Requires Email
+access: Requires Registration
 resource-type: Ebook
 resource-org: Articulate
 title: "The Definitive Guide to Multi-Device E-Learning"
