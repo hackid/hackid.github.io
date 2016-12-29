@@ -3,7 +3,8 @@ layout: cat-page
 title: Responsive Design
 group: categories
 category: responsive-design-cat
-tagline: "Supporting tagline"
+cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+image: responsive-design.svg
 permalink: /responsive-design
 ---
 {% include JB/setup %}

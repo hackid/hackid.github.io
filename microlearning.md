@@ -3,7 +3,8 @@ layout: cat-page
 title: Microlearning
 group: categories
 category: microlearning-cat
-tagline: "Supporting tagline"
+cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+image: microlearning.svg
 permalink: /microlearning
 ---
 {% include JB/setup %}

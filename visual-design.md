@@ -3,7 +3,8 @@ layout: cat-page
 title: Visual Design
 group: categories
 category: visual-design-cat
-tagline: "Supporting tagline"
+cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+image: visual-design.svg
 permalink: /visual-design
 ---
 {% include JB/setup %}

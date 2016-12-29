@@ -3,7 +3,8 @@ layout: cat-page
 title: Accessibility
 group: categories
 category: accessibility-cat
-tagline: "Supporting tagline"
+cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+image: accessibility.svg
 permalink: /accessibility
 ---
 {% include JB/setup %}

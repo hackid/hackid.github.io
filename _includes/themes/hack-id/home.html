@@ -1,26 +1,50 @@
         <!-- Page Header -->
         <div class="page-header">
-          <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+          <h1>{{ page.title }}</h1>
+          <h2>{% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h2>
         </div>
         <div class="button-group filter-button-group">
           {% for tag in site.tags %}
-            <a class="button" data-filter=".{{ tag | first }}">{{ tag | first | replace:'-cat','' | replace:'-',' ' | capitalize}}</a>
+            <a class="button" href="javascript:void(0);" data-filter=".{{ tag | first }}">{{ tag | first | replace:'-cat','' | replace:'-',' ' | capitalize}}</a>
           {% endfor %}
-          <a class="button active" data-filter="*">All</a>
+          <a href="javascript:void(0);" class="button active" data-filter="*">All</a>
         </div>
         <!-- Projects Row -->
-        <div class="row experiences">
-          {{paginator.posts}}
-            {% for post in site.posts %}
-                <div class="col-md-4 learning-item {{ post.tags | join: " " }}">
-                    <a href="#">
-                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                    </a>
-                    <h3>
-                        <a href="#">{{ post.title }}</a>
-                    </h3>
-                    {{ post.content | strip_html | truncatewords: 50 }}
-                </div>
-          {% endfor %}
+
+        <div class="row row-eq-height experiences">
+          {% for post in site.posts %}
+            <div class="col-md-4 learning-item {{ post.tags | join: " " }}">
+                  <a href="#">
+                      <img class="img-responsive" src="{{ post.image }}" alt="">
+                  </a>
+                  <h2>
+                      <a href="#">{{ post.title }}</a>
+                  </h2>
+                  <p class="attribution">
+                    {% if post.resource-author %}
+                      {{post.resource-author}},
+                    {% endif %}
+                    {{post.resource-org}}
+                  </p>
+                  {{ post.content }}
+                  <div class="labels pull-right">
+                    {% if post.resource-type == "Ebook" %}
+                      <i class="glyphicon glyphicon-book"></i>
+                    {% endif %}
+                    {% if post.resource-type == "Course" %}
+                      <i class="glyphicon glyphicon-blackboard"></i>
+                    {% endif %}
+                    {% if post.resource-type == "Email Course" %}
+                      <i class="glyphicon glyphicon-envelope"></i>
+                    {% endif %}
+                      {{post.resource-type}} |
+                    {% if post.access == "Requires Email" %}
+                      <i class="glyphicon glyphicon-user"></i>
+                      {{post.access}}
+                    {% endif %}
+                  </div>
+                  <a href="{{post.resource-url}}" target="_blank" class="button view-button">View</a>
+              </div>
+            {% endfor %}
         </div>
         <!-- /.row -->

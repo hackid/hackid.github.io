@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 372 372" style="enable-background:new 0 0 372 372;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#64CDF2;}
+	.st1{fill:#ED4F3E;}
+	.st2{fill:#3AB1CC;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#BAC4C6;}
+	.st5{fill:#D3DBDD;}
+	.st6{fill:none;stroke:#30241C;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle class="st0" cx="186.5" cy="186" r="159.5"/>
+	<rect x="58" y="57.5" class="st1" width="255.7" height="15.7"/>
+	<ellipse class="st2" cx="185.3" cy="317.8" rx="64.3" ry="6.3"/>
+	<rect x="58" y="73.2" class="st3" width="255.7" height="160.3"/>
+	<path class="st4" d="M38,57.5c-6.6,0-12,5.4-12,12v164h32v-176H38z"/>
+	<path class="st4" d="M346,69.5c0-6.6-5.4-12-12-12h-20v176h32V69.5z"/>
+	<polygon class="st4" points="185.9,313.5 138,313.5 146.7,265.5 226,265.5 234,313.5 	"/>
+	<path class="st5" d="M38,265.5h296c6.6,0,12-5.4,12-12v-20H26v20C26,260.1,31.4,265.5,38,265.5z"/>
+	<line class="st6" x1="26" y1="233.5" x2="346" y2="233.5"/>
+	<rect x="74" y="89.5" class="st4" width="176" height="96.5"/>
+	<path class="st1" d="M193.3,153.4c0,2.4-1.9,4.3-4.3,4.3h-54.3c-2.4,0-4.3-1.9-4.3-4.3v-31.7c0-2.4,1.9-4.3,4.3-4.3H189
+		c2.4,0,4.3,1.9,4.3,4.3V153.4z"/>
+	<polygon class="st3" points="156.3,128.1 156.3,147.4 172.7,137.7 	"/>
+	<g>
+		<rect x="266" y="89.5" class="st5" width="32" height="16"/>
+		<line class="st6" x1="266" y1="112.5" x2="298" y2="112.5"/>
+		<line class="st6" x1="266" y1="121.5" x2="285.5" y2="121.5"/>
+	</g>
+	<g>
+		<rect x="266" y="137.5" class="st5" width="32" height="16"/>
+		<line class="st6" x1="266" y1="160.5" x2="298" y2="160.5"/>
+		<line class="st6" x1="266" y1="169.5" x2="285.5" y2="169.5"/>
+	</g>
+	<line class="st6" x1="74" y1="201.5" x2="122" y2="201.5"/>
+	<line class="st6" x1="74" y1="209.2" x2="234" y2="209.2"/>
+	<line class="st6" x1="138" y1="313.5" x2="234" y2="313.5"/>
+	<line class="st6" x1="178.7" y1="249.5" x2="193.3" y2="249.5"/>
+	<line class="st6" x1="74" y1="217.5" x2="161.9" y2="217.5"/>
+</g>
+</svg>

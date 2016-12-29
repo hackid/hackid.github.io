@@ -13,13 +13,13 @@
 /*.navbar .nav {
   float: right; }*/
 
-/* Jekyll Bootstrap Colors */
+/* Main Styles */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4 {
-  color: #f22430;
+  color: #ed4f3e;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
@@ -28,10 +28,20 @@ a {
   color: #64cdf2;
 }
 
-.button {
+.navbar-default .navbar-brand {
+  color: #ed4f3e;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.button,
+.category-heading {
   border-radius: 0.3em;
   border: 1px solid;
   display: inline-block;
+}
+
+.button {
   margin: 1em 0;
   padding: 0.5em 0.75em;
   color: #64cdf2;
@@ -42,12 +52,16 @@ a {
   color: #FFF;
 }
 
+.hidden {
+  display: none;
+}
+
 #content:focus {
   outline: none;
 }
 
 #footer {
-  background-color: #fdcd60;
+  background-color: #d8d8d8;
 }
 
 /* home page items */
@@ -56,9 +70,55 @@ a {
   margin-bottom: 20px;
 }
 
-.hidden {
-  display: none;
+.learning-cat-item {
+  text-align: center;
+  font-size: 1.1em;
 }
+
+/* Category Page Styles */
+.category-heading,
+.view-button {
+  margin: 1em 0;
+  padding: 0.25em 0.5em;
+  background-color: #64cdf2;
+  color: #FFF;
+}
+
+.category-heading:hover,
+.category-heading:focus,
+.view-button:hover,
+.view-button:focus {
+  background-color: #ed4f3e;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.view-button {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.labels i {
+  color: #64cdf2;
+}
+
+.cat-image {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.attribution {
+  font-weight: bold;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .cat-info {
+    width: 70%;
+  }
+}
+
 /* posts index */
 .post > h3.title {
   position: relative;
@@ -113,3 +173,9 @@ a {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+  html,
+  body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+  }
