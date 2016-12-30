@@ -4,13 +4,44 @@
  <title>Hack ID</title>
  <link href="http://hackid.github.io/atom.xml" rel="self"/>
  <link href="http://hackid.github.io"/>
- <updated>2016-12-29T17:05:14-06:00</updated>
+ <updated>2016-12-30T02:14:26-06:00</updated>
  <id>http://hackid.github.io</id>
  <author>
    <name>K. Anthony</name>
    <email>kristin@knanthony.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Free Code Camp</title>
+   <link href="http://hackid.github.io/free-code-camp"/>
+   <updated>2016-12-30T00:00:00-06:00</updated>
+   <id>http://hackid.github.io/free-code-camp</id>
+   <content type="html">
+&lt;p&gt;Free Code Camp is a friendly open source community where you learn to code and help nonprofits.&lt;/p&gt;
+
+&lt;p&gt;We help our campers build job-worthy portfolios of real apps used by real people, while helping nonprofits.&lt;/p&gt;
+
+&lt;p&gt;You start by working through our self-paced, browser-based full stack JavaScript curriculum. By working through our curriculum, you can earn four certifications:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Front End Certification&lt;/li&gt;
+  &lt;li&gt;Data Visualization Certification&lt;/li&gt;
+  &lt;li&gt;Back End Certification&lt;/li&gt;
+  &lt;li&gt;Full Stack Certification&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Devices Everywhere: Designing for a Multi-Device World</title>
+   <link href="http://hackid.github.io/devices-everywhere"/>
+   <updated>2016-12-30T00:00:00-06:00</updated>
+   <id>http://hackid.github.io/devices-everywhere</id>
+   <content type="html">
+&lt;p&gt;People today use multiple connected devices—PCs, smartphones, tablets, TVs, and beyond—switching between them, and using them together in order to accomplish a single goal. Still, most products merely replicate the same experience across devices, substituting solos for what could be an orchestra. In this session, I’d like to introduce ‘The 3C’s”- an ecosystem approach for designing multi-device experiences, one that focuses on context.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>xAPI Learning Cohort</title>
@@ -222,28 +253,6 @@
 &lt;p&gt;This content is designed for people who want to know the deeper reasons behind why people do what they do. This is for the busy entrepreneur, designer, or marketer who wants to know techniques they can use to help build better products and ultimately improve people’s lives.&lt;/p&gt;
 
 &lt;p&gt;We’ve asked our friends and colleagues for their top three to five resources on important topics related to product psychology and user behavior. They’ve taken the time to dig up their favorite articles, videos, and resources to get you up to speed quickly.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>What Type of Presenter Are You?</title>
-   <link href="http://hackid.github.io/presenter-profile"/>
-   <updated>2016-12-29T00:00:00-06:00</updated>
-   <id>http://hackid.github.io/presenter-profile</id>
-   <content type="html">
-&lt;p&gt;Presentations are planned conversations and prescheduled leadership opportunities where you have a chance to shine as a leader - and influence conversations. Take a short survey and receive a deeper profile of your Presenter Type. By understanding your Presenter Type, you will be better able to reframe your audience’s thinking and incite them to action.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Platform games: a primer</title>
-   <link href="http://hackid.github.io/platform-game-primer"/>
-   <updated>2016-12-29T00:00:00-06:00</updated>
-   <id>http://hackid.github.io/platform-game-primer</id>
-   <content type="html">
-&lt;p&gt;Little Big Planet will turn everyone into a platform game designer - however, it might not make them a good game designer.&lt;/p&gt;
-
-&lt;p&gt;So here is a primer on platform games I’ve put together for anyone who wants to make their game a little better or, more importantly, a little fairer. Enjoy!&lt;/p&gt;
 </content>
  </entry>
  

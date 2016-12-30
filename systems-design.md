@@ -3,7 +3,7 @@ layout: cat-page
 title: Systems Design
 group: categories
 category: systems-design-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Sometimes, you need to take a step back and think about your entire learning ecosystem. Why is it designed the way it is? Why do you use the systems and processes you do? Systems design asks us to think about the various systems we use to design, produce, and deliver learning experiences.
 image: systems-design.svg
 permalink: /systems-design
 ---

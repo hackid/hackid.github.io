@@ -1,7 +1,8 @@
         <!-- Page Header -->
         <div class="page-header">
+          <img class="logo" src="{{site.baseurl}}/assets/images/hackid.svg" alt="hack id logo" />
           <h1>{{ page.title }}</h1>
-          <h2>{% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h2>
+          <h2 class="tagline">{% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h2>
         </div>
         <div class="button-group filter-button-group">
           <a href="javascript:void(0);" class="button active" data-filter="*">All</a>
@@ -13,12 +14,14 @@
         <!-- Projects Row -->
       <div class="row experiences">
           {% for post in site.posts %}
+            {% assign learning-item-id = post.title | split: " " | join: "-" %}
               <div class="col-md-4 col-sm-6 learning-item {{ post.tags | join: " " }}">
+                <div id="{{ learning-item-id }}" class="anchor"></div>
                     <picture class="intrinsic intrinsic-item">
                       <img class="img-responsive intrinsic-img" src="{{ post.image }}" alt="{{post.title}} book cover">
                     </picture>
                   <h2>
-                      <a href="#">{{ post.title }}</a>
+                      <a href="{{post.resource-url}}" target="_blank">{{ post.title }}</a>
                   </h2>
                   <p class="attribution">
                     {% if post.resource-author %}
@@ -55,6 +58,16 @@
                     {% endif %}
                     {{post.access}}
                   </div>
+                  <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+                <div class="post-sharing pull-right">
+                  {% assign learning-item-url = "https://hackid.github.io%23" | append: learning-item-id %}
+                  <a href="https://twitter.com/share?url={{learning-item-url}}&via=anthkris&hashtags=hackidlearning&text={{post.title}} free {{post.resource-type}}" target="_blank">
+                    <img src="{{site.baseurl}}/assets/images/twitter-logo.svg" class="social-logo"/>
+                  </a>
+                  <a href="https://plus.google.com/share?url={{learning-item-url}}&title={{post.title}} free {{post.resource-type}}" target="_blank">
+                    <img src="{{site.baseurl}}/assets/images/google-plus.svg" class="social-logo"/>
+                  </a>
+                </div>
                   <a href="{{post.resource-url}}" target="_blank" class="button view-button">View</a>
               </div>
         {% endfor %}

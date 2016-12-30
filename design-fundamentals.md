@@ -3,7 +3,7 @@ layout: cat-page
 title: Design Fundamentals
 group: categories
 category: design-fundamentals-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Instructional designers have to dabble in many different design competencies to create elearning, instructional systems, presentations, and more. Learning design basics is essential to all of them. Get up to speed on the fundamentals of good design.
 image: design-fundamentals.svg
 permalink: /design-fundamentals
 ---

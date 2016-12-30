@@ -3,7 +3,7 @@ layout: cat-page
 title: Tools
 group: categories
 category: tools-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Tools are always a popular and important topic for instructional designers. Learning a new tool is a great way to expand your skill set and open up your options for creating learning experiences.
 image: tools.svg
 permalink: /tools
 ---

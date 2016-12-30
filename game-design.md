@@ -3,7 +3,7 @@ layout: cat-page
 title: Game Design
 group: categories
 category: game-design-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Designing games is much, much more than simply sticking a badge on your course. Learn about what makes good games and how to design engaging games that help users learn.
 image: game-design.svg
 permalink: /game-design
 ---

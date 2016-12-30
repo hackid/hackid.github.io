@@ -3,7 +3,7 @@ layout: cat-page
 title: Performance Support
 group: categories
 category: performance-support-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Performance support as a tool asks us to move beyond training and courses and think about how we can embed the support learners need to perform, when they need it. Learn more about what performance support is and how to implement it.
 image: performance-support.svg
 permalink: /performance-support
 ---

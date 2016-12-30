@@ -3,7 +3,7 @@ layout: cat-page
 title: Portfolio Design
 group: categories
 category: portfolio-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Creating your very own portfolio is a no-brainer for job seekers in every discipline, including instructional design. Still, many people struggle with the specifics of what to make and where to put it. Use these resources to take actionable steps towards creating a killer portfolio.
 image: portfolio.svg
 permalink: /portfolio
 ---

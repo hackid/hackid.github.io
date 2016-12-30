@@ -3,7 +3,7 @@ layout: cat-page
 title: Learning Technologies
 group: categories
 category: learning-technologies-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: As new technologies emerge, instructional designers and organizations look for ways to use them in learning experiences. Emerging technologies can be difficult to grasp all on your own. Learn more about designing for and with emerging tech.
 image: learning-technologies.svg
 permalink: /learning-technologies
 ---

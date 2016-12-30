@@ -3,7 +3,7 @@ layout: cat-page
 title: Business
 group: categories
 category: business-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Starting an instructional design business can be tough. Use these resources to get the jump on the game by thinking about how to create a sustainable business model.
 image: business.svg
 permalink: /business
 ---

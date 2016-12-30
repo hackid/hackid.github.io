@@ -3,7 +3,7 @@ layout: cat-page
 title: Presentation Design
 group: categories
 category: presentation-design-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Presentation design is part visual design, part storytelling, and part information design. Delve into what makes a good presentation and a good presenter.
 image: presentation-design.svg
 permalink: /presentation-design
 ---

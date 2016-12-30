@@ -3,7 +3,7 @@ layout: cat-page
 title: Writing
 group: categories
 category: writing-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Behind every effective scenario, every good activity, and every great interaction is good storytelling. Practice the craft of writing to engage learners in a deep and meaningful way.
 image: writing.svg
 permalink: /writing
 ---

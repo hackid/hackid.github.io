@@ -5,10 +5,41 @@
         <description>Hack ID - K. Anthony</description>
         <link>http://hackid.github.io</link>
         <atom:link href="http://hackid.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 29 Dec 2016 17:05:14 -0600</lastBuildDate>
-        <pubDate>Thu, 29 Dec 2016 17:05:14 -0600</pubDate>
+        <lastBuildDate>Fri, 30 Dec 2016 02:14:26 -0600</lastBuildDate>
+        <pubDate>Fri, 30 Dec 2016 02:14:26 -0600</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>Free Code Camp</title>
+                <description>
+&lt;p&gt;Free Code Camp is a friendly open source community where you learn to code and help nonprofits.&lt;/p&gt;
+
+&lt;p&gt;We help our campers build job-worthy portfolios of real apps used by real people, while helping nonprofits.&lt;/p&gt;
+
+&lt;p&gt;You start by working through our self-paced, browser-based full stack JavaScript curriculum. By working through our curriculum, you can earn four certifications:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Front End Certification&lt;/li&gt;
+  &lt;li&gt;Data Visualization Certification&lt;/li&gt;
+  &lt;li&gt;Back End Certification&lt;/li&gt;
+  &lt;li&gt;Full Stack Certification&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+                <link>http://hackid.github.io/free-code-camp</link>
+                <guid>http://hackid.github.io/free-code-camp</guid>
+                <pubDate>Fri, 30 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>Devices Everywhere: Designing for a Multi-Device World</title>
+                <description>
+&lt;p&gt;People today use multiple connected devices—PCs, smartphones, tablets, TVs, and beyond—switching between them, and using them together in order to accomplish a single goal. Still, most products merely replicate the same experience across devices, substituting solos for what could be an orchestra. In this session, I’d like to introduce ‘The 3C’s”- an ecosystem approach for designing multi-device experiences, one that focuses on context.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/devices-everywhere</link>
+                <guid>http://hackid.github.io/devices-everywhere</guid>
+                <pubDate>Fri, 30 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
 
         <item>
                 <title>xAPI Learning Cohort</title>
@@ -220,28 +251,6 @@
 </description>
                 <link>http://hackid.github.io/product-psychology</link>
                 <guid>http://hackid.github.io/product-psychology</guid>
-                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
-        </item>
-
-        <item>
-                <title>What Type of Presenter Are You?</title>
-                <description>
-&lt;p&gt;Presentations are planned conversations and prescheduled leadership opportunities where you have a chance to shine as a leader - and influence conversations. Take a short survey and receive a deeper profile of your Presenter Type. By understanding your Presenter Type, you will be better able to reframe your audience’s thinking and incite them to action.&lt;/p&gt;
-</description>
-                <link>http://hackid.github.io/presenter-profile</link>
-                <guid>http://hackid.github.io/presenter-profile</guid>
-                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
-        </item>
-
-        <item>
-                <title>Platform games: a primer</title>
-                <description>
-&lt;p&gt;Little Big Planet will turn everyone into a platform game designer - however, it might not make them a good game designer.&lt;/p&gt;
-
-&lt;p&gt;So here is a primer on platform games I’ve put together for anyone who wants to make their game a little better or, more importantly, a little fairer. Enjoy!&lt;/p&gt;
-</description>
-                <link>http://hackid.github.io/platform-game-primer</link>
-                <guid>http://hackid.github.io/platform-game-primer</guid>
                 <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 

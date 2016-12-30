@@ -3,7 +3,7 @@ layout: cat-page
 title: User Experience Design
 group: categories
 category: ux-design-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: User Experience design asks us to advocate for our users by improving the usability, accessibility, and pleasure of interacting with the experiences and products. This discipline is fundamental to all disciplines of instructional design.
 image: uxdesign.svg
 permalink: /ux-design
 ---

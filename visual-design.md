@@ -3,7 +3,7 @@ layout: cat-page
 title: Visual Design
 group: categories
 category: visual-design-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Visual design and elearning development go hand-in-hand. Designing learning experiences that look good and provide important visual affordances, such as allowing for easy text-scanning, are essential parts of the work. Learn more about the various facets of effective visual design.
 image: visual-design.svg
 permalink: /visual-design
 ---

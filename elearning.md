@@ -3,7 +3,7 @@ layout: cat-page
 title: E-Learning
 group: categories
 category: elearning-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Designing and creating elearning modules is one of the major roles of instructional designers. Learn how to design elearning that motivates, engages, and creates real change.
 image: elearning.svg
 permalink: /elearning
 ---

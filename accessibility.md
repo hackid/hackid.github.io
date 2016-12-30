@@ -3,7 +3,7 @@ layout: cat-page
 title: Accessibility
 group: categories
 category: accessibility-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Accessible design is good design. Designing for ALL users is in the best interest for you, your organization, and your users. Learn the ins and outs of designing for accessibility beyond just checking for compliance with regulations.
 image: accessibility.svg
 permalink: /accessibility
 ---

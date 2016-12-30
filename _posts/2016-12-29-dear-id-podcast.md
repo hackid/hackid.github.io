@@ -1,7 +1,7 @@
 ---
 layout: post
 image: http://placehold.it/700x400
-tags : [elearning-cat, instructional-design-cat]
+tags : [elearning-cat, instructional-design-cat, tools-cat]
 resource-url: http://dearinstructionaldesigner.com/
 access: Free
 resource-type: Podcast

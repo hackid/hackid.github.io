@@ -3,7 +3,7 @@ layout: cat-page
 title: Video Production
 group: categories
 category: video-production-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: Producing video is definitely a professional's game. But more and more, instructional designers are being asked to produce good looking videos all on their own. Learn about the basics of producing quality, engaging video on a shoestring.
 image: video.svg
 permalink: /video
 ---

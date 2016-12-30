@@ -3,7 +3,7 @@ layout: cat-page
 title: Project Management
 group: categories
 category: project-management-cat
-cat-info: Bitters etsy raw denim, coloring book mlkshk tbh slow-carb hella drinking vinegar waistcoat semiotics tacos shoreditch. Irony selvage keytar, street art thundercats try-hard health goth godard messenger bag YOLO prism vice.
+cat-info: On top of everything else, many instructional designers (particularly freelances) also need to know how to manage a well-run project. Get tips, tricks, and advice on project management that works.
 image: project-management.svg
 permalink: /project-management
 ---
