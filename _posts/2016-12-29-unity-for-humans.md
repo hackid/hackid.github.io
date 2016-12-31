@@ -5,7 +5,7 @@ tags: [tools-cat, game-design-cat]
 resource-url: https://gamedevacademy.org/free-ebook-unity-programming-for-human-beings/
 access: Requires Email
 resource-type: Ebook
-resource-author: Pablo Farias Navarro
+resource-author: Jessie Glove and Pablo Farias Navarro
 resource-org: Zenva.com
 title: "Unity Programming for Human Beings"
 ---
