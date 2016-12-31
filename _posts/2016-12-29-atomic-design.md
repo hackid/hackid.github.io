@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /atomic-design.png
 tags: [systems-design-cat]
 resource-url: http://atomicdesign.bradfrost.com/table-of-contents/
 access: Free

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /save-from-boring-training.png
 tags: [elearning-cat, instructional-design-cat]
 resource-url: http://blog.cathy-moore.com/save-the-world-from-boring-training/
 access: Requires Email

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /design-thinking-crash-course.png
 tags: [design-fundamentals-cat]
 resource-url: http://dschool.stanford.edu/dgift/
 access: Free

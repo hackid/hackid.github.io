@@ -1,8 +1,8 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /tips-elearning-feast.png
 tags : [elearning-cat, ux-design-cat]
-resource-url: http://learn.alleninteractions.com/14-tips-for-preparing-an-elearning-feas
+resource-url: http://learn.alleninteractions.com/14-tips-for-preparing-an-elearning-feast
 access: Requires Email
 resource-type: Ebook
 resource-author: Ethan Edwards

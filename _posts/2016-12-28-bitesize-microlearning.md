@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /bite-size-microlearning.png
 tags : [microlearning-cat, instructional-design-cat]
 resource-url: http://learn.alleninteractions.com/bite-sized-guide-to-microlearning
 access: Requires Email

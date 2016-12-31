@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /dieter-rams-10.png
 tags: [design-fundamentals-cat]
 resource-url: http://gooddesign.io/
 access: Free

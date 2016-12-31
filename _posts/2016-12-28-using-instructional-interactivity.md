@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /using-instructional-interactivity.png
 tags: [elearning-cat, instructional-design-cat]
 resource-url: http://learn.alleninteractions.com/instructional-interactivity
 access: Requires Email

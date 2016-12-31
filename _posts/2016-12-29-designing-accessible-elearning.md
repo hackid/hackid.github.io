@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /designing-accessible-elearning.png
 tags: [instructional-design-cat, accessibility-cat]
 resource-url: https://community.articulate.com/e-books/6-best-practices-for-designing-accessible-e-learning
 access: Requires Registration

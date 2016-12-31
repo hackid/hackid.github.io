@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /highbrow-validate-idea.png
 tags: [business-cat]
 resource-url: http://gohighbrow.com/portfolio/how-to-validate-an-idea/
 access: Requires Email

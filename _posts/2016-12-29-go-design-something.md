@@ -1,12 +1,12 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /go-design-something.png
 tags: [portfolio-cat]
 resource-url: https://gumroad.com/l/eOwj
 access: Requires Email
 resource-type: Ebook
 resource-author: Kristin Anthony
-resource-org: knanthony.com / GoDesignSomething.co
+resource-org: knanthony.com
 title: "Go Design Something: 5 Steps to a Kick-Ass Instructional Design Portfolio"
 ---
 {% include JB/setup %}

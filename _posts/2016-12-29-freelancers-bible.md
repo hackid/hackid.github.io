@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /freelancer-bible.png
 tags: [business-cat]
 resource-url: https://www.route1print.co.uk/freelancers-bible
 access: Requires Email

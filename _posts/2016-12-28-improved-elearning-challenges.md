@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /improved-elearning-challenges.png
 tags: [elearning-cat, instructional-design-cat]
 resource-url: http://learn.alleninteractions.com/7-steps-improved-elearning-challenges
 access: Requires Email

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /building-visual-hierarchy.png
 tags: [visual-design-cat, ux-design-cat]
 resource-url: https://www.uxpin.com/studio/ebooks/web-ui-design-building-visual-hierarchy/
 access: Requires Email

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /elearning-project-management.png
 tags: [project-management-cat, elearning-cat]
 resource-url: https://community.articulate.com/e-books/9-steps-to-better-e-learning-project-management
 access: Requires Registration

@@ -5,10 +5,21 @@
         <description>Hack ID - K. Anthony</description>
         <link>http://hackid.github.io</link>
         <atom:link href="http://hackid.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Fri, 30 Dec 2016 18:31:13 -0600</lastBuildDate>
-        <pubDate>Fri, 30 Dec 2016 18:31:13 -0600</pubDate>
+        <lastBuildDate>Fri, 30 Dec 2016 22:59:25 -0600</lastBuildDate>
+        <pubDate>Fri, 30 Dec 2016 22:59:25 -0600</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>Pay Me Or Else</title>
+                <description>
+&lt;p&gt;I freaking hate it when clients don’t pay.
+So I wrote a book about how to avoid and deal with such clients.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/pay-me-or-else</link>
+                <guid>http://hackid.github.io/pay-me-or-else</guid>
+                <pubDate>Fri, 30 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
 
         <item>
                 <title>Free Code Camp</title>
@@ -241,23 +252,6 @@
 </description>
                 <link>http://hackid.github.io/resonate-multi-touch</link>
                 <guid>http://hackid.github.io/resonate-multi-touch</guid>
-                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
-        </item>
-
-        <item>
-                <title>Ready, Set, Curate!</title>
-                <description>
-&lt;p&gt;Let’s face it, the internet isn’t getting any smaller. How do we separate the valuable content from the noise, how do we organise the good stuff in ways that tell coherent stories about our businesses and our interests? In this latest offering from HT2 you’ll be able to inform your own practice by taking a look at ‘Curation’ and answering these questions.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What is it (and why do we need it)?&lt;/li&gt;
-  &lt;li&gt;What are the ‘pros’ &amp;amp; ‘cons’?&lt;/li&gt;
-  &lt;li&gt;What do I need to think about before I get started?&lt;/li&gt;
-  &lt;li&gt;What tools are available for me to use?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <link>http://hackid.github.io/ready-set-curate</link>
-                <guid>http://hackid.github.io/ready-set-curate</guid>
                 <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 

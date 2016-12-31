@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /definitive-guide-multidevice.png
 tags: [elearning-cat, responsive-design-cat]
 resource-url: https://community.articulate.com/e-books/the-definitive-guide-to-multi-device-e-learning
 access: Requires Registration

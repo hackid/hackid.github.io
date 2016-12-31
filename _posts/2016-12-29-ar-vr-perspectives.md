@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /enhanced-realities.png
 tags: [ux-design-cat, learning-technologies-cat]
 resource-url: https://www.elearningguild.com/publications/index.cfm?id=93&from=content&mode=filter&source=publications
 access: Requires Registration

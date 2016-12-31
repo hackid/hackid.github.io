@@ -5,7 +5,7 @@ tags: [writing-cat, presentation-design-cat]
 resource-url: http://www.duarte.com/book/resonate-multi-touch-book/
 access: Requires Registration
 resource-type: Ebook
-resource-type: Nancy Duarte
+resource-author: Nancy Duarte
 resource-org: Duarte.com
 title: "Resonate Multi-Touch Book"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /hack-design.png
 tags: [design-fundamentals-cat]
 resource-url: https://hackdesign.org/
 access: Requires Email

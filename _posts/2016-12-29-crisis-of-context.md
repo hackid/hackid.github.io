@@ -1,10 +1,10 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /crisis-of-context.png
 tags: [instructional-design-cat]
 resource-url: https://www.elearningguild.com/publications/index.cfm?id=62&from=content&mode=filter&source=publications&showpage=2
 access: Requires Registration
-resource-type: Ebook
+resource-type: Website
 resource-org: Inkling / Elearning Guild
 title: "The Crisis of Context in Corporate Learning"
 ---

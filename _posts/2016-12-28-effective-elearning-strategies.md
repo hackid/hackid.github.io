@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /effective-elearning-strategies.png
 tags: [elearning-cat, instructional-design-cat]
 resource-url: https://community.articulate.com/e-books/5-highly-effective-strategies-for-creating-engaging-e-learning
 access: Requires Registration

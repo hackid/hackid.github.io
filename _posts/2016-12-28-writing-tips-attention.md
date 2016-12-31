@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /writing-tips-attention.png
 tags : [writing-cat, instructional-design-cat]
 resource-url: http://learn.alleninteractions.com/5-learner-tips
 access: Requires Email

@@ -1,29 +1,29 @@
-# Jekyll-Bootstrap
+# Hack ID
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+Resources for Self-Taught Instructional Designers
 
-## Usage
+## Goals
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+* Provide free resource for instructional design continuing education
+* Curate starter guides of learning resources
+* Provide an open source project that will allow other IDs to get portfolio experience
 
-## Version
+## How to Contribute
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+There are several ways to contribute to the project!
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+* You can donate to help keep the project running: [PayPal](https://www.paypal.me/KristinAnthony)
+* You can add free resources to the project: You can use the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe-Vw60TcOyTjd_FgTLD7eZ_fPwYTXsUWWNZEN1NrLTPK-qKA/viewform) or [submit an issue in Github](https://github.com/hackid/hackid.github.io/issues)
+* You can help by taking on an open issue
+* You can help curate and create guides of resources
+
+[Learn more about contributing on the Wiki.](https://github.com/hackid/hackid.github.io/wiki).
 
 ## Milestones
 
 [0.4.0](https://github.com/plusjade/jekyll-bootstrap/milestones/v%200.4.0) - next release [ETA 03/29/2015]
 
-### GOALS
 
-* No open PRs against master branch.
-* Squash some bugs.
-* Add some new features (low-hanging fruit).
-* Establish social media presence.
 
 
 ### Bugs

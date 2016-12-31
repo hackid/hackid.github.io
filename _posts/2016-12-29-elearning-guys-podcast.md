@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /elearning-guys-podcast.png
 tags : [elearning-cat, tools-cat]
 resource-url: http://www.theelearningguys.com/
 access: Free

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /building-compelling-interactions.png
 tags: [instructional-design-cat, elearning-cat]
 resource-url: https://community.articulate.com/e-books/building-compelling-interactions
 access: Requires Registration

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /game-dev-for-humans.png
 tags: [tools-cat, game-design-cat]
 resource-url: https://gamedevacademy.org/free-ebook-game-development-for-human-beings/
 access: Requires Email

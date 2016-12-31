@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /avoid-elearning-mistakes.png
 tags: [elearning-cat, instructional-design-cat]
 resource-url: http://trivantis.com/ebooks/5-elearning-mistakes
 access: Requires Registration

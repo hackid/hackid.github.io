@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /getting-started-studio.png
 tags: [tools-cat]
 resource-url: https://community.articulate.com/e-books/getting-started-with-articulate-studio
 access: Requires Registration

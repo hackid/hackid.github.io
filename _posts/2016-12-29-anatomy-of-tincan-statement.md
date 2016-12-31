@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /anatomy-of-tin-can.png
 tags: [learning-technologies-cat]
 resource-url: http://tincanapi.com/ebook/
 access: Free

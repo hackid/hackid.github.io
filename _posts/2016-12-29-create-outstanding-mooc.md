@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /create-outstanding-mooc.png
 tags: [instructional-design-cat, elearning-cat]
 resource-url: http://beta.curatr3.com/courses/how-to-create-an-outstanding-mooc/home
 access: Requires Registration

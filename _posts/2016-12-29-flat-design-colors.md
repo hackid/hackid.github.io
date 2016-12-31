@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /flat-design-colors.png
 tags: [visual-design-cat, design-fundamentals-cat]
 resource-url: https://www.uxpin.com/studio/ebooks/web-ui-design-techniques-colors-flat-design/
 access: Requires Email

@@ -5,7 +5,7 @@ tags: [instructional-design-cat]
 resource-url: http://www.kineo.com/resources/papers-and-guides/blended-learning-that-works-for-onboarding-guide
 access: Requires Registration
 resource-type: Ebook
-resource-type: Kirstie Greany
+resource-author: Kirstie Greany
 resource-org: Kineo
 title: "Onboarding: Blended Learning That Works"
 ---

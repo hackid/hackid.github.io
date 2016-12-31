@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /disney-princess-disasters.png
 tags: [elearning-cat, instructional-design-cat]
 resource-url: http://learn.alleninteractions.com/disney-princesses-reimagined-as-elearning-disasters
 access: Requires Email

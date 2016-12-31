@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /intro-html5-gamedev.png
 tags: [tools-cat, game-design-cat]
 resource-url: https://academy.zenva.com/product/intro-to-html5-game-development/?zva_src=gda-side-free-quintus
 access: Requires Registration

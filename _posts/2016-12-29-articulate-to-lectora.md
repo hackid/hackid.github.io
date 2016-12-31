@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /articulate-to-lectora.png
 tags: [tools-cat]
 resource-url: http://trivantis.com/ebooks/storyline-guide-to-lectora
 access: Requires Registration

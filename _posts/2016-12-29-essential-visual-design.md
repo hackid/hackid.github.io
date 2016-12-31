@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /essential-visual-design.png
 tags: [visual-design-cat, design-fundamentals-cat]
 resource-url: https://community.articulate.com/e-books/essential-guide-to-visual-design
 access: Requires Registration

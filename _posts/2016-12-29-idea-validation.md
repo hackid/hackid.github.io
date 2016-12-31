@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /mba-idea-validation.png
 tags: [business-cat]
 resource-url: https://100mba.net/free-course/
 access: Requires Email

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /dear-instructional-designer.png
 tags : [elearning-cat, instructional-design-cat, tools-cat]
 resource-url: http://dearinstructionaldesigner.com/
 access: Free

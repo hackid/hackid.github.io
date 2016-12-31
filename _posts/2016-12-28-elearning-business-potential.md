@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /unleash-elearning-potential.png
 tags: [elearning-cat, business-cat]
 resource-url: http://www.unleashelearningpotential.com
 access: Requires Email

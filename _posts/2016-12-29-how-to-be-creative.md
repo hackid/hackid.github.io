@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /how-to-be-creative.png
 tags: [design-fundamentals-cat]
 resource-url: http://changethis.com/manifesto/show/6.HowToBeCreative
 access: Free

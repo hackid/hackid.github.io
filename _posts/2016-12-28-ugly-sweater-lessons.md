@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /avoid-ugly-elearning.png
 tags: [elearning-cat, visual-design-cat]
 resource-url: http://learn.alleninteractions.com/avoiding-ugly-elearning
 access: Requires Email

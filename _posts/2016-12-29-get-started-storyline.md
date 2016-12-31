@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /getting-started-storyline.png
 tags: [tools-cat]
 resource-url: https://community.articulate.com/e-books/getting-started-with-articulate-storyline
 access: Requires Registration

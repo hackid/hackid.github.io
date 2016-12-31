@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /forget-everything-elearning.png
 tags: [microlearning-cat, instructional-design-cat]
 resource-url: http://spongeuk.com/microlearning-download/
 access: Requires Registration

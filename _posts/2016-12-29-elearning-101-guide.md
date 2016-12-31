@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /elearning-101-guide.png
 tags: [instructional-design-cat, elearning-cat]
 resource-url: http://trivantis.com/elearning-101-ebook
 access: Requires Registration

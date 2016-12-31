@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /become-rapid-elearning-pro.png
 tags: [elearning-cat, instructional-design-cat]
 resource-url: https://community.articulate.com/e-books/insiders-guide-to-becoming-rapid-e-learning-pro
 access: Requires Registration
