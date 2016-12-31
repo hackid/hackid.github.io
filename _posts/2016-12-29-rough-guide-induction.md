@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /rough-guide-induction.png
 tags: [instructional-design-cat, elearning-cat]
 resource-url: http://spongeuk.us5.list-manage.com/subscribe?u=a341374f383946116ac8465e5&id=d65a14e04e
 access: Requires Registration

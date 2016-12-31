@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /making-elearning-accessible.png
 tags: [accessibility-cat, elearning-cat]
 resource-url: http://trivantis.com/ebooks/making-elearning-accessible
 access: Requires Registration

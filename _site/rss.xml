@@ -5,8 +5,8 @@
         <description>Hack ID - K. Anthony</description>
         <link>http://hackid.github.io</link>
         <atom:link href="http://hackid.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Fri, 30 Dec 2016 02:14:26 -0600</lastBuildDate>
-        <pubDate>Fri, 30 Dec 2016 02:14:26 -0600</pubDate>
+        <lastBuildDate>Fri, 30 Dec 2016 18:31:13 -0600</lastBuildDate>
+        <pubDate>Fri, 30 Dec 2016 18:31:13 -0600</pubDate>
         <ttl>60</ttl>
 
 
@@ -38,6 +38,25 @@
 </description>
                 <link>http://hackid.github.io/devices-everywhere</link>
                 <guid>http://hackid.github.io/devices-everywhere</guid>
+                <pubDate>Fri, 30 Dec 2016 00:00:00 -0600</pubDate>
+        </item>
+
+        <item>
+                <title>Designers for Learning</title>
+                <description>
+&lt;p&gt;This project-based course focuses on a real-world instructional need. As a participant in this course, you will evaluate and adapt open educational resources for adult basic education. You will begin the evaluation process by dissecting the adult basic education design scenario to explore key aspects of the opportunity.&lt;/p&gt;
+
+&lt;p&gt;As part of the instructional evaluation, you will select an open educational resource that was designed and developed in a prior Designers for Learning cohort to evaluate the extent to which the instructional materials are effectively and efficiently designed and developed to meet the needs and constraints. Based on this evaluation, you will then adapt the materials you reviewed into a new lesson or revise the open educational resources to enhance the:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;instructional strategies and assessments,&lt;/li&gt;
+  &lt;li&gt;learner experience features, such as directions and help, aesthetics of display, lesson sequencing, and overall ease of use,&lt;/li&gt;
+  &lt;li&gt;affective considerations, such as arousing curiosity, establishing relevance, offering appropriate level of challenge, and maintaining learner’s attention, and&lt;/li&gt;
+  &lt;li&gt;display features, such as images, graphics, audio, animation, video, or print materials.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <link>http://hackid.github.io/designers-for-learning</link>
+                <guid>http://hackid.github.io/designers-for-learning</guid>
                 <pubDate>Fri, 30 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 
@@ -239,18 +258,6 @@
 </description>
                 <link>http://hackid.github.io/ready-set-curate</link>
                 <guid>http://hackid.github.io/ready-set-curate</guid>
-                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
-        </item>
-
-        <item>
-                <title>Product Psychology</title>
-                <description>
-&lt;p&gt;This content is designed for people who want to know the deeper reasons behind why people do what they do. This is for the busy entrepreneur, designer, or marketer who wants to know techniques they can use to help build better products and ultimately improve people’s lives.&lt;/p&gt;
-
-&lt;p&gt;We’ve asked our friends and colleagues for their top three to five resources on important topics related to product psychology and user behavior. They’ve taken the time to dig up their favorite articles, videos, and resources to get you up to speed quickly.&lt;/p&gt;
-</description>
-                <link>http://hackid.github.io/product-psychology</link>
-                <guid>http://hackid.github.io/product-psychology</guid>
                 <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 

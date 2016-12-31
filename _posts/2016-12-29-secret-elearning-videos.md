@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /secret-elearning-videos.png
 tags: [video-production-cat, elearning-cat]
 resource-url: https://community.articulate.com/e-books/the-secret-to-creating-great-e-learning-videos
 access: Requires Registration

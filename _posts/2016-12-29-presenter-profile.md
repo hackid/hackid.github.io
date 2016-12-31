@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /presenter-profile.png
 tags: [presentation-design-cat]
 resource-url: http://survey.makeapowerfulpoint.com/
 access: Requires Email

@@ -4,7 +4,7 @@
  <title>Hack ID</title>
  <link href="http://hackid.github.io/atom.xml" rel="self"/>
  <link href="http://hackid.github.io"/>
- <updated>2016-12-30T02:14:26-06:00</updated>
+ <updated>2016-12-30T18:31:13-06:00</updated>
  <id>http://hackid.github.io</id>
  <author>
    <name>K. Anthony</name>
@@ -40,6 +40,25 @@
    <id>http://hackid.github.io/devices-everywhere</id>
    <content type="html">
 &lt;p&gt;People today use multiple connected devices—PCs, smartphones, tablets, TVs, and beyond—switching between them, and using them together in order to accomplish a single goal. Still, most products merely replicate the same experience across devices, substituting solos for what could be an orchestra. In this session, I’d like to introduce ‘The 3C’s”- an ecosystem approach for designing multi-device experiences, one that focuses on context.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Designers for Learning</title>
+   <link href="http://hackid.github.io/designers-for-learning"/>
+   <updated>2016-12-30T00:00:00-06:00</updated>
+   <id>http://hackid.github.io/designers-for-learning</id>
+   <content type="html">
+&lt;p&gt;This project-based course focuses on a real-world instructional need. As a participant in this course, you will evaluate and adapt open educational resources for adult basic education. You will begin the evaluation process by dissecting the adult basic education design scenario to explore key aspects of the opportunity.&lt;/p&gt;
+
+&lt;p&gt;As part of the instructional evaluation, you will select an open educational resource that was designed and developed in a prior Designers for Learning cohort to evaluate the extent to which the instructional materials are effectively and efficiently designed and developed to meet the needs and constraints. Based on this evaluation, you will then adapt the materials you reviewed into a new lesson or revise the open educational resources to enhance the:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;instructional strategies and assessments,&lt;/li&gt;
+  &lt;li&gt;learner experience features, such as directions and help, aesthetics of display, lesson sequencing, and overall ease of use,&lt;/li&gt;
+  &lt;li&gt;affective considerations, such as arousing curiosity, establishing relevance, offering appropriate level of challenge, and maintaining learner’s attention, and&lt;/li&gt;
+  &lt;li&gt;display features, such as images, graphics, audio, animation, video, or print materials.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
@@ -241,18 +260,6 @@
   &lt;li&gt;What do I need to think about before I get started?&lt;/li&gt;
   &lt;li&gt;What tools are available for me to use?&lt;/li&gt;
 &lt;/ul&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Product Psychology</title>
-   <link href="http://hackid.github.io/product-psychology"/>
-   <updated>2016-12-29T00:00:00-06:00</updated>
-   <id>http://hackid.github.io/product-psychology</id>
-   <content type="html">
-&lt;p&gt;This content is designed for people who want to know the deeper reasons behind why people do what they do. This is for the busy entrepreneur, designer, or marketer who wants to know techniques they can use to help build better products and ultimately improve people’s lives.&lt;/p&gt;
-
-&lt;p&gt;We’ve asked our friends and colleagues for their top three to five resources on important topics related to product psychology and user behavior. They’ve taken the time to dig up their favorite articles, videos, and resources to get you up to speed quickly.&lt;/p&gt;
 </content>
  </entry>
  

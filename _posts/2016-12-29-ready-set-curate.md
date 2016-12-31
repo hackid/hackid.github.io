@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /ready-set-curate.png
 tags: [systems-design-cat]
 resource-url: http://beta.curatr3.com/courses/ready-set-curate/home
 access: Requires Registration

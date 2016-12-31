@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /exploring-social-learning.png
 tags: [instructional-design-cat, elearning-cat]
 resource-url: http://beta.curatr3.com/courses/exploring/home
 access: Requires Registration

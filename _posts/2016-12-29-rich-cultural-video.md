@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /rich-cultural-video.png
 tags: [video-production-cat]
 resource-url: https://www.elearningguild.com/publications/index.cfm?id=74&from=content&mode=filter&source=publications
 access: Requires Registration

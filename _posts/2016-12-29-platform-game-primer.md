@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /platformer-primer.png
 tags: [game-design-cat, design-fundamentals-cat]
 resource-url: http://mrbossdesign.blogspot.com/2008/10/platformer-primer.html
 access: Free

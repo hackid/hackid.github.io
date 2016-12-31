@@ -1,10 +1,11 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /typography-improve-elearning.png
 tags: [elearning-cat, visual-design-cat]
 resource-url: https://community.articulate.com/e-books/how-to-use-typography-to-improve-your-e-learning
 access: Requires Registration
 resource-type: Ebook
+resource-author: Heloisa Kinder
 resource-org: Articulate
 title: "How to Use Typography to Improve Your E-Learning"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /mobile-learning-context.png
 tags: [elearning-cat, instructional-design-cat]
 resource-url: https://www.elearningguild.com/publications/index.cfm?id=57&from=content&mode=filter&source=publications&showpage=2
 access: Requires Registration

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /torrance-learning.png
 tags: [learning-technologies-cat]
 resource-url: http://www.torrancelearning.com/
 access: Requires Registration

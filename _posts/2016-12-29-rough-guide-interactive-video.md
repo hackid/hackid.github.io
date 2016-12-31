@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /rough-guide-interactive-video.png
 tags: [video-production-cat]
 resource-url: http://spongeuk.us5.list-manage.com/subscribe?u=a341374f383946116ac8465e5&id=ae98a1687e
 access: Requires Registration

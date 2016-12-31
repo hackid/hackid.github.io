@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /sponge-uk-podcast.png
 tags : [elearning-cat, instructional-design-cat]
 resource-url: http://spongeuk.com/tag/podcast/
 access: Free

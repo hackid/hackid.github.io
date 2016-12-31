@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /rough-guide-games.png
 tags: [game-design-cat]
 resource-url: http://spongeuk.us5.list-manage1.com/subscribe?u=a341374f383946116ac8465e5&id=7eab192537
 access: Requires Registration

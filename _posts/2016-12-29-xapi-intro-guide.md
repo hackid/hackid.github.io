@@ -1,10 +1,11 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /xapi-intro-guide.png
 tags: [learning-technologies-cat]
 resource-url: http://www.yetanalytics.com/xapi-an-introductory-guide-ebook
 access: Requires Email
 resource-type: Ebook
+resource-author: Margaret Roth
 resource-org: Yet Analytics
 title: "xAPI: An Introductory Guide"
 ---

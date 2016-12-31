@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /responsive-design-development.png
 tags: [responsive-design-cat, instructional-design-cat]
 resource-url: https://www.elearningguild.com/publications/index.cfm?id=52&from=content&mode=filter&source=publications&showpage=3
 access: Requires Registration

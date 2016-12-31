@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /ux-fundamentals.png
 tags: [ux-design-cat, design-fundamentals-cat]
 resource-url: http://gohighbrow.com/portfolio/the-fundamentals-of-user-experience/
 access: Requires Email

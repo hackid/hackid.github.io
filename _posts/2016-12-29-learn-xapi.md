@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /learn-xapi.png
 tags: [learning-technologies-cat]
 resource-url: http://beta.curatr3.com/courses/xapi/home
 access: Requires Registration

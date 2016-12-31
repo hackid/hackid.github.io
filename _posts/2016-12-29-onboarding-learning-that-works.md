@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /onboarding-that-works.png
 tags: [instructional-design-cat]
 resource-url: http://www.kineo.com/resources/papers-and-guides/blended-learning-that-works-for-onboarding-guide
 access: Requires Registration

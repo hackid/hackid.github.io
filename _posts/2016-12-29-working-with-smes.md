@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /working-with-smes.png
 tags: [instructional-design-cat]
 resource-url: https://community.articulate.com/e-books/the-essential-guide-to-working-with-subject-matter-experts
 access: Requires Registration

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /devicesEverywhere.png
 tags: [responsive-design-cat]
 resource-url: https://designersandgeeks.com/events/size-matters-designing-multi-device-experiences
 access: Free

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /just-ask-accessibility.png
 tags: [accessibility-cat, design-fundamentals-cat]
 resource-url: http://www.uiaccess.com/accessucd/index.html
 access: Free

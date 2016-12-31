@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /performance-support-insight.png
 tags: [performance-support-cat, instructional-design-cat]
 resource-url: http://trivantis.com/ebooks/performance-support
 access: Requires Registration

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /mobile-world-responsive.png
 tags: [responsive-design-cat]
 resource-url: http://trivantis.com/ebooks/responsive-course-design
 access: Requires Registration

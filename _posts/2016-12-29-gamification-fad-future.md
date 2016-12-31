@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /gamification-fad-or-future.png
 tags: [instructional-design-cat, game-design-cat]
 resource-url: http://beta.curatr3.com/courses/gamification-fad-or-future/home
 access: Requires Registration

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /elearning-beyond-next.png
 tags: [instructional-design-cat, elearning-cat]
 resource-url: http://beta.curatr3.com/courses/elearning-beyond-the-next-button/home
 access: Requires Registration

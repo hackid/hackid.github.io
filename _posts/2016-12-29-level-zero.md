@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /level-zero.png
 tags: [game-design-cat, tools-cat]
 resource-url: https://www.scirra.com/blog/172/level-zero-free-construct-2-book
 access: Free

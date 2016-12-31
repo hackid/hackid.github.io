@@ -1,8 +1,8 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /resonate-multi-touch.png
 tags: [writing-cat, presentation-design-cat]
-resource-url: http://www.kineo.com/resources/papers-and-guides/going-mobile-guide
+resource-url: http://www.duarte.com/book/resonate-multi-touch-book/
 access: Requires Registration
 resource-type: Ebook
 resource-type: Nancy Duarte

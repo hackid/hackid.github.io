@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: freecodecamp.png
 tags: [tools-cat]
 resource-url: https://www.freecodecamp.com/
 access: Requires Registration

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: http://placehold.it/700x400
+image: /product-psychology.png
 tags: [business-cat, ux-design-cat]
 resource-url: http://productpsychology.com/
 access: Requires Email

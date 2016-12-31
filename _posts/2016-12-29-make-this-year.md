@@ -1,7 +1,7 @@
 ---
 layout: post
-image: http://placehold.it/700x400
-tags: [portfolio-cat]
+image: /make-this-year.png
+tags: [portfolio-cat, business-cat]
 resource-url: https://crew.co/make-this-year/
 access: Requires Email
 resource-type: Email Course
