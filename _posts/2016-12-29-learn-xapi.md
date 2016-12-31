@@ -1,6 +1,6 @@
 ---
 layout: post
-image: learn-xapi.png
+image: learn-xAPI.png
 tags: [learning-technologies-cat]
 resource-url: http://beta.curatr3.com/courses/xapi/home
 access: Requires Registration
