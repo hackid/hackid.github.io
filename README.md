@@ -18,6 +18,7 @@ There are several ways to contribute to the project!
 * You can help curate and create guides of resources
 
 [Learn more about submitting an issue on GitHub](https://help.github.com/articles/creating-an-issue/)
+
 [Learn more about contributing on the Wiki.](https://github.com/hackid/hackid.github.io/wiki)
 
 ## License
