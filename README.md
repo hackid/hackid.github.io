@@ -23,4 +23,4 @@ There are several ways to contribute to the project!
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT)
+[MIT](https://anthkris.mit-license.org/)
