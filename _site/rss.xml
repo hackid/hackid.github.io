@@ -5,10 +5,22 @@
         <description>Hack ID - K. Anthony</description>
         <link>http://hackid.github.io</link>
         <atom:link href="http://hackid.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sat, 31 Dec 2016 00:19:42 -0600</lastBuildDate>
-        <pubDate>Sat, 31 Dec 2016 00:19:42 -0600</pubDate>
+        <lastBuildDate>Wed, 04 Jan 2017 23:06:12 -0600</lastBuildDate>
+        <pubDate>Wed, 04 Jan 2017 23:06:12 -0600</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>Designing for Mixed Reality</title>
+                <description>
+&lt;p&gt;Today’s interaction designers generally operate within well-researched and documented constraints for both web and mobile applications—but not for much longer. By mixing the real and virtual worlds, new products such as Hololens, DAQRI, Meta, and Magic Leap clearly demonstrate that designers no longer have to confine user interfaces to a screen.&lt;/p&gt;
+
+&lt;p&gt;In this O’Reilly report, author Kharis O’Connell guides you through the new realm of mixed reality. You’ll discover the difference between designing for arenas rather than web or mobile screen rectangles, and examine some of the supporting tools, technologies, and techniques that will enable you to make the transition.&lt;/p&gt;
+</description>
+                <link>http://hackid.github.io/design-mixed-reality</link>
+                <guid>http://hackid.github.io/design-mixed-reality</guid>
+                <pubDate>Wed, 04 Jan 2017 00:00:00 -0600</pubDate>
+        </item>
 
         <item>
                 <title>Pay Me Or Else</title>
@@ -242,16 +254,6 @@ So I wrote a book about how to avoid and deal with such clients.&lt;/p&gt;
 </description>
                 <link>http://hackid.github.io/responsive-design-development</link>
                 <guid>http://hackid.github.io/responsive-design-development</guid>
-                <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
-        </item>
-
-        <item>
-                <title>Resonate Multi-Touch Book</title>
-                <description>
-&lt;p&gt;Resonate Multi-Touch Book is like having a portable story writing workshop in your hands as you prepare your next presentation. You’ll learn a new presentation development methodology informed by cinema, literature, and the greatest speeches of all time.&lt;/p&gt;
-</description>
-                <link>http://hackid.github.io/resonate-multi-touch</link>
-                <guid>http://hackid.github.io/resonate-multi-touch</guid>
                 <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
         </item>
 

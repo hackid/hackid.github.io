@@ -4,13 +4,25 @@
  <title>Hack ID</title>
  <link href="http://hackid.github.io/atom.xml" rel="self"/>
  <link href="http://hackid.github.io"/>
- <updated>2016-12-31T00:19:42-06:00</updated>
+ <updated>2017-01-04T23:06:12-06:00</updated>
  <id>http://hackid.github.io</id>
  <author>
    <name>K. Anthony</name>
    <email>kristin@knanthony.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Designing for Mixed Reality</title>
+   <link href="http://hackid.github.io/design-mixed-reality"/>
+   <updated>2017-01-04T00:00:00-06:00</updated>
+   <id>http://hackid.github.io/design-mixed-reality</id>
+   <content type="html">
+&lt;p&gt;Today’s interaction designers generally operate within well-researched and documented constraints for both web and mobile applications—but not for much longer. By mixing the real and virtual worlds, new products such as Hololens, DAQRI, Meta, and Magic Leap clearly demonstrate that designers no longer have to confine user interfaces to a screen.&lt;/p&gt;
+
+&lt;p&gt;In this O’Reilly report, author Kharis O’Connell guides you through the new realm of mixed reality. You’ll discover the difference between designing for arenas rather than web or mobile screen rectangles, and examine some of the supporting tools, technologies, and techniques that will enable you to make the transition.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Pay Me Or Else</title>
@@ -244,16 +256,6 @@ So I wrote a book about how to avoid and deal with such clients.&lt;/p&gt;
 &lt;p&gt;Today’s learners use multiple computing/communication devices during the course of the day - for learning, work, entertainment, and decision making. They are on the move, both within and outside the workplace, and want to use their “downtime” effectively. Responsive eLearning helps organizations to leverage this “downtime” while extending the reach and availability of their training.&lt;/p&gt;
 
 &lt;p&gt;Like any other approach, Responsive eLearning comes with its own set of planning, design, development and testing considerations and guidelines - and it forces those of us who create responsive eLearning to think beyond just one fixed display size and one uniform use context. Hence, understanding the key features, benefits, types, examples of Responsive eLearning is important in drawing up a strategy that works for your organization. With respect to the strategy, decision factors like when to use responsive eLearning, how to get started and the various challenges you may encounter in the design, development and testing process are crucial to the success of your strategy. Learn about it all in this eBook.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Resonate Multi-Touch Book</title>
-   <link href="http://hackid.github.io/resonate-multi-touch"/>
-   <updated>2016-12-29T00:00:00-06:00</updated>
-   <id>http://hackid.github.io/resonate-multi-touch</id>
-   <content type="html">
-&lt;p&gt;Resonate Multi-Touch Book is like having a portable story writing workshop in your hands as you prepare your next presentation. You’ll learn a new presentation development methodology informed by cinema, literature, and the greatest speeches of all time.&lt;/p&gt;
 </content>
  </entry>
  
