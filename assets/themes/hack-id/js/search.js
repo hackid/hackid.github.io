@@ -8,6 +8,7 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
+        //Recreate card layout for each result item
         appendString += '<div class="col-md-4 col-sm-6 learning-item">';
         appendString += '<picture class="intrinsic intrinsic-item">';
         appendString += '<img class="img-responsive intrinsic-img" src="' + item.siteURL + '/assets/images/resources/' + item.image + '" alt="' + item.title + '">';
@@ -86,6 +87,8 @@
       this.field('id');
       this.field('title', { boost: 10 });
       this.field('author');
+      this.field('org');
+      this.field('type');
       this.field('category');
       this.field('content');
     });
@@ -94,7 +97,9 @@
       idx.add({
         'id': key,
         'title': window.store[key].title,
-        'author': window.store[key].author,
+        'author': window.store[key].resourceAuthor,
+        'org': window.store[key].resourceOrg,
+        'type': window.store[key].resourceType,
         'category': window.store[key].category,
         'content': window.store[key].content
       });
