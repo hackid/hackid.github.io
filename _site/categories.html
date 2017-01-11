@@ -202,22 +202,28 @@
 
 
  -->
-            <li><a href="/categories">View by Category</a></li>
-            <li><a href="/">View All</a></li>
+            
+            
+              <li><a href="/">View All</a></li>
+            
+            
           </ul>
-          <div class="col-xs-12 col-sm-2 col-md-3">
-            <form role="search" action="/search.html" method="get" class="navbar-form">
-              <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search" id="search-box" name="query">
+          <div class="navbar-right">
+            <ul class="nav navbar-nav">
+              <li><a href="/about">About</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe-Vw60TcOyTjd_FgTLD7eZ_fPwYTXsUWWNZEN1NrLTPK-qKA/viewform" target="_blank">Suggest a Resource</a></li>
+              <li><a href="http://godesignsomething.co">GDS Project Ideas</a></li>
+            </ul>
+
+            <form role="search" action="/search.html" method="get" class="navbar-form navbar-right">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" id="search-box" name="query">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
               </div>
-              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
             </form>
           </div>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/about">About</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe-Vw60TcOyTjd_FgTLD7eZ_fPwYTXsUWWNZEN1NrLTPK-qKA/viewform" target="_blank">Suggest a Resource</a></li>
-            <li><a href="http://godesignsomething.co">GDS Project Ideas</a></li>
-          </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
 
@@ -240,7 +246,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/accessibility">
-                    <img class="img-responsive cat-image" src="/assets/images/accessibility.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/accessibility.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/accessibility" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Accessibility (3 resources)
@@ -256,7 +264,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/business">
-                    <img class="img-responsive cat-image" src="/assets/images/business.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/business.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/business" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Business (7 resources)
@@ -270,7 +280,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/design-fundamentals">
-                    <img class="img-responsive cat-image" src="/assets/images/design-fundamentals.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/design-fundamentals.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/design-fundamentals" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Design Fundamentals (9 resources)
@@ -282,7 +294,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/elearning">
-                    <img class="img-responsive cat-image" src="/assets/images/elearning.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/elearning.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/elearning" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> E-Learning (29 resources)
@@ -294,7 +308,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/game-design">
-                    <img class="img-responsive cat-image" src="/assets/images/game-design.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/game-design.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/game-design" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Game Design (7 resources)
@@ -310,7 +326,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/instructional-design">
-                    <img class="img-responsive cat-image" src="/assets/images/instructional-design.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/instructional-design.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/instructional-design" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Instructional Design (34 resources)
@@ -322,7 +340,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/learning-technologies">
-                    <img class="img-responsive cat-image" src="/assets/images/learning-technologies.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/learning-technologies.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/learning-technologies" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Learning Technologies (6 resources)
@@ -334,7 +354,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/microlearning">
-                    <img class="img-responsive cat-image" src="/assets/images/microlearning.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/microlearning.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/microlearning" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Microlearning (2 resources)
@@ -348,7 +370,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/performance-support">
-                    <img class="img-responsive cat-image" src="/assets/images/performance-support.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/performance-support.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/performance-support" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Performance Support (1 resources)
@@ -360,7 +384,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/portfolio">
-                    <img class="img-responsive cat-image" src="/assets/images/portfolio.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/portfolio.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/portfolio" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Portfolio Design (3 resources)
@@ -372,7 +398,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/presentation-design">
-                    <img class="img-responsive cat-image" src="/assets/images/presentation-design.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/presentation-design.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/presentation-design" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Presentation Design (2 resources)
@@ -384,7 +412,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/project-management">
-                    <img class="img-responsive cat-image" src="/assets/images/project-management.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/project-management.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/project-management" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Project Management (1 resources)
@@ -396,7 +426,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/responsive-design">
-                    <img class="img-responsive cat-image" src="/assets/images/responsive-design.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/responsive-design.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/responsive-design" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Responsive Design (6 resources)
@@ -412,7 +444,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/systems-design">
-                    <img class="img-responsive cat-image" src="/assets/images/systems-design.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/systems-design.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/systems-design" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Systems Design (2 resources)
@@ -426,7 +460,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/tools">
-                    <img class="img-responsive cat-image" src="/assets/images/tools.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/tools.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/tools" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Tools (10 resources)
@@ -438,7 +474,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/ux-design">
-                    <img class="img-responsive cat-image" src="/assets/images/uxdesign.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/uxdesign.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/ux-design" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> User Experience Design (5 resources)
@@ -450,7 +488,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/video">
-                    <img class="img-responsive cat-image" src="/assets/images/video.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/video.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/video" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Video Production (3 resources)
@@ -462,7 +502,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/visual-design">
-                    <img class="img-responsive cat-image" src="/assets/images/visual-design.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/visual-design.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/visual-design" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Visual Design (5 resources)
@@ -474,7 +516,9 @@
             
             <div class="col-sm-4 learning-cat-item">
                 <a href="/writing">
-                    <img class="img-responsive cat-image" src="/assets/images/writing.svg" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="/assets/images/writing.svg" alt="">
+                  </picture>
                 </a>
                 <a href="/writing" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Writing (2 resources)

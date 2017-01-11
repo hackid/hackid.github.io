@@ -118,6 +118,10 @@ a {
   padding-bottom: 57.143%;
 }
 
+.intrinsic-square-item {
+  padding-bottom: 100%;
+}
+
 .intrinsic-img {
     position: absolute;
     top: 0;
@@ -171,6 +175,14 @@ a {
 }
 
 /* Search */
+.navbar-form {
+  padding-right: 30px;
+  border: 0px;
+}
+
+.no-results {
+  font-size: 1.5em;
+}
 
 /* posts index */
 .post > h3.title {

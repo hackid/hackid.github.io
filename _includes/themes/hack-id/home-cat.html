@@ -12,7 +12,9 @@
             {% assign tag_num = {{site.tags[page.category].size}} %}
             <div class="col-sm-4 learning-cat-item">
                 <a href="{{ BASE_PATH }}{{page.url}}">
-                    <img class="img-responsive cat-image" src="{{site.baseurl}}/assets/images/{{page.image}}" alt="">
+                  <picture class="intrinsic intrinsic-square-item">
+                    <img class="img-responsive cat-image intrinsic-img" src="{{site.baseurl}}/assets/images/{{page.image}}" alt="">
+                  </picture>
                 </a>
                 <a href="{{ BASE_PATH }}{{page.url}}" class="category-heading">
                   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> {{ page.title}} ({{ tag_num }} resources)

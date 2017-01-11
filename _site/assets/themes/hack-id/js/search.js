@@ -59,7 +59,7 @@
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<p>No results found. <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-Vw60TcOyTjd_FgTLD7eZ_fPwYTXsUWWNZEN1NrLTPK-qKA/viewform" target="_blank">Try submitting a resource on this topic!</a></p>';
+      searchResults.innerHTML = '<div class="col-xs-12"><p class="no-results">No results found.<br /><a href="https://docs.google.com/forms/d/e/1FAIpQLSe-Vw60TcOyTjd_FgTLD7eZ_fPwYTXsUWWNZEN1NrLTPK-qKA/viewform" target="_blank">Try submitting a resource on this topic!</a></p></div>';
     }
   }
 
