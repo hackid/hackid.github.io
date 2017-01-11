@@ -1,0 +1,1805 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title></title>
+    
+    <meta name="author" content="K. Anthony">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/hack-id/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="/assets/themes/hack-id/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/hack-id/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400i,700" rel="stylesheet">
+    <link href="/assets/themes/hack-id/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div id="wrap">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Hack ID</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!-- 
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+ -->
+            
+            
+            
+              <li><a href="/">View All</a></li>
+              <li><a href="/categories">View by Category</a></li>
+            
+          </ul>
+          <div class="navbar-right">
+            <ul class="nav navbar-nav">
+              <li><a href="/about">About</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe-Vw60TcOyTjd_FgTLD7eZ_fPwYTXsUWWNZEN1NrLTPK-qKA/viewform" target="_blank">Suggest a Resource</a></li>
+              <li><a href="http://godesignsomething.co">GDS Project Ideas</a></li>
+            </ul>
+
+            <form role="search" action="/search.html" method="get" class="navbar-form navbar-right">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" id="search-box" name="query">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <div id="content" class="container" tabindex="-1">
+        <div class="search">
+	<!-- Taken from Jekyll Casts: http://jekyll.tips/jekyll-casts/jekyll-search-using-lunr-js/ -->
+
+<div class="page-header">
+  <h1>Search Results</h1>
+</div>
+<div id="search-results" class="row experiences"></div>
+
+<script>
+  window.store = {
+    
+      "design-mixed-reality": {
+        "title": "Designing for Mixed Reality",
+        "author": "",
+        "category": "",
+        "image": "design-mixed-reality.png",
+        "resourceUrl": "http://www.oreilly.com/design/free/designing-for-mixed-reality.csp",
+        "resourceAuthor": "Kharis O'Connell",
+        "resourceOrg": "O'Reilly",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Designing-for-Mixed-Reality",
+        "contentHTML": "<p>Today’s interaction designers generally operate within well-researched and documented constraints for both web and mobile applications—but not for much longer. By mixing the real and virtual worlds, new products such as Hololens, DAQRI, Meta, and Magic Leap clearly demonstrate that designers no longer have to confine user interfaces to a screen.</p><p>In this O’Reilly report, author Kharis O’Connell guides you through the new realm of mixed reality. You’ll discover the difference between designing for arenas rather than web or mobile screen rectangles, and examine some of the supporting tools, technologies, and techniques that will enable you to make the transition.</p>",
+        "content": "Today’s interaction designers generally operate within well-researched and documented constraints for both web and mobile applications—but not for much longer. By mixing the real and virtual worlds, new products such as Hololens, DAQRI, Meta, and Magic Leap clearly demonstrate that designers no longer have to confine user interfaces to a screen.In this O’Reilly report, author Kharis O’Connell guides you through the new realm of mixed reality. You’ll discover the difference between designing for arenas rather than web or mobile screen rectangles, and examine some of the supporting tools, technologies, and techniques that will enable you to make the transition.",
+        "url": "/design-mixed-reality"
+      }
+      ,
+    
+      "pay-me-or-else": {
+        "title": "Pay Me Or Else",
+        "author": "",
+        "category": "",
+        "image": "pay-me-or-else.png",
+        "resourceUrl": "http://thenuschool.com/pay-me-or-else/",
+        "resourceAuthor": "Lior Frenkel",
+        "resourceOrg": "The Nu School",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Pay-Me-Or-Else",
+        "contentHTML": "<p>I freaking hate it when clients don’t pay.So I wrote a book about how to avoid and deal with such clients.</p>",
+        "content": "I freaking hate it when clients don’t pay.So I wrote a book about how to avoid and deal with such clients.",
+        "url": "/pay-me-or-else"
+      }
+      ,
+    
+      "free-code-camp": {
+        "title": "Free Code Camp",
+        "author": "",
+        "category": "",
+        "image": "freecodecamp.png",
+        "resourceUrl": "https://www.freecodecamp.com/",
+        "resourceAuthor": "",
+        "resourceOrg": "Free Code Camp",
+        "resourceType": "Course",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Free-Code-Camp",
+        "contentHTML": "<p>Free Code Camp is a friendly open source community where you learn to code and help nonprofits.</p><p>We help our campers build job-worthy portfolios of real apps used by real people, while helping nonprofits.</p><p>You start by working through our self-paced, browser-based full stack JavaScript curriculum. By working through our curriculum, you can earn four certifications:</p><ol>  <li>Front End Certification</li>  <li>Data Visualization Certification</li>  <li>Back End Certification</li>  <li>Full Stack Certification</li></ol>",
+        "content": "Free Code Camp is a friendly open source community where you learn to code and help nonprofits.We help our campers build job-worthy portfolios of real apps used by real people, while helping nonprofits.You start by working through our self-paced, browser-based full stack JavaScript curriculum. By working through our curriculum, you can earn four certifications:  Front End Certification  Data Visualization Certification  Back End Certification  Full Stack Certification",
+        "url": "/free-code-camp"
+      }
+      ,
+    
+      "devices-everywhere": {
+        "title": "Devices Everywhere: Designing for a Multi-Device World",
+        "author": "",
+        "category": "",
+        "image": "/devicesEverywhere.png",
+        "resourceUrl": "https://designersandgeeks.com/events/size-matters-designing-multi-device-experiences",
+        "resourceAuthor": "Michal Levin",
+        "resourceOrg": "Designers + Geeks",
+        "resourceType": "Website",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "Devices-Everywhere:-Designing-for-a-Multi-Device-World",
+        "contentHTML": "<p>People today use multiple connected devices—PCs, smartphones, tablets, TVs, and beyond—switching between them, and using them together in order to accomplish a single goal. Still, most products merely replicate the same experience across devices, substituting solos for what could be an orchestra. In this session, I’d like to introduce ‘The 3C’s”- an ecosystem approach for designing multi-device experiences, one that focuses on context.</p>",
+        "content": "People today use multiple connected devices—PCs, smartphones, tablets, TVs, and beyond—switching between them, and using them together in order to accomplish a single goal. Still, most products merely replicate the same experience across devices, substituting solos for what could be an orchestra. In this session, I’d like to introduce ‘The 3C’s”- an ecosystem approach for designing multi-device experiences, one that focuses on context.",
+        "url": "/devices-everywhere"
+      }
+      ,
+    
+      "designers-for-learning": {
+        "title": "Designers for Learning",
+        "author": "",
+        "category": "",
+        "image": "/designersForLearning.png",
+        "resourceUrl": "http://designersforlearning.org/openabemooc",
+        "resourceAuthor": "",
+        "resourceOrg": "Designers For Learning",
+        "resourceType": "Course",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Designers-for-Learning",
+        "contentHTML": "<p>This project-based course focuses on a real-world instructional need. As a participant in this course, you will evaluate and adapt open educational resources for adult basic education. You will begin the evaluation process by dissecting the adult basic education design scenario to explore key aspects of the opportunity.</p><p>As part of the instructional evaluation, you will select an open educational resource that was designed and developed in a prior Designers for Learning cohort to evaluate the extent to which the instructional materials are effectively and efficiently designed and developed to meet the needs and constraints. Based on this evaluation, you will then adapt the materials you reviewed into a new lesson or revise the open educational resources to enhance the:</p><ul>  <li>instructional strategies and assessments,</li>  <li>learner experience features, such as directions and help, aesthetics of display, lesson sequencing, and overall ease of use,</li>  <li>affective considerations, such as arousing curiosity, establishing relevance, offering appropriate level of challenge, and maintaining learner’s attention, and</li>  <li>display features, such as images, graphics, audio, animation, video, or print materials.</li></ul>",
+        "content": "This project-based course focuses on a real-world instructional need. As a participant in this course, you will evaluate and adapt open educational resources for adult basic education. You will begin the evaluation process by dissecting the adult basic education design scenario to explore key aspects of the opportunity.As part of the instructional evaluation, you will select an open educational resource that was designed and developed in a prior Designers for Learning cohort to evaluate the extent to which the instructional materials are effectively and efficiently designed and developed to meet the needs and constraints. Based on this evaluation, you will then adapt the materials you reviewed into a new lesson or revise the open educational resources to enhance the:  instructional strategies and assessments,  learner experience features, such as directions and help, aesthetics of display, lesson sequencing, and overall ease of use,  affective considerations, such as arousing curiosity, establishing relevance, offering appropriate level of challenge, and maintaining learner’s attention, and  display features, such as images, graphics, audio, animation, video, or print materials.",
+        "url": "/designers-for-learning"
+      }
+      ,
+    
+      "xapi-learning-cohort": {
+        "title": "xAPI Learning Cohort",
+        "author": "",
+        "category": "",
+        "image": "/torrance-learning.png",
+        "resourceUrl": "http://www.torrancelearning.com/",
+        "resourceAuthor": "",
+        "resourceOrg": "Torrance Learning",
+        "resourceType": "Course",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "xAPI-Learning-Cohort",
+        "contentHTML": "<p>Join us for another dive into xAPI and what you can do to make it work for you, your organization, and the entire industry!</p><p>No xAPI experience necessary. Lots of friendly, curious folks. Real, live projects with real, live products. Virtual meetings so anyone in the world can participate. It’s all plus with no minus!</p>",
+        "content": "Join us for another dive into xAPI and what you can do to make it work for you, your organization, and the entire industry!No xAPI experience necessary. Lots of friendly, curious folks. Real, live projects with real, live products. Virtual meetings so anyone in the world can participate. It’s all plus with no minus!",
+        "url": "/xapi-learning-cohort"
+      }
+      ,
+    
+      "xapi-intro-guide": {
+        "title": "xAPI: An Introductory Guide",
+        "author": "",
+        "category": "",
+        "image": "/xapi-intro-guide.png",
+        "resourceUrl": "http://www.yetanalytics.com/xapi-an-introductory-guide-ebook",
+        "resourceAuthor": "Margaret Roth",
+        "resourceOrg": "Yet Analytics",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "xAPI:-An-Introductory-Guide",
+        "contentHTML": "<p>Consider this introductory e-book a crash course – everything you’ll need to know to have a basic understanding of the Experience API™, otherwise known as xAPI. xAPI is an open data interoperability specification originally developed to get a better picture of how, when, and why learning happens both on and offline.</p>",
+        "content": "Consider this introductory e-book a crash course – everything you’ll need to know to have a basic understanding of the Experience API™, otherwise known as xAPI. xAPI is an open data interoperability specification originally developed to get a better picture of how, when, and why learning happens both on and offline.",
+        "url": "/xapi-intro-guide"
+      }
+      ,
+    
+      "working-with-smes": {
+        "title": "The Essential Guide to Working with Subject Matter Experts",
+        "author": "",
+        "category": "",
+        "image": "/working-with-smes.png",
+        "resourceUrl": "https://community.articulate.com/e-books/the-essential-guide-to-working-with-subject-matter-experts",
+        "resourceAuthor": "",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "The-Essential-Guide-to-Working-with-Subject-Matter-Experts",
+        "contentHTML": "<p>If you’re like most e-learning developers, working with subject matter experts (SMEs) is one of your toughest challenges. But don’t worry, we’re here to help.</p><p>Download this e-book to learn effective strategies for partnering with your SMEs to create awesome e-learning. You’ll learn how to get the information and feedback that you need—and how to make collaborating on courses a positive experience for everyone.</p>",
+        "content": "If you’re like most e-learning developers, working with subject matter experts (SMEs) is one of your toughest challenges. But don’t worry, we’re here to help.Download this e-book to learn effective strategies for partnering with your SMEs to create awesome e-learning. You’ll learn how to get the information and feedback that you need—and how to make collaborating on courses a positive experience for everyone.",
+        "url": "/working-with-smes"
+      }
+      ,
+    
+      "ux-fundamentals": {
+        "title": "The Fundamentals Of User Experience",
+        "author": "",
+        "category": "",
+        "image": "/ux-fundamentals.png",
+        "resourceUrl": "http://gohighbrow.com/portfolio/the-fundamentals-of-user-experience/",
+        "resourceAuthor": "Cassius Kiani",
+        "resourceOrg": "Mikleo / Go Highbrow",
+        "resourceType": "Email Course",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "The-Fundamentals-Of-User-Experience",
+        "contentHTML": "<p>Change the way you think and look at products (digital and otherwise) forever. Learn what user experience is and how it affects every decision you and your users will ever make.</p>",
+        "content": "Change the way you think and look at products (digital and otherwise) forever. Learn what user experience is and how it affects every decision you and your users will ever make.",
+        "url": "/ux-fundamentals"
+      }
+      ,
+    
+      "unity-for-humans": {
+        "title": "Unity Programming for Human Beings",
+        "author": "",
+        "category": "",
+        "image": "/unity-for-humans.png",
+        "resourceUrl": "https://gamedevacademy.org/free-ebook-unity-programming-for-human-beings/",
+        "resourceAuthor": "Jessie Glove and Pablo Farias Navarro",
+        "resourceOrg": "Zenva.com",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Unity-Programming-for-Human-Beings",
+        "contentHTML": "<p>We are stoked to announce the launch of our free ebook Unity Programming for Human Beings, authored by software engineer and game developer Jesse Glove, in collaboration with Pablo Farias Navarro, founder of Zenva.</p><p>In over 230 pages of awesomeness, the book starts from zero and covers all the way to building simple 2D and 3D games with Unity.</p>",
+        "content": "We are stoked to announce the launch of our free ebook Unity Programming for Human Beings, authored by software engineer and game developer Jesse Glove, in collaboration with Pablo Farias Navarro, founder of Zenva.In over 230 pages of awesomeness, the book starts from zero and covers all the way to building simple 2D and 3D games with Unity.",
+        "url": "/unity-for-humans"
+      }
+      ,
+    
+      "typography-improve-elearning": {
+        "title": "How to Use Typography to Improve Your E-Learning",
+        "author": "",
+        "category": "",
+        "image": "/typography-improve-elearning.png",
+        "resourceUrl": "https://community.articulate.com/e-books/how-to-use-typography-to-improve-your-e-learning",
+        "resourceAuthor": "Heloisa Kinder",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "How-to-Use-Typography-to-Improve-Your-E-Learning",
+        "contentHTML": "<p>Typography—or the art of creating characters for print—is a powerful tool for setting the right mood and tone for your e-learning course. Choosing the right typefaces will help you create clear, beautiful, and legible text that complements the content, interactions, and graphics in your course.</p><p>In this rich guide to typography for e-learning designers, we’ll show you how to create a professional, elegant look for your course by choosing the right typefaces.</p>",
+        "content": "Typography—or the art of creating characters for print—is a powerful tool for setting the right mood and tone for your e-learning course. Choosing the right typefaces will help you create clear, beautiful, and legible text that complements the content, interactions, and graphics in your course.In this rich guide to typography for e-learning designers, we’ll show you how to create a professional, elegant look for your course by choosing the right typefaces.",
+        "url": "/typography-improve-elearning"
+      }
+      ,
+    
+      "sponge-uk-podcast": {
+        "title": "Sponge UK Elearning Podcast",
+        "author": "",
+        "category": "",
+        "image": "/sponge-uk-podcast.png",
+        "resourceUrl": "http://spongeuk.com/tag/podcast/",
+        "resourceAuthor": "",
+        "resourceOrg": "Sponge UK",
+        "resourceType": "Podcast",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "Sponge-UK-Elearning-Podcast",
+        "contentHTML": "<p>Getting to the heart of great elearning with absorbing interviews, ideas, and tips. The perfect show for L&amp;D professionals, instructional designers, and anyone interested in digital learning. We cover the technology behind learning, as well as the theory and practice that goes into absorbing online learning.</p>",
+        "content": "Getting to the heart of great elearning with absorbing interviews, ideas, and tips. The perfect show for L&amp;D professionals, instructional designers, and anyone interested in digital learning. We cover the technology behind learning, as well as the theory and practice that goes into absorbing online learning.",
+        "url": "/sponge-uk-podcast"
+      }
+      ,
+    
+      "secret-elearning-videos": {
+        "title": "The Secret to Create Great E-Learning Videos",
+        "author": "",
+        "category": "",
+        "image": "/secret-elearning-videos.png",
+        "resourceUrl": "https://community.articulate.com/e-books/the-secret-to-creating-great-e-learning-videos",
+        "resourceAuthor": "",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "The-Secret-to-Create-Great-E-Learning-Videos",
+        "contentHTML": "<p>Videos let you show a learner what they need to know, not just tell them. And for soft-skills training, they’re invaluable for capturing the subtleties of personal interactions. In this e-book, we’ll share our expert tips on creating compelling videos and screencasts.</p><p>Learn how to set up a professional-quality studio with simple, affordable equipment, including lighting you can find at your local hardware store. Get tips for speaking or narrating with a natural, authentic tone. Save time by effectively preparing your desktop for screen recordings. Enhance your videos with captions and interactions to make sure they communicate key points.</p>",
+        "content": "Videos let you show a learner what they need to know, not just tell them. And for soft-skills training, they’re invaluable for capturing the subtleties of personal interactions. In this e-book, we’ll share our expert tips on creating compelling videos and screencasts.Learn how to set up a professional-quality studio with simple, affordable equipment, including lighting you can find at your local hardware store. Get tips for speaking or narrating with a natural, authentic tone. Save time by effectively preparing your desktop for screen recordings. Enhance your videos with captions and interactions to make sure they communicate key points.",
+        "url": "/secret-elearning-videos"
+      }
+      ,
+    
+      "sales-learning-that-works": {
+        "title": "Sales: Blended Learning That Works",
+        "author": "",
+        "category": "",
+        "image": "/sales-learning-works.png",
+        "resourceUrl": "http://www.kineo.com/resources/papers-and-guides/blended-learning-that-works-for-sales-guide",
+        "resourceAuthor": "Kirstie Greany",
+        "resourceOrg": "Kineo",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Sales:-Blended-Learning-That-Works",
+        "contentHTML": "<p>Helping organisations improve the sales and product knowledge training they deliver, focusing in increasing ROI and sales performance through blended learning.</p>",
+        "content": "Helping organisations improve the sales and product knowledge training they deliver, focusing in increasing ROI and sales performance through blended learning.",
+        "url": "/sales-learning-that-works"
+      }
+      ,
+    
+      "rough-guide-multidevice": {
+        "title": "A Rough Guide to Multi-device",
+        "author": "",
+        "category": "",
+        "image": "/rough-guide-multidevice.png",
+        "resourceUrl": "http://spongeuk.us5.list-manage.com/subscribe?u=a341374f383946116ac8465e5&amp;id=bcff0046f1",
+        "resourceAuthor": "",
+        "resourceOrg": "SpongeUK",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "A-Rough-Guide-to-Multi-device",
+        "contentHTML": "<p>If your training needs to be delivered to a wide audience, or could last beyond the life of your current desktop or laptop systems then it could benefit from a multi-device approach.</p><p>In this guide we’ll give you the information you need to make an informed decision about the right option for your learning approach.</p>",
+        "content": "If your training needs to be delivered to a wide audience, or could last beyond the life of your current desktop or laptop systems then it could benefit from a multi-device approach.In this guide we’ll give you the information you need to make an informed decision about the right option for your learning approach.",
+        "url": "/rough-guide-multidevice"
+      }
+      ,
+    
+      "rough-guide-interactive-video": {
+        "title": "A Rough Guide to Interactive Video",
+        "author": "",
+        "category": "",
+        "image": "/rough-guide-interactive-video.png",
+        "resourceUrl": "http://spongeuk.us5.list-manage.com/subscribe?u=a341374f383946116ac8465e5&amp;id=ae98a1687e",
+        "resourceAuthor": "",
+        "resourceOrg": "SpongeUK",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "A-Rough-Guide-to-Interactive-Video",
+        "contentHTML": "<p>Employees expect more than ever before from their digital learning.</p><p>Interactive video is a way to transform workplace learning into a creative and effective experience, but it is still a relatively new kid on the block. Find out how interactive video training can make a real difference in your organisation with our complimentary handbook, A Rough Guide to Interactive video.</p>",
+        "content": "Employees expect more than ever before from their digital learning.Interactive video is a way to transform workplace learning into a creative and effective experience, but it is still a relatively new kid on the block. Find out how interactive video training can make a real difference in your organisation with our complimentary handbook, A Rough Guide to Interactive video.",
+        "url": "/rough-guide-interactive-video"
+      }
+      ,
+    
+      "rough-guide-induction": {
+        "title": "A Rough Guide to Induction",
+        "author": "",
+        "category": "",
+        "image": "/rough-guide-induction.png",
+        "resourceUrl": "http://spongeuk.us5.list-manage.com/subscribe?u=a341374f383946116ac8465e5&amp;id=d65a14e04e",
+        "resourceAuthor": "",
+        "resourceOrg": "SpongeUK",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "A-Rough-Guide-to-Induction",
+        "contentHTML": "<p>The first day of a new job.</p><p>It’s a pivotal moment for both new employee and employer, but without the right induction or onboarding this new working relationship could be short-lived.</p><p>Businesses with effective induction training have a 50% higher retention rate of new staff, as well as improved employee engagement and productivity.</p><p>Find out how elearning can help your organisation deliver a high quality, consistent induction experience with our complimentary handbook, A rough guide to induction.</p>",
+        "content": "The first day of a new job.It’s a pivotal moment for both new employee and employer, but without the right induction or onboarding this new working relationship could be short-lived.Businesses with effective induction training have a 50% higher retention rate of new staff, as well as improved employee engagement and productivity.Find out how elearning can help your organisation deliver a high quality, consistent induction experience with our complimentary handbook, A rough guide to induction.",
+        "url": "/rough-guide-induction"
+      }
+      ,
+    
+      "rough-guide-games": {
+        "title": "A Rough Guide to Games",
+        "author": "",
+        "category": "",
+        "image": "/rough-guide-games.png",
+        "resourceUrl": "http://spongeuk.us5.list-manage1.com/subscribe?u=a341374f383946116ac8465e5&amp;id=7eab192537",
+        "resourceAuthor": "",
+        "resourceOrg": "SpongeUK",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "A-Rough-Guide-to-Games",
+        "contentHTML": "<p>Games are gaining ground in workplace elearning with an estimated 40% of global organisations already using them in some shape or form. Learn more about what makes a good elearning game and why you should be using games in your elearning.</p>",
+        "content": "Games are gaining ground in workplace elearning with an estimated 40% of global organisations already using them in some shape or form. Learn more about what makes a good elearning game and why you should be using games in your elearning.",
+        "url": "/rough-guide-games"
+      }
+      ,
+    
+      "rich-cultural-video": {
+        "title": "How To Shoot Rich Cultural Training Videos on a Smartphone (A Guide)",
+        "author": "",
+        "category": "",
+        "image": "/rich-cultural-video.png",
+        "resourceUrl": "https://www.elearningguild.com/publications/index.cfm?id=74&amp;from=content&amp;mode=filter&amp;source=publications",
+        "resourceAuthor": "",
+        "resourceOrg": "Wisetail / Elearning Guild",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "How-To-Shoot-Rich-Cultural-Training-Videos-on-a-Smartphone-(A-Guide)",
+        "contentHTML": "<p>The value of creating rich, engaging cultural stories using video is often outweighed by the perceived time, expertise and outside resources needed to produce these videos. Especially in the L&amp;D world, where video creation is one area where content creators and instructional designers don’t feel as comfortable giving it a shot.</p><p>In this guide, we will take you step-by-step through the proven Wisetail video production process from a filmmaking novice’s point of view. We’ll give you both the insight and techniques needed to tell your rich cultural stories using the tools (smartphone &amp; laptop) already at your disposal.</p>",
+        "content": "The value of creating rich, engaging cultural stories using video is often outweighed by the perceived time, expertise and outside resources needed to produce these videos. Especially in the L&amp;D world, where video creation is one area where content creators and instructional designers don’t feel as comfortable giving it a shot.In this guide, we will take you step-by-step through the proven Wisetail video production process from a filmmaking novice’s point of view. We’ll give you both the insight and techniques needed to tell your rich cultural stories using the tools (smartphone &amp; laptop) already at your disposal.",
+        "url": "/rich-cultural-video"
+      }
+      ,
+    
+      "responsive-design-development": {
+        "title": "Responsive eLearning Design &amp; Development",
+        "author": "",
+        "category": "",
+        "image": "/responsive-design-development.png",
+        "resourceUrl": "https://www.elearningguild.com/publications/index.cfm?id=52&amp;from=content&amp;mode=filter&amp;source=publications&amp;showpage=3",
+        "resourceAuthor": "Geera Bellare &amp; Sonal Sheth",
+        "resourceOrg": "Elearning Guild",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Responsive-eLearning-Design-&-Development",
+        "contentHTML": "<p>Today’s learners use multiple computing/communication devices during the course of the day - for learning, work, entertainment, and decision making. They are on the move, both within and outside the workplace, and want to use their “downtime” effectively. Responsive eLearning helps organizations to leverage this “downtime” while extending the reach and availability of their training.</p><p>Like any other approach, Responsive eLearning comes with its own set of planning, design, development and testing considerations and guidelines - and it forces those of us who create responsive eLearning to think beyond just one fixed display size and one uniform use context. Hence, understanding the key features, benefits, types, examples of Responsive eLearning is important in drawing up a strategy that works for your organization. With respect to the strategy, decision factors like when to use responsive eLearning, how to get started and the various challenges you may encounter in the design, development and testing process are crucial to the success of your strategy. Learn about it all in this eBook.</p>",
+        "content": "Today’s learners use multiple computing/communication devices during the course of the day - for learning, work, entertainment, and decision making. They are on the move, both within and outside the workplace, and want to use their “downtime” effectively. Responsive eLearning helps organizations to leverage this “downtime” while extending the reach and availability of their training.Like any other approach, Responsive eLearning comes with its own set of planning, design, development and testing considerations and guidelines - and it forces those of us who create responsive eLearning to think beyond just one fixed display size and one uniform use context. Hence, understanding the key features, benefits, types, examples of Responsive eLearning is important in drawing up a strategy that works for your organization. With respect to the strategy, decision factors like when to use responsive eLearning, how to get started and the various challenges you may encounter in the design, development and testing process are crucial to the success of your strategy. Learn about it all in this eBook.",
+        "url": "/responsive-design-development"
+      }
+      ,
+    
+      "resonate-multi-touch": {
+        "title": "Resonate Multi-Touch Book",
+        "author": "",
+        "category": "",
+        "image": "/resonate-multi-touch.png",
+        "resourceUrl": "http://www.duarte.com/book/resonate-multi-touch-book/",
+        "resourceAuthor": "Nancy Duarte",
+        "resourceOrg": "Duarte.com",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Resonate-Multi-Touch-Book",
+        "contentHTML": "<p>Resonate Multi-Touch Book is like having a portable story writing workshop in your hands as you prepare your next presentation. You’ll learn a new presentation development methodology informed by cinema, literature, and the greatest speeches of all time.</p>",
+        "content": "Resonate Multi-Touch Book is like having a portable story writing workshop in your hands as you prepare your next presentation. You’ll learn a new presentation development methodology informed by cinema, literature, and the greatest speeches of all time.",
+        "url": "/resonate-multi-touch"
+      }
+      ,
+    
+      "ready-set-curate": {
+        "title": "Ready, Set, Curate!",
+        "author": "",
+        "category": "",
+        "image": "/ready-set-curate.png",
+        "resourceUrl": "http://beta.curatr3.com/courses/ready-set-curate/home",
+        "resourceAuthor": "",
+        "resourceOrg": "Curatr",
+        "resourceType": "Course",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Ready,-Set,-Curate!",
+        "contentHTML": "<p>Let’s face it, the internet isn’t getting any smaller. How do we separate the valuable content from the noise, how do we organise the good stuff in ways that tell coherent stories about our businesses and our interests? In this latest offering from HT2 you’ll be able to inform your own practice by taking a look at ‘Curation’ and answering these questions.</p><ul>  <li>What is it (and why do we need it)?</li>  <li>What are the ‘pros’ &amp; ‘cons’?</li>  <li>What do I need to think about before I get started?</li>  <li>What tools are available for me to use?</li></ul>",
+        "content": "Let’s face it, the internet isn’t getting any smaller. How do we separate the valuable content from the noise, how do we organise the good stuff in ways that tell coherent stories about our businesses and our interests? In this latest offering from HT2 you’ll be able to inform your own practice by taking a look at ‘Curation’ and answering these questions.  What is it (and why do we need it)?  What are the ‘pros’ &amp; ‘cons’?  What do I need to think about before I get started?  What tools are available for me to use?",
+        "url": "/ready-set-curate"
+      }
+      ,
+    
+      "product-psychology": {
+        "title": "Product Psychology",
+        "author": "",
+        "category": "",
+        "image": "/product-psychology.png",
+        "resourceUrl": "http://productpsychology.com/",
+        "resourceAuthor": "",
+        "resourceOrg": "Product Psychology",
+        "resourceType": "Email Course",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Product-Psychology",
+        "contentHTML": "<p>This content is designed for people who want to know the deeper reasons behind why people do what they do. This is for the busy entrepreneur, designer, or marketer who wants to know techniques they can use to help build better products and ultimately improve people’s lives.</p><p>We’ve asked our friends and colleagues for their top three to five resources on important topics related to product psychology and user behavior. They’ve taken the time to dig up their favorite articles, videos, and resources to get you up to speed quickly.</p>",
+        "content": "This content is designed for people who want to know the deeper reasons behind why people do what they do. This is for the busy entrepreneur, designer, or marketer who wants to know techniques they can use to help build better products and ultimately improve people’s lives.We’ve asked our friends and colleagues for their top three to five resources on important topics related to product psychology and user behavior. They’ve taken the time to dig up their favorite articles, videos, and resources to get you up to speed quickly.",
+        "url": "/product-psychology"
+      }
+      ,
+    
+      "presenter-profile": {
+        "title": "What Type of Presenter Are You?",
+        "author": "",
+        "category": "",
+        "image": "/presenter-profile.png",
+        "resourceUrl": "http://survey.makeapowerfulpoint.com/",
+        "resourceAuthor": "",
+        "resourceOrg": "FassForward",
+        "resourceType": "Website",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "What-Type-of-Presenter-Are-You?",
+        "contentHTML": "<p>Presentations are planned conversations and prescheduled leadership opportunities where you have a chance to shine as a leader - and influence conversations. Take a short survey and receive a deeper profile of your Presenter Type. By understanding your Presenter Type, you will be better able to reframe your audience’s thinking and incite them to action.</p>",
+        "content": "Presentations are planned conversations and prescheduled leadership opportunities where you have a chance to shine as a leader - and influence conversations. Take a short survey and receive a deeper profile of your Presenter Type. By understanding your Presenter Type, you will be better able to reframe your audience’s thinking and incite them to action.",
+        "url": "/presenter-profile"
+      }
+      ,
+    
+      "platform-game-primer": {
+        "title": "Platform games: a primer",
+        "author": "",
+        "category": "",
+        "image": "/platformer-primer.png",
+        "resourceUrl": "http://mrbossdesign.blogspot.com/2008/10/platformer-primer.html",
+        "resourceAuthor": "Scott Rogers",
+        "resourceOrg": "Mr. Boss Design Blog",
+        "resourceType": "Website",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "Platform-games:-a-primer",
+        "contentHTML": "<p>Little Big Planet will turn everyone into a platform game designer - however, it might not make them a good game designer.</p><p>So here is a primer on platform games I’ve put together for anyone who wants to make their game a little better or, more importantly, a little fairer. Enjoy!</p>",
+        "content": "Little Big Planet will turn everyone into a platform game designer - however, it might not make them a good game designer.So here is a primer on platform games I’ve put together for anyone who wants to make their game a little better or, more importantly, a little fairer. Enjoy!",
+        "url": "/platform-game-primer"
+      }
+      ,
+    
+      "performance-support-insights": {
+        "title": "Performance Support: Insights From Jane Hart",
+        "author": "",
+        "category": "",
+        "image": "/performance-support-insight.png",
+        "resourceUrl": "http://trivantis.com/ebooks/performance-support",
+        "resourceAuthor": "",
+        "resourceOrg": "Trivantis",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Performance-Support:-Insights-From-Jane-Hart",
+        "contentHTML": "<p>Want to get results with performance support? Just want to know what performance support is and how it can benefit your organization? This eBook is for you! Jane Hart, Founder of the Centre for Learning &amp; Performance Technologies, shared her knowledge with us for this eBook.</p>",
+        "content": "Want to get results with performance support? Just want to know what performance support is and how it can benefit your organization? This eBook is for you! Jane Hart, Founder of the Centre for Learning &amp; Performance Technologies, shared her knowledge with us for this eBook.",
+        "url": "/performance-support-insights"
+      }
+      ,
+    
+      "onboarding-learning-that-works": {
+        "title": "Onboarding: Blended Learning That Works",
+        "author": "",
+        "category": "",
+        "image": "/onboarding-that-works.png",
+        "resourceUrl": "http://www.kineo.com/resources/papers-and-guides/blended-learning-that-works-for-onboarding-guide",
+        "resourceAuthor": "Kirstie Greany",
+        "resourceOrg": "Kineo",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Onboarding:-Blended-Learning-That-Works",
+        "contentHTML": "<p>Helping organisations use blended learning to create engaging and informative onboarding programmes, ensuring staff retention long beyond the first 90 days.</p>",
+        "content": "Helping organisations use blended learning to create engaging and informative onboarding programmes, ensuring staff retention long beyond the first 90 days.",
+        "url": "/onboarding-learning-that-works"
+      }
+      ,
+    
+      "mobile-world-responsive-design": {
+        "title": "A Mobile World Needs Responsive Course Design",
+        "author": "",
+        "category": "",
+        "image": "/mobile-world-responsive.png",
+        "resourceUrl": "http://trivantis.com/ebooks/responsive-course-design",
+        "resourceAuthor": "",
+        "resourceOrg": "Trivantis",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "A-Mobile-World-Needs-Responsive-Course-Design",
+        "contentHTML": "<p>Designing for mobile learners becomes more complicated with each new cell phone and tablet release. However, it doesn’t have to be. Download this eBook to learn more about Responsive Course Design and how you can easily create content that looks great on all devices.</p>",
+        "content": "Designing for mobile learners becomes more complicated with each new cell phone and tablet release. However, it doesn’t have to be. Download this eBook to learn more about Responsive Course Design and how you can easily create content that looks great on all devices.",
+        "url": "/mobile-world-responsive-design"
+      }
+      ,
+    
+      "mobile-learning-context": {
+        "title": "Mobile Learning in Context",
+        "author": "",
+        "category": "",
+        "image": "/mobile-learning-context.png",
+        "resourceUrl": "https://www.elearningguild.com/publications/index.cfm?id=57&amp;from=content&amp;mode=filter&amp;source=publications&amp;showpage=2",
+        "resourceAuthor": "Janet Clarey",
+        "resourceOrg": "Elearning Guild",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Mobile-Learning-in-Context",
+        "contentHTML": "<p>When people talk about customary approaches to eLearning, they usually envision self-paced courses, tutorials, and synchronous virtual classroom training. Still popular after 20 years, this “traditional” type of eLearning is typically designed and structured as a formal solution. It originated in one-way communication (web 1.0), much like email originated from traditional mail. Done right, for the right reasons, it works.</p><p>Mobile learning, on the other hand, originated in two-way communication (web 2.0), defies the customary approach to eLearning, and shifts the control and responsibility for learning. From a design perspective, mobile forces us to rethink our approach to learning. It forces us to see learners as mobile. Done right, it also works.</p><p>A collection of essays curated by Janet Clarey, Mobile Learning in Context explores topics from implementation to how to motivate learners to complete training. Written by an international group of mobile innovators, their writings might inspire you rethink where mobile learning fits in your existing learning ecosystem.</p>",
+        "content": "When people talk about customary approaches to eLearning, they usually envision self-paced courses, tutorials, and synchronous virtual classroom training. Still popular after 20 years, this “traditional” type of eLearning is typically designed and structured as a formal solution. It originated in one-way communication (web 1.0), much like email originated from traditional mail. Done right, for the right reasons, it works.Mobile learning, on the other hand, originated in two-way communication (web 2.0), defies the customary approach to eLearning, and shifts the control and responsibility for learning. From a design perspective, mobile forces us to rethink our approach to learning. It forces us to see learners as mobile. Done right, it also works.A collection of essays curated by Janet Clarey, Mobile Learning in Context explores topics from implementation to how to motivate learners to complete training. Written by an international group of mobile innovators, their writings might inspire you rethink where mobile learning fits in your existing learning ecosystem.",
+        "url": "/mobile-learning-context"
+      }
+      ,
+    
+      "making-elearning-accessible": {
+        "title": "Making eLearning Accessible",
+        "author": "",
+        "category": "",
+        "image": "/making-elearning-accessible.png",
+        "resourceUrl": "http://trivantis.com/ebooks/making-elearning-accessible",
+        "resourceAuthor": "",
+        "resourceOrg": "Trivantis",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Making-eLearning-Accessible",
+        "contentHTML": "<p>Discover why you should be creating accessible content, plus tips and tricks for making accessible content interactive.</p>",
+        "content": "Discover why you should be creating accessible content, plus tips and tricks for making accessible content interactive.",
+        "url": "/making-elearning-accessible"
+      }
+      ,
+    
+      "make-this-year": {
+        "title": "Make this Year",
+        "author": "",
+        "category": "",
+        "image": "/make-this-year.png",
+        "resourceUrl": "https://crew.co/make-this-year/",
+        "resourceAuthor": "",
+        "resourceOrg": "Crew",
+        "resourceType": "Email Course",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Make-this-Year",
+        "contentHTML": "<p>Join over 21,470 members and get one step-by-step lesson a month taught by the best side project makers.</p>",
+        "content": "Join over 21,470 members and get one step-by-step lesson a month taught by the best side project makers.",
+        "url": "/make-this-year"
+      }
+      ,
+    
+      "level-zero": {
+        "title": "Level Zero",
+        "author": "",
+        "category": "",
+        "image": "/level-zero.png",
+        "resourceUrl": "https://www.scirra.com/blog/172/level-zero-free-construct-2-book",
+        "resourceAuthor": "Ankur Prasad &amp; Allen Wu",
+        "resourceOrg": "Scirra.com",
+        "resourceType": "Ebook",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "Level-Zero",
+        "contentHTML": "<p>This recently published book “Level 0” is a resource designed for the absolute beginner. You’ll learn how to set up characters and backgrounds, apply in-game mechanics and implement if – then functions and end up with five fully functional mini-games. The book will also show you how to publish your games to app stores and make them available to millions of potential customers around the world.</p><p>The goal of Level 0 is to give aspiring game developers the basic building blocks to apply their creativity and bring their vision to life. For example, one of the mini-games you’ll learn to build is a simple sound board app where you click on an image and the corresponding sound will play. Through this exercise, not only do you pick up the skills to build a virtual keyboard or maybe an educational app that teaches kids the sounds farm animals make but also learn how to use sound, music and touch functions that can be used for subsequent arcade and action games.</p><p>Each of the 5 mini-games covered in the book has already been used by thousands of Construct 2 users to build their first game on Construct 2.</p>",
+        "content": "This recently published book “Level 0” is a resource designed for the absolute beginner. You’ll learn how to set up characters and backgrounds, apply in-game mechanics and implement if – then functions and end up with five fully functional mini-games. The book will also show you how to publish your games to app stores and make them available to millions of potential customers around the world.The goal of Level 0 is to give aspiring game developers the basic building blocks to apply their creativity and bring their vision to life. For example, one of the mini-games you’ll learn to build is a simple sound board app where you click on an image and the corresponding sound will play. Through this exercise, not only do you pick up the skills to build a virtual keyboard or maybe an educational app that teaches kids the sounds farm animals make but also learn how to use sound, music and touch functions that can be used for subsequent arcade and action games.Each of the 5 mini-games covered in the book has already been used by thousands of Construct 2 users to build their first game on Construct 2.",
+        "url": "/level-zero"
+      }
+      ,
+    
+      "learn-xapi": {
+        "title": "Learn xAPI",
+        "author": "",
+        "category": "",
+        "image": "learn-xAPI.png",
+        "resourceUrl": "http://beta.curatr3.com/courses/xapi/home",
+        "resourceAuthor": "",
+        "resourceOrg": "Curatr",
+        "resourceType": "Course",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Learn-xAPI",
+        "contentHTML": "<p>Join this MOOC to explore both the technical realities and the strategic possibilities of the Experience API. If you want to write your first xAPI statement and understand the difference between an Activity Type and a Context Extension, this is the place to be.</p>",
+        "content": "Join this MOOC to explore both the technical realities and the strategic possibilities of the Experience API. If you want to write your first xAPI statement and understand the difference between an Activity Type and a Context Extension, this is the place to be.",
+        "url": "/learn-xapi"
+      }
+      ,
+    
+      "just-ask-accessibility": {
+        "title": "Just Ask: Integrating Accessibility Throughout Design",
+        "author": "",
+        "category": "",
+        "image": "/just-ask-accessibility.png",
+        "resourceUrl": "http://www.uiaccess.com/accessucd/index.html",
+        "resourceAuthor": "Shawn Lawton Henry",
+        "resourceOrg": "UIAccess.com",
+        "resourceType": "Website",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "Just-Ask:-Integrating-Accessibility-Throughout-Design",
+        "contentHTML": "<p>Just Ask: Integrating Accessibility Throughout Design provides:</p><ul>  <li>The basics of including accessibility in design projects</li>  <li>Shortcuts for involving people with disabilities in your project</li>  <li>Tips for comfortable interaction with people with disabilities</li>  <li>Details on accessibility in each phase of the user-centered design process (UCD)</li>  <li>Examples of including accessibility in user group profiles, personas, and scenarios</li>  <li>Guidance on evaluating for accessibility through heuristic evaluation, design walkthroughs, and screening techniques</li>  <li>Thorough coverage of planning, preparing for, conducting, analyzing, and reporting effective usability tests with participants with disabilities</li>  <li>Questions to include in your recruiting screener</li>  <li>Checklist for usability testing with participants with disabilities</li></ul>",
+        "content": "Just Ask: Integrating Accessibility Throughout Design provides:  The basics of including accessibility in design projects  Shortcuts for involving people with disabilities in your project  Tips for comfortable interaction with people with disabilities  Details on accessibility in each phase of the user-centered design process (UCD)  Examples of including accessibility in user group profiles, personas, and scenarios  Guidance on evaluating for accessibility through heuristic evaluation, design walkthroughs, and screening techniques  Thorough coverage of planning, preparing for, conducting, analyzing, and reporting effective usability tests with participants with disabilities  Questions to include in your recruiting screener  Checklist for usability testing with participants with disabilities",
+        "url": "/just-ask-accessibility"
+      }
+      ,
+    
+      "intro-html5-game-dev": {
+        "title": "Intro to HTML5 Game Development",
+        "author": "",
+        "category": "",
+        "image": "/intro-html5-gamedev.png",
+        "resourceUrl": "https://academy.zenva.com/product/intro-to-html5-game-development/?zva_src=gda-side-free-quintus",
+        "resourceAuthor": "Pablo Farias Navarro",
+        "resourceOrg": "Zenva.com",
+        "resourceType": "Course",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Intro-to-HTML5-Game-Development",
+        "contentHTML": "<p>Learn from scratch to create games that run on all platforms and devices!</p><p>In this online training you will learn the basics of HTML5 game development by creating your first Mario-style platformer game. All of it using 100% free tools and frameworks!</p><p>We’ll be using the Quintus HTML5 game framework, which is a lightweight yet powerful JavaScript library used to create professional 2D games.</p>",
+        "content": "Learn from scratch to create games that run on all platforms and devices!In this online training you will learn the basics of HTML5 game development by creating your first Mario-style platformer game. All of it using 100% free tools and frameworks!We’ll be using the Quintus HTML5 game framework, which is a lightweight yet powerful JavaScript library used to create professional 2D games.",
+        "url": "/intro-html5-game-dev"
+      }
+      ,
+    
+      "idea-validation": {
+        "title": "Idea Validation",
+        "author": "",
+        "category": "",
+        "image": "/mba-idea-validation.png",
+        "resourceUrl": "https://100mba.net/free-course/",
+        "resourceAuthor": "Omar Zenhom",
+        "resourceOrg": "$100 MBA",
+        "resourceType": "Course",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Idea-Validation",
+        "contentHTML": "<p>What if you launch a business…and nobody buys?</p><p>What if you could skip ALL of the guesswork?</p><p>You’d never have to wonder, “is this a good idea?” or “are people going to want it enough to pay for it?” Don’t you wish you could peek inside your customers’ brains? It would let you make sure that you’re working on something they’ll actually buy. So much pain and heartache could be avoided.</p><p>This is where we come in &amp; show you how to create something YOU KNOW your customers REALLY want.</p>",
+        "content": "What if you launch a business…and nobody buys?What if you could skip ALL of the guesswork?You’d never have to wonder, “is this a good idea?” or “are people going to want it enough to pay for it?” Don’t you wish you could peek inside your customers’ brains? It would let you make sure that you’re working on something they’ll actually buy. So much pain and heartache could be avoided.This is where we come in &amp; show you how to create something YOU KNOW your customers REALLY want.",
+        "url": "/idea-validation"
+      }
+      ,
+    
+      "how-to-validate-an-idea": {
+        "title": "How To Validate An Idea",
+        "author": "",
+        "category": "",
+        "image": "/highbrow-validate-idea.png",
+        "resourceUrl": "http://gohighbrow.com/portfolio/how-to-validate-an-idea/",
+        "resourceAuthor": "Ryan Kulp",
+        "resourceOrg": "Go Highbrow",
+        "resourceType": "Email Course",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "How-To-Validate-An-Idea",
+        "contentHTML": "<p>Have you ever had a good idea but weren’t sure what to do next? Do you file for a business license? Build a website? Quit your job?</p><p>This course demystifies the idea validation process without fancy jargon like “lean startup” or expensive software. Learn from a three-time founder how to think deeply about the problem you’re solving, as well as learn tactics to freely distribute your ideas to potential customers.</p>",
+        "content": "Have you ever had a good idea but weren’t sure what to do next? Do you file for a business license? Build a website? Quit your job?This course demystifies the idea validation process without fancy jargon like “lean startup” or expensive software. Learn from a three-time founder how to think deeply about the problem you’re solving, as well as learn tactics to freely distribute your ideas to potential customers.",
+        "url": "/how-to-validate-an-idea"
+      }
+      ,
+    
+      "how-to-be-creative": {
+        "title": "How To Be Creative",
+        "author": "",
+        "category": "",
+        "image": "/how-to-be-creative.png",
+        "resourceUrl": "http://changethis.com/manifesto/show/6.HowToBeCreative",
+        "resourceAuthor": "Hugh Mac Leod",
+        "resourceOrg": "GapingVoid.com",
+        "resourceType": "Ebook",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "How-To-Be-Creative",
+        "contentHTML": "<p>MacLeod, an advertising executive and popular blogger with a flair for the creative, gives his 26 tried-and-true tips for being truly creative. Each point illustrated by a cartoon drawn by the author himself.</p><p>If you’ve ever felt the draw to do something creative but just haven’t been able to pull it together, you’ll love this manifesto.</p>",
+        "content": "MacLeod, an advertising executive and popular blogger with a flair for the creative, gives his 26 tried-and-true tips for being truly creative. Each point illustrated by a cartoon drawn by the author himself.If you’ve ever felt the draw to do something creative but just haven’t been able to pull it together, you’ll love this manifesto.",
+        "url": "/how-to-be-creative"
+      }
+      ,
+    
+      "hack-design": {
+        "title": "Hack Design",
+        "author": "",
+        "category": "",
+        "image": "/hack-design.png",
+        "resourceUrl": "https://hackdesign.org/",
+        "resourceAuthor": "",
+        "resourceOrg": "Hack Design",
+        "resourceType": "Email Course",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Hack-Design",
+        "contentHTML": "<p>An easy to follow design course for people who do amazing things. Learn at your own pace. With articles, videos, and tutorials curated by some of the world’s best designers, there’s no easier way to learn design this year.</p>",
+        "content": "An easy to follow design course for people who do amazing things. Learn at your own pace. With articles, videos, and tutorials curated by some of the world’s best designers, there’s no easier way to learn design this year.",
+        "url": "/hack-design"
+      }
+      ,
+    
+      "going-mobile-multi-device": {
+        "title": "Going Mobile: How to design great multi-device elearning",
+        "author": "",
+        "category": "",
+        "image": "/going-mobile.png",
+        "resourceUrl": "http://www.kineo.com/resources/papers-and-guides/going-mobile-guide",
+        "resourceAuthor": "Paul Welch",
+        "resourceOrg": "Kineo",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Going-Mobile:-How-to-design-great-multi-device-elearning",
+        "contentHTML": "<p>Having learning that meets the demands of today’s learners by creating responsive, multi-device elearning.</p>",
+        "content": "Having learning that meets the demands of today’s learners by creating responsive, multi-device elearning.",
+        "url": "/going-mobile-multi-device"
+      }
+      ,
+    
+      "go-design-something": {
+        "title": "Go Design Something: 5 Steps to a Kick-Ass Instructional Design Portfolio",
+        "author": "",
+        "category": "",
+        "image": "/go-design-something.png",
+        "resourceUrl": "https://gumroad.com/l/eOwj",
+        "resourceAuthor": "Kristin Anthony",
+        "resourceOrg": "knanthony.com",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Go-Design-Something:-5-Steps-to-a-Kick-Ass-Instructional-Design-Portfolio",
+        "contentHTML": "<p>Are you new to instructional design, trying to start a freelance career, or trying to find a new job? You’ve heard that you need a portfolio online but, in spite of all of the conference sessions and talks and blog posts, you still don’t know how to get started.</p><p>Go Design Something will give you 5 practical steps to creating an instructional design portfolio that gets results. This isn’t hand-waving, motivational talk. This book concentrates on getting you started right now with what you have.</p>",
+        "content": "Are you new to instructional design, trying to start a freelance career, or trying to find a new job? You’ve heard that you need a portfolio online but, in spite of all of the conference sessions and talks and blog posts, you still don’t know how to get started.Go Design Something will give you 5 practical steps to creating an instructional design portfolio that gets results. This isn’t hand-waving, motivational talk. This book concentrates on getting you started right now with what you have.",
+        "url": "/go-design-something"
+      }
+      ,
+    
+      "get-started-studio": {
+        "title": "Getting Started with Articulate Studio",
+        "author": "",
+        "category": "",
+        "image": "/getting-started-studio.png",
+        "resourceUrl": "https://community.articulate.com/e-books/getting-started-with-articulate-studio",
+        "resourceAuthor": "",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Getting-Started-with-Articulate-Studio",
+        "contentHTML": "<p>If you’re new to Articulate Studio ’13, this quick-start guide is for you. It’ll help you ramp up on core features, so you can begin turning your PowerPoint content into e-learning courses.</p>",
+        "content": "If you’re new to Articulate Studio ’13, this quick-start guide is for you. It’ll help you ramp up on core features, so you can begin turning your PowerPoint content into e-learning courses.",
+        "url": "/get-started-studio"
+      }
+      ,
+    
+      "get-started-storyline": {
+        "title": "Getting Started with Articulate Storyline",
+        "author": "",
+        "category": "",
+        "image": "/getting-started-storyline.png",
+        "resourceUrl": "https://community.articulate.com/e-books/getting-started-with-articulate-storyline",
+        "resourceAuthor": "",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Getting-Started-with-Articulate-Storyline",
+        "contentHTML": "<p>If you’re new to Articulate Storyline, this quick-start guide is for you. It’ll help you ramp up on core features, so you can more quickly build whatever you imagine.</p>",
+        "content": "If you’re new to Articulate Storyline, this quick-start guide is for you. It’ll help you ramp up on core features, so you can more quickly build whatever you imagine.",
+        "url": "/get-started-storyline"
+      }
+      ,
+    
+      "gamification-fad-future": {
+        "title": "Gamification. Fad or Future?",
+        "author": "",
+        "category": "",
+        "image": "/gamification-fad-or-future.png",
+        "resourceUrl": "http://beta.curatr3.com/courses/gamification-fad-or-future/home",
+        "resourceAuthor": "",
+        "resourceOrg": "Curatr",
+        "resourceType": "Course",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Gamification.-Fad-or-Future?",
+        "contentHTML": "<p>In this latest offering from HT2 you’ll be able to inform your own practice by taking a look at ‘Gamification’ and answering these questions.</p><ul>  <li>What is it?</li>  <li>Who’s using it?</li>  <li>What benefits does it bring?</li>  <li>How could you use it?</li></ul><p>As well as some ‘behind the scenes’ peeks at how Curatr uses Gamification and how you can get access to Curatr to experiment with Gamification for yourself.</p>",
+        "content": "In this latest offering from HT2 you’ll be able to inform your own practice by taking a look at ‘Gamification’ and answering these questions.  What is it?  Who’s using it?  What benefits does it bring?  How could you use it?As well as some ‘behind the scenes’ peeks at how Curatr uses Gamification and how you can get access to Curatr to experiment with Gamification for yourself.",
+        "url": "/gamification-fad-future"
+      }
+      ,
+    
+      "game-dev-for-humans": {
+        "title": "Intro to HTML5 Game Development",
+        "author": "",
+        "category": "",
+        "image": "/game-dev-for-humans.png",
+        "resourceUrl": "https://gamedevacademy.org/free-ebook-game-development-for-human-beings/",
+        "resourceAuthor": "Kristen Dyrr, Pablo Farias Navarro, Renan Oliveria and Ben Sparks",
+        "resourceOrg": "Zenva.com",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Intro-to-HTML5-Game-Development",
+        "contentHTML": "<p>This book has over 420 pages and covers all the way from basic to advanced game development techniques using Phaser. The only prerequisite is basic to intermediate JavaScript skills – no prior game development experience is expected from the readers. Phaser is the most popular HTML5 game development library, used both by indie developers and large corporations.</p>",
+        "content": "This book has over 420 pages and covers all the way from basic to advanced game development techniques using Phaser. The only prerequisite is basic to intermediate JavaScript skills – no prior game development experience is expected from the readers. Phaser is the most popular HTML5 game development library, used both by indie developers and large corporations.",
+        "url": "/game-dev-for-humans"
+      }
+      ,
+    
+      "freelancers-bible": {
+        "title": "The Freelancer’s Bible – Tips and Tricks for Your Design Business",
+        "author": "",
+        "category": "",
+        "image": "/freelancer-bible.png",
+        "resourceUrl": "https://www.route1print.co.uk/freelancers-bible",
+        "resourceAuthor": "",
+        "resourceOrg": "Route1 Print",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "The-Freelancer’s-Bible-–-Tips-and-Tricks-for-Your-Design-Business",
+        "contentHTML": "<p>Our FREE eBook, The Freelancer’s Bible, gives you all the knowledge you need to make your design business a success.</p><p>By downloading your copy today, you will learn:</p><ul>  <li>How to market your business</li>  <li>How to find your USP</li>  <li>How to licence your work</li>  <li>How to manage client relationships</li>  <li>How to complete tax returns</li>  <li>And much more!</li></ul>",
+        "content": "Our FREE eBook, The Freelancer’s Bible, gives you all the knowledge you need to make your design business a success.By downloading your copy today, you will learn:  How to market your business  How to find your USP  How to licence your work  How to manage client relationships  How to complete tax returns  And much more!",
+        "url": "/freelancers-bible"
+      }
+      ,
+    
+      "forget-everything-microlearning": {
+        "title": "Forget Everything you know about Microlearning",
+        "author": "",
+        "category": "",
+        "image": "/forget-everything-elearning.png",
+        "resourceUrl": "http://spongeuk.com/microlearning-download/",
+        "resourceAuthor": "",
+        "resourceOrg": "SpongeUK",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Forget-Everything-you-know-about-Microlearning",
+        "contentHTML": "<p>If your training needs to be delivered to a wide audience, or could last beyond the life of your current desktop or laptop systems then it could benefit from a multi-device approach.</p><p>In this guide we’ll give you the information you need to make an informed decision about the right option for your learning approach.</p>",
+        "content": "If your training needs to be delivered to a wide audience, or could last beyond the life of your current desktop or laptop systems then it could benefit from a multi-device approach.In this guide we’ll give you the information you need to make an informed decision about the right option for your learning approach.",
+        "url": "/forget-everything-microlearning"
+      }
+      ,
+    
+      "flat-design-colors": {
+        "title": "Flat Design &amp; Colors: Elegant Web UI Design Techniques",
+        "author": "",
+        "category": "",
+        "image": "/flat-design-colors.png",
+        "resourceUrl": "https://www.uxpin.com/studio/ebooks/web-ui-design-techniques-colors-flat-design/",
+        "resourceAuthor": "",
+        "resourceOrg": "UXPin",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Flat-Design-&-Colors:-Elegant-Web-UI-Design-Techniques",
+        "contentHTML": "<p>See the best techniques for using colors &amp; flat design with 40 examples from Google, Squarespace and more.</p><p>For flat design, topics include the intersection of Flat &amp; Material Design, pros/cons of flat design, techniques popularized by flat design, flat design resources, and more.</p><p>For colors, topics include flat color palettes, high contrast colors, the emotions of color, how to pair color and texture, and more.</p><p>Real-world advice on how to stay current with these powerful design techniques.</p>",
+        "content": "See the best techniques for using colors &amp; flat design with 40 examples from Google, Squarespace and more.For flat design, topics include the intersection of Flat &amp; Material Design, pros/cons of flat design, techniques popularized by flat design, flat design resources, and more.For colors, topics include flat color palettes, high contrast colors, the emotions of color, how to pair color and texture, and more.Real-world advice on how to stay current with these powerful design techniques.",
+        "url": "/flat-design-colors"
+      }
+      ,
+    
+      "exploring-social-learning": {
+        "title": "Exploring Social Learning",
+        "author": "",
+        "category": "",
+        "image": "/exploring-social-learning.png",
+        "resourceUrl": "http://beta.curatr3.com/courses/exploring/home",
+        "resourceAuthor": "",
+        "resourceOrg": "Curatr",
+        "resourceType": "Course",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Exploring-Social-Learning",
+        "contentHTML": "<p>Social has been one of the watch words in L&amp;D trends in recent years. Some experts suggest that all learning is social, some say you can design social learning experience - others say you can’t touch it and that L&amp;D professionals should just stand back and let it happen.</p><p>But do we even have a common understanding of what it is?</p><p>In this latest offering from HT2 you’ll be able to inform your own practice by taking a look at ‘Social Learning’ by exploring:</p><ul>  <li>The changing world and workplace.</li>  <li>Various social learning theories.</li>  <li>The relationship between social, formal and informal learning.</li>  <li>Various strategies, tools, methods and approaches.</li></ul>",
+        "content": "Social has been one of the watch words in L&amp;D trends in recent years. Some experts suggest that all learning is social, some say you can design social learning experience - others say you can’t touch it and that L&amp;D professionals should just stand back and let it happen.But do we even have a common understanding of what it is?In this latest offering from HT2 you’ll be able to inform your own practice by taking a look at ‘Social Learning’ by exploring:  The changing world and workplace.  Various social learning theories.  The relationship between social, formal and informal learning.  Various strategies, tools, methods and approaches.",
+        "url": "/exploring-social-learning"
+      }
+      ,
+    
+      "essential-visual-design": {
+        "title": "Essential Guide to Visual Design",
+        "author": "",
+        "category": "",
+        "image": "/essential-visual-design.png",
+        "resourceUrl": "https://community.articulate.com/e-books/essential-guide-to-visual-design",
+        "resourceAuthor": "",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Essential-Guide-to-Visual-Design",
+        "contentHTML": "<p>You’ve heard the old adage, “Don’t judge a book by its cover.” While the most tattered, sorry-looking book can hold delightful, exciting stories inside, we often overlook it in favor of a gorgeously designed hardcover. The same is true about e-learning. Even if your content is Pulitzer-worthy, your learners will find it difficult to be engaged if your course doesn’t appeal to their visual senses.</p><p>The good news is that you don’t have to be a visual designer to build beautiful courses. There are five simple ingredients to good visual design: color, contrast, repetition, alignment, and balance. In this e-book, we’ll look at each of these key ingredients and show you how to use them.</p>",
+        "content": "You’ve heard the old adage, “Don’t judge a book by its cover.” While the most tattered, sorry-looking book can hold delightful, exciting stories inside, we often overlook it in favor of a gorgeously designed hardcover. The same is true about e-learning. Even if your content is Pulitzer-worthy, your learners will find it difficult to be engaged if your course doesn’t appeal to their visual senses.The good news is that you don’t have to be a visual designer to build beautiful courses. There are five simple ingredients to good visual design: color, contrast, repetition, alignment, and balance. In this e-book, we’ll look at each of these key ingredients and show you how to use them.",
+        "url": "/essential-visual-design"
+      }
+      ,
+    
+      "elearning-project-management": {
+        "title": "9 Steps to Better E-Learning Project Management",
+        "author": "",
+        "category": "",
+        "image": "/elearning-project-management.png",
+        "resourceUrl": "https://community.articulate.com/e-books/9-steps-to-better-e-learning-project-management",
+        "resourceAuthor": "",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "9-Steps-to-Better-E-Learning-Project-Management",
+        "contentHTML": "<p>For e-learning creators, the success of any e-learning project often hinges on how it’s planned and managed. You can have a fantastic idea, design it to perfection, and even line up awesome tools to build your course. But without a solid project management plan, you might find yourself facing some frustrating—and unnecessary—challenges.</p><p>This e-book walks you through the steps you need to manage your e-learning course projects effectively, from start to finish. You’ll find effective tips, resources, and strategies to help you create and deliver an e-learning course that meets everyone’s expectations.</p>",
+        "content": "For e-learning creators, the success of any e-learning project often hinges on how it’s planned and managed. You can have a fantastic idea, design it to perfection, and even line up awesome tools to build your course. But without a solid project management plan, you might find yourself facing some frustrating—and unnecessary—challenges.This e-book walks you through the steps you need to manage your e-learning course projects effectively, from start to finish. You’ll find effective tips, resources, and strategies to help you create and deliver an e-learning course that meets everyone’s expectations.",
+        "url": "/elearning-project-management"
+      }
+      ,
+    
+      "elearning-guys-podcast": {
+        "title": "The Elearning Guys",
+        "author": "",
+        "category": "",
+        "image": "/elearning-guys-podcast.png",
+        "resourceUrl": "http://www.theelearningguys.com/",
+        "resourceAuthor": "David Charney and Nejc Žorga Dulmin",
+        "resourceOrg": "TheElearningGuys.com",
+        "resourceType": "Podcast",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "The-Elearning-Guys",
+        "contentHTML": "<p>The eLearning Guys is a discussion show about Articulate Storyline development and all things eLearning by two guys passionate about education, multimedia, creativity and problem solving.</p><p>Nejc and David have been working in the eLearning industry for over a decade and they share their experiences with Articulate Storyline and their eLearning adventures with you.</p>",
+        "content": "The eLearning Guys is a discussion show about Articulate Storyline development and all things eLearning by two guys passionate about education, multimedia, creativity and problem solving.Nejc and David have been working in the eLearning industry for over a decade and they share their experiences with Articulate Storyline and their eLearning adventures with you.",
+        "url": "/elearning-guys-podcast"
+      }
+      ,
+    
+      "elearning-coach-podcast": {
+        "title": "Elearning Coach Podcast",
+        "author": "",
+        "category": "",
+        "image": "/elearning-coach-podcast.png",
+        "resourceUrl": "http://theelearningcoach.com/category/podcasts/",
+        "resourceAuthor": "Connie Malamed",
+        "resourceOrg": "Elearning Coach",
+        "resourceType": "Podcast",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "Elearning-Coach-Podcast",
+        "contentHTML": "<p>Connie Malamed from The eLearning Coach site shares fresh ideas and actionable tips for success with creating online and mobile learning experiences. Listen to interviews with expert designers, developers, authors and professors who provide strategies for both learning architects and educators. If you have a passion for instructional design, cognitive psychology, visual communication, social media learning, mLearning, and related topics, this podcast is for you.</p>",
+        "content": "Connie Malamed from The eLearning Coach site shares fresh ideas and actionable tips for success with creating online and mobile learning experiences. Listen to interviews with expert designers, developers, authors and professors who provide strategies for both learning architects and educators. If you have a passion for instructional design, cognitive psychology, visual communication, social media learning, mLearning, and related topics, this podcast is for you.",
+        "url": "/elearning-coach-podcast"
+      }
+      ,
+    
+      "elearning-beyond-next": {
+        "title": "elearning.... beyond the next button!",
+        "author": "",
+        "category": "",
+        "image": "/elearning-beyond-next.png",
+        "resourceUrl": "http://beta.curatr3.com/courses/elearning-beyond-the-next-button/home",
+        "resourceAuthor": "",
+        "resourceOrg": "Curatr",
+        "resourceType": "Course",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "elearning....-beyond-the-next-button!",
+        "contentHTML": "<p>In this latest free offering from HT2 we’ve taking something of a brave (some might say foolish, but we prefer ‘experimental’) approach to our design.</p><p>We’re intending to facilitate a year-long conversation that will focus initially on the term ‘elearning’ and considering what that means in 2016, before using each month of the year to a look at a current or emerging technology that could be used to enhance the practice of those of you in a people development role. These monthly topics will become available on the 1st of each month.</p>",
+        "content": "In this latest free offering from HT2 we’ve taking something of a brave (some might say foolish, but we prefer ‘experimental’) approach to our design.We’re intending to facilitate a year-long conversation that will focus initially on the term ‘elearning’ and considering what that means in 2016, before using each month of the year to a look at a current or emerging technology that could be used to enhance the practice of those of you in a people development role. These monthly topics will become available on the 1st of each month.",
+        "url": "/elearning-beyond-next"
+      }
+      ,
+    
+      "elearning-101-guide": {
+        "title": "eLearning 101: A Practical Guide",
+        "author": "",
+        "category": "",
+        "image": "/elearning-101-guide.png",
+        "resourceUrl": "http://trivantis.com/elearning-101-ebook",
+        "resourceAuthor": "",
+        "resourceOrg": "Trivantis",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "eLearning-101:-A-Practical-Guide",
+        "contentHTML": "<p>Learn the foundations of eLearning development in this complete guide for new training industry professionals.</p>",
+        "content": "Learn the foundations of eLearning development in this complete guide for new training industry professionals.",
+        "url": "/elearning-101-guide"
+      }
+      ,
+    
+      "dieter-rams-principles": {
+        "title": "10 Principles For Good Design",
+        "author": "",
+        "category": "",
+        "image": "/dieter-rams-10.png",
+        "resourceUrl": "http://gooddesign.io/",
+        "resourceAuthor": "Principles by Dieter Rams, perpetuated by Vitsoe, reiterated by Oliver Klein.",
+        "resourceOrg": "Oliver Klein",
+        "resourceType": "Website",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "10-Principles-For-Good-Design",
+        "contentHTML": "<p>Dieter Ram’s 10 principles of good design in website form.</p>",
+        "content": "Dieter Ram’s 10 principles of good design in website form.",
+        "url": "/dieter-rams-principles"
+      }
+      ,
+    
+      "designing-accessible-elearning": {
+        "title": "6 Best Practices for Designing Accessible E-Learning",
+        "author": "",
+        "category": "",
+        "image": "/designing-accessible-elearning.png",
+        "resourceUrl": "https://community.articulate.com/e-books/6-best-practices-for-designing-accessible-e-learning",
+        "resourceAuthor": "",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "6-Best-Practices-for-Designing-Accessible-E-Learning",
+        "contentHTML": "<p>If you’re struggling with creating e-learning that meets the highest standards of accessibility, we’ve got the e-book for you.</p><p>In this free guide, we’ll walk you through the many choices you’ll need to make to design courses that meet popular accessibility standards, such as Section 508 and WCAG.</p>",
+        "content": "If you’re struggling with creating e-learning that meets the highest standards of accessibility, we’ve got the e-book for you.In this free guide, we’ll walk you through the many choices you’ll need to make to design courses that meet popular accessibility standards, such as Section 508 and WCAG.",
+        "url": "/designing-accessible-elearning"
+      }
+      ,
+    
+      "design-thinking-crash-course": {
+        "title": "Virtual Crash Course in Design Thinking",
+        "author": "",
+        "category": "",
+        "image": "/design-thinking-crash-course.png",
+        "resourceUrl": "http://dschool.stanford.edu/dgift/",
+        "resourceAuthor": "",
+        "resourceOrg": "Stanford Design School",
+        "resourceType": "Website",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "Virtual-Crash-Course-in-Design-Thinking",
+        "contentHTML": "<p>We know not everyone can make a trip to the d.school to experience how we teach design thinking. So, we created this online version of one of our most frequently sought after learning tools. Using the video, handouts, and facilitation tips below, we will take you step by step through the process of hosting or participating in a 90 minute design challenge.</p><p>If you choose to participate, in 90 minutes you will be taken through a full design cycle by participating in The Gift-Giving Project. This is a fast-paced project where participants pair up to interview each other, identify real needs, and develop a solution to “redesign the gift-giving experience” for their partner. NO PREVIOUS DESIGN EXPERIENCE REQUIRED. We’ll provide all the information you need to be successful, whether you are just pairing up with one other person or you are gathering a large group  (great for organizations, schools, or companies).</p><p>Through this experience we hope you will take away some of the basic principles of Design Thinking and start to adapt them into your personal and professional routines.</p>",
+        "content": "We know not everyone can make a trip to the d.school to experience how we teach design thinking. So, we created this online version of one of our most frequently sought after learning tools. Using the video, handouts, and facilitation tips below, we will take you step by step through the process of hosting or participating in a 90 minute design challenge.If you choose to participate, in 90 minutes you will be taken through a full design cycle by participating in The Gift-Giving Project. This is a fast-paced project where participants pair up to interview each other, identify real needs, and develop a solution to “redesign the gift-giving experience” for their partner. NO PREVIOUS DESIGN EXPERIENCE REQUIRED. We’ll provide all the information you need to be successful, whether you are just pairing up with one other person or you are gathering a large group  (great for organizations, schools, or companies).Through this experience we hope you will take away some of the basic principles of Design Thinking and start to adapt them into your personal and professional routines.",
+        "url": "/design-thinking-crash-course"
+      }
+      ,
+    
+      "dear-id-podcast": {
+        "title": "Dear Instructional Designer",
+        "author": "",
+        "category": "",
+        "image": "/dear-instructional-designer.png",
+        "resourceUrl": "http://dearinstructionaldesigner.com/",
+        "resourceAuthor": "Kristin Anthony",
+        "resourceOrg": "DearInstructionalDesigner.com",
+        "resourceType": "Podcast",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "Dear-Instructional-Designer",
+        "contentHTML": "<p>The show for instructional design newbies.</p><p>What is the life of an instructional designer really like? This show is going to delve into all of the mess and how we can deal with it.</p>",
+        "content": "The show for instructional design newbies.What is the life of an instructional designer really like? This show is going to delve into all of the mess and how we can deal with it.",
+        "url": "/dear-id-podcast"
+      }
+      ,
+    
+      "crisis-of-context": {
+        "title": "The Crisis of Context in Corporate Learning",
+        "author": "",
+        "category": "",
+        "image": "/crisis-of-context.png",
+        "resourceUrl": "https://www.elearningguild.com/publications/index.cfm?id=62&amp;from=content&amp;mode=filter&amp;source=publications&amp;showpage=2",
+        "resourceAuthor": "",
+        "resourceOrg": "Inkling / Elearning Guild",
+        "resourceType": "Website",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "The-Crisis-of-Context-in-Corporate-Learning",
+        "contentHTML": "<p>Learn how context has usurped content as the new king in the enterprise, and why this shift should be your learning and development team’s number-one priority.</p><p>Content is the foundation of your learning programs, but it is no longer the whole story. Putting your content into context—providing employees with instant and easy access to the content that is relevant to them—is the new standard for learning and development.</p><p>With numerous studies pointing to a majority of companies pouring their focus (and money) into generating more and more content, prioritizing context has never been more necessary. This eBook explains why context matters in the modern mobile enterprise, and how you can build it into your learning programs successfully.</p>",
+        "content": "Learn how context has usurped content as the new king in the enterprise, and why this shift should be your learning and development team’s number-one priority.Content is the foundation of your learning programs, but it is no longer the whole story. Putting your content into context—providing employees with instant and easy access to the content that is relevant to them—is the new standard for learning and development.With numerous studies pointing to a majority of companies pouring their focus (and money) into generating more and more content, prioritizing context has never been more necessary. This eBook explains why context matters in the modern mobile enterprise, and how you can build it into your learning programs successfully.",
+        "url": "/crisis-of-context"
+      }
+      ,
+    
+      "create-outstanding-mooc": {
+        "title": "How To Create An Outstanding MOOC",
+        "author": "",
+        "category": "",
+        "image": "/create-outstanding-mooc.png",
+        "resourceUrl": "http://beta.curatr3.com/courses/how-to-create-an-outstanding-mooc/home",
+        "resourceAuthor": "",
+        "resourceOrg": "Curatr",
+        "resourceType": "Course",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "How-To-Create-An-Outstanding-MOOC",
+        "contentHTML": "<p>In this course from HT2 we’d like to offer you not only the opportunity to discuss MOOC design in the fantastic social setting that is Curatr, but you’ll also have the chance (and support) to build your very own MOOC - in Curatr!</p>",
+        "content": "In this course from HT2 we’d like to offer you not only the opportunity to discuss MOOC design in the fantastic social setting that is Curatr, but you’ll also have the chance (and support) to build your very own MOOC - in Curatr!",
+        "url": "/create-outstanding-mooc"
+      }
+      ,
+    
+      "compliance-learning-that-works": {
+        "title": "Compliance: Blended Learning That Works",
+        "author": "",
+        "category": "",
+        "image": "/compliance-that-works.png",
+        "resourceUrl": "http://www.kineo.com/resources/papers-and-guides/blended-learning-that-works-for-compliance-guide",
+        "resourceAuthor": "Kirstie Greany",
+        "resourceOrg": "Kineo",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Compliance:-Blended-Learning-That-Works",
+        "contentHTML": "<p>Helping organisations move beyond the tick-box, using blended learning to create engaging and compelling compliance programmes.</p>",
+        "content": "Helping organisations move beyond the tick-box, using blended learning to create engaging and compelling compliance programmes.",
+        "url": "/compliance-learning-that-works"
+      }
+      ,
+    
+      "building-visual-hierarchy": {
+        "title": "The Building Blocks of Visual Hierarchy: Designing Visually Intuitive Web UI",
+        "author": "",
+        "category": "",
+        "image": "/building-visual-hierarchy.png",
+        "resourceUrl": "https://www.uxpin.com/studio/ebooks/web-ui-design-building-visual-hierarchy/",
+        "resourceAuthor": "",
+        "resourceOrg": "UXPin",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "The-Building-Blocks-of-Visual-Hierarchy:-Designing-Visually-Intuitive-Web-UI",
+        "contentHTML": "<p>In this ebook:</p><ul>  <li>See how to design visually intuitive interfaces for the web.</li>  <li>Learn how size, colors, space, layout, and style affect visual understanding.</li>  <li>Get quick tips for designing clear visual hierarchies.</li>  <li>18 examples of the best sites analyzed from companies like MailChimp &amp; RelateIQ.</li></ul>",
+        "content": "In this ebook:  See how to design visually intuitive interfaces for the web.  Learn how size, colors, space, layout, and style affect visual understanding.  Get quick tips for designing clear visual hierarchies.  18 examples of the best sites analyzed from companies like MailChimp &amp; RelateIQ.",
+        "url": "/building-visual-hierarchy"
+      }
+      ,
+    
+      "building-compelling-interactions": {
+        "title": "Building Compelling Interactions: What You Need to Know",
+        "author": "",
+        "category": "",
+        "image": "/building-compelling-interactions.png",
+        "resourceUrl": "https://community.articulate.com/e-books/building-compelling-interactions",
+        "resourceAuthor": "",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "Building-Compelling-Interactions:-What-You-Need-to-Know",
+        "contentHTML": "<p>Engaging e-learning courses give learners opportunities to take action, make decisions, and engage with content. In this e-book, we’ll share our pro techniques for building interactions that tempt your learners’ curiosity and invite them to explore.</p><p>Let learners discover relationships between key concepts with interactive activities. Ask absorbing questions that help learners process new information. Create thought-provoking scenarios that challenge learners to apply what they’ve learned to realistic situations. And design decision points that keep your learners wanting more.</p>",
+        "content": "Engaging e-learning courses give learners opportunities to take action, make decisions, and engage with content. In this e-book, we’ll share our pro techniques for building interactions that tempt your learners’ curiosity and invite them to explore.Let learners discover relationships between key concepts with interactive activities. Ask absorbing questions that help learners process new information. Create thought-provoking scenarios that challenge learners to apply what they’ve learned to realistic situations. And design decision points that keep your learners wanting more.",
+        "url": "/building-compelling-interactions"
+      }
+      ,
+    
+      "become-rapid-elearning-pro": {
+        "title": "The Insider’s Guide to Becoming a Rapid E-Learning Pro",
+        "author": "",
+        "category": "",
+        "image": "/become-rapid-elearning-pro.png",
+        "resourceUrl": "https://community.articulate.com/e-books/insiders-guide-to-becoming-rapid-e-learning-pro",
+        "resourceAuthor": "Tom Kuhlmann",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "The-Insider’s-Guide-to-Becoming-a-Rapid-E-Learning-Pro",
+        "contentHTML": "<p>This free e-book by world-famous e-learning guru Tom Kuhlmann, author of The Rapid E-Learning Blog, will turn you into an e-learning pro in no time.</p><p>Tom will walk you through foundational e-learning concepts, explain common terms, and introduce you to the different types of tools you’ll use. He’ll also give you a top-to-bottom framework for partnering with stakeholders, gathering needed resources, and developing your online course effectively and efficiently.</p>",
+        "content": "This free e-book by world-famous e-learning guru Tom Kuhlmann, author of The Rapid E-Learning Blog, will turn you into an e-learning pro in no time.Tom will walk you through foundational e-learning concepts, explain common terms, and introduce you to the different types of tools you’ll use. He’ll also give you a top-to-bottom framework for partnering with stakeholders, gathering needed resources, and developing your online course effectively and efficiently.",
+        "url": "/become-rapid-elearning-pro"
+      }
+      ,
+    
+      "avoid-elearning-mistakes": {
+        "title": "5 eLearning Mistakes and How to Avoid Them",
+        "author": "",
+        "category": "",
+        "image": "/avoid-elearning-mistakes.png",
+        "resourceUrl": "http://trivantis.com/ebooks/5-elearning-mistakes",
+        "resourceAuthor": "",
+        "resourceOrg": "Trivantis",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "5-eLearning-Mistakes-and-How-to-Avoid-Them",
+        "contentHTML": "<p>Are you making these eLearning mistakes? Find out the worst offenders and how to avoid them. This eBook is based on original content by Joe Ganci of eLearningJoe and our extremely popular 5 eLearning Mistakes webinar.</p>",
+        "content": "Are you making these eLearning mistakes? Find out the worst offenders and how to avoid them. This eBook is based on original content by Joe Ganci of eLearningJoe and our extremely popular 5 eLearning Mistakes webinar.",
+        "url": "/avoid-elearning-mistakes"
+      }
+      ,
+    
+      "atomic-design": {
+        "title": "Atomic Design",
+        "author": "",
+        "category": "",
+        "image": "/atomic-design.png",
+        "resourceUrl": "http://atomicdesign.bradfrost.com/table-of-contents/",
+        "resourceAuthor": "Brad Frost",
+        "resourceOrg": "BradFrost.com",
+        "resourceType": "Website",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "Atomic-Design",
+        "contentHTML": "<p>Atomic design provides a clear methodology for crafting design systems. Clients and team members are able to better appreciate the concept of design systems by actually seeing the steps laid out in front of them.</p><p>Atomic design gives us the ability to traverse from abstract to concrete. Because of this, we can create systems that promote consistency and scalability while simultaneously showing things in their final context. And by assembling rather than deconstructing, we’re crafting a system right out of the gate instead of cherry picking patterns after the fact.</p>",
+        "content": "Atomic design provides a clear methodology for crafting design systems. Clients and team members are able to better appreciate the concept of design systems by actually seeing the steps laid out in front of them.Atomic design gives us the ability to traverse from abstract to concrete. Because of this, we can create systems that promote consistency and scalability while simultaneously showing things in their final context. And by assembling rather than deconstructing, we’re crafting a system right out of the gate instead of cherry picking patterns after the fact.",
+        "url": "/atomic-design"
+      }
+      ,
+    
+      "articulate-to-lectora": {
+        "title": "An Articulate® Storyline® User's Guide to Lectora®",
+        "author": "",
+        "category": "",
+        "image": "/articulate-to-lectora.png",
+        "resourceUrl": "http://trivantis.com/ebooks/storyline-guide-to-lectora",
+        "resourceAuthor": "",
+        "resourceOrg": "Trivantis",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "An-Articulate®-Storyline®-User's-Guide-to-Lectora®",
+        "contentHTML": "<p>Considering adding another eLearning authoring tool to your skill set? This detailed guide covers everything you need to know about switching from Articulate Storyline to Lectora, or adding Lectora Inspire to your toolbox.</p>",
+        "content": "Considering adding another eLearning authoring tool to your skill set? This detailed guide covers everything you need to know about switching from Articulate Storyline to Lectora, or adding Lectora Inspire to your toolbox.",
+        "url": "/articulate-to-lectora"
+      }
+      ,
+    
+      "ar-vr-perspectives": {
+        "title": "AR, VR, and Enhanced Realities: Seven Perspectives on the Potential and Risks for Learning",
+        "author": "",
+        "category": "",
+        "image": "/enhanced-realities.png",
+        "resourceUrl": "https://www.elearningguild.com/publications/index.cfm?id=93&amp;from=content&amp;mode=filter&amp;source=publications",
+        "resourceAuthor": "",
+        "resourceOrg": "Elearning Guild",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "AR,-VR,-and-Enhanced-Realities:-Seven-Perspectives-on-the-Potential-and-Risks-for-Learning",
+        "contentHTML": "<p>Virtual, augmented, and mixed reality applications are poised to explode into the consumer market. The inevitable explosion will mainstream this technology and transform how we look at content, opening new opportunities not only for how we entertain ourselves, but also for how we connect, share, and learn.</p><p>For this eBook, we reached out to members of the eLearning Guild community who are already exploring the possibilities of these emerging technologies. What follows is a collection of seven different perspectives examining the possibilities and implications that virtual, augmented, and mixed reality applications have for learning and performance.</p>",
+        "content": "Virtual, augmented, and mixed reality applications are poised to explode into the consumer market. The inevitable explosion will mainstream this technology and transform how we look at content, opening new opportunities not only for how we entertain ourselves, but also for how we connect, share, and learn.For this eBook, we reached out to members of the eLearning Guild community who are already exploring the possibilities of these emerging technologies. What follows is a collection of seven different perspectives examining the possibilities and implications that virtual, augmented, and mixed reality applications have for learning and performance.",
+        "url": "/ar-vr-perspectives"
+      }
+      ,
+    
+      "anatomy-of-tincan-statement": {
+        "title": "Anatomy of a Tin Can API Statement",
+        "author": "",
+        "category": "",
+        "image": "/anatomy-of-tin-can.png",
+        "resourceUrl": "http://tincanapi.com/ebook/",
+        "resourceAuthor": "Brian Miller",
+        "resourceOrg": "TinCanAPI.com",
+        "resourceType": "Ebook",
+        "access": "Free",
+        "siteURL": "",
+        "learningItemID": "Anatomy-of-a-Tin-Can-API-Statement",
+        "contentHTML": "<p>This book isn’t for the casual Tin Canner—it’s a deep dive into the technicalities and best practices of creating Tin Can API statements. We dare say that it’s the most exhaustive single resource for information about creating Tin Can statements!</p>",
+        "content": "This book isn’t for the casual Tin Canner—it’s a deep dive into the technicalities and best practices of creating Tin Can API statements. We dare say that it’s the most exhaustive single resource for information about creating Tin Can statements!",
+        "url": "/anatomy-of-tincan-statement"
+      }
+      ,
+    
+      "writing-tips-attention": {
+        "title": "Writing Tips to Grab Your Learners' Attention and Keep it!",
+        "author": "",
+        "category": "",
+        "image": "/writing-tips-attention.png",
+        "resourceUrl": "http://learn.alleninteractions.com/5-learner-tips",
+        "resourceAuthor": "Hannah Hunter",
+        "resourceOrg": "Allen Interactions",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Writing-Tips-to-Grab-Your-Learners'-Attention-and-Keep-it!",
+        "contentHTML": "<p>On-screen text can be a powerful tool to motivate, inspire, entertain, and educate. Instructional designers can use many tools to help make onscreen text Meaningful, Memorable, and Motivational.</p><p>This e-book, perfect for all instructional designers, outlines 5 practical writing tips that can be used to grab learner attention and keep it!</p>",
+        "content": "On-screen text can be a powerful tool to motivate, inspire, entertain, and educate. Instructional designers can use many tools to help make onscreen text Meaningful, Memorable, and Motivational.This e-book, perfect for all instructional designers, outlines 5 practical writing tips that can be used to grab learner attention and keep it!",
+        "url": "/writing-tips-attention"
+      }
+      ,
+    
+      "using-instructional-interactivity": {
+        "title": "Using Instructional Interactivity to Improve e-Learning Designs!",
+        "author": "",
+        "category": "",
+        "image": "/using-instructional-interactivity.png",
+        "resourceUrl": "http://learn.alleninteractions.com/instructional-interactivity",
+        "resourceAuthor": "Ethan Edwards",
+        "resourceOrg": "Allen Interactions",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Using-Instructional-Interactivity-to-Improve-e-Learning-Designs!",
+        "contentHTML": "<p>In this e-book, Ethan Edwards covers the concept of instructional interactivity, and demonstrates how it can transform the learning experience for learners working independently through an e-learning program. Gain understanding of the four essential components of instructional interactivity, CCAF, which include: Context, Challenge, Activity, and Feedback.</p>",
+        "content": "In this e-book, Ethan Edwards covers the concept of instructional interactivity, and demonstrates how it can transform the learning experience for learners working independently through an e-learning program. Gain understanding of the four essential components of instructional interactivity, CCAF, which include: Context, Challenge, Activity, and Feedback.",
+        "url": "/using-instructional-interactivity"
+      }
+      ,
+    
+      "ugly-sweater-lessons": {
+        "title": "Avoiding Ugly e-Learning: Lessons from Holiday Sweaters",
+        "author": "",
+        "category": "",
+        "image": "/avoid-ugly-elearning.png",
+        "resourceUrl": "http://learn.alleninteractions.com/avoiding-ugly-elearning",
+        "resourceAuthor": "Ethan Edwards",
+        "resourceOrg": "Allen Interactions",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Avoiding-Ugly-e-Learning:-Lessons-from-Holiday-Sweaters",
+        "contentHTML": "<p>Tis the season of holiday sweaters—each lovingly created with good intent, sometimes gaudy, sometimes uncomfortable, sometimes utilitarian, but rarely as beautiful as imagined. The same can often be said about e-learning course designs.</p><p>We start out with the intention to create something uniquely satisfying for our learners, but after accounting for strained resources, limited time, imperfect development tools, complex subject matter, and unpredictable learners, we end up with something not quite as beautiful as we’d hoped.</p>",
+        "content": "Tis the season of holiday sweaters—each lovingly created with good intent, sometimes gaudy, sometimes uncomfortable, sometimes utilitarian, but rarely as beautiful as imagined. The same can often be said about e-learning course designs.We start out with the intention to create something uniquely satisfying for our learners, but after accounting for strained resources, limited time, imperfect development tools, complex subject matter, and unpredictable learners, we end up with something not quite as beautiful as we’d hoped.",
+        "url": "/ugly-sweater-lessons"
+      }
+      ,
+    
+      "save-from-boring-training": {
+        "title": "Saving the World from Boring Training",
+        "author": "",
+        "category": "",
+        "image": "/save-from-boring-training.png",
+        "resourceUrl": "http://blog.cathy-moore.com/save-the-world-from-boring-training/",
+        "resourceAuthor": "Cathy Moore",
+        "resourceOrg": "CathyMoore.com",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Saving-the-World-from-Boring-Training",
+        "contentHTML": "<p>In this 23-page ebook, you’ll learn 6 steps for saving the world from boring training courses.</p>",
+        "content": "In this 23-page ebook, you’ll learn 6 steps for saving the world from boring training courses.",
+        "url": "/save-from-boring-training"
+      }
+      ,
+    
+      "rules-for-max-motivation": {
+        "title": "6 Rules to Designing e-Learning for Maximum Motivation",
+        "author": "",
+        "category": "",
+        "image": "/rules-max-motivation.png",
+        "resourceUrl": "http://learn.alleninteractions.com/learner-motivation-ebook",
+        "resourceAuthor": "Ethan Edwards",
+        "resourceOrg": "Allen Interactions",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "6-Rules-to-Designing-e-Learning-for-Maximum-Motivation",
+        "contentHTML": "<p>In an individualized learning setting, like asynchronous web-based training programs, active learner engagement is necessary for learning to occur.So while it is important for the instructional designer to get the content “right,” it is even more vital (and usually more challenging) to design interactivity to draw in the learner to commit to the authentic behavior needed for learning to occur.</p><p>This e-book presents six straightforward and effective design strategies to create learner motivation in e-learning.</p>",
+        "content": "In an individualized learning setting, like asynchronous web-based training programs, active learner engagement is necessary for learning to occur.So while it is important for the instructional designer to get the content “right,” it is even more vital (and usually more challenging) to design interactivity to draw in the learner to commit to the authentic behavior needed for learning to occur.This e-book presents six straightforward and effective design strategies to create learner motivation in e-learning.",
+        "url": "/rules-for-max-motivation"
+      }
+      ,
+    
+      "principles-for-impactful-elearning": {
+        "title": "10 Practical Principles for Creating Impactful e-Learning",
+        "author": "",
+        "category": "",
+        "image": "/principles-for-impactful-elearning.png",
+        "resourceUrl": "http://learn.alleninteractions.com/10-principles",
+        "resourceAuthor": "Ethan Edwards",
+        "resourceOrg": "Allen Interactions",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "10-Practical-Principles-for-Creating-Impactful-e-Learning",
+        "contentHTML": "<p>Instructional designers of e-learning face a constant challenge of how to create learning experiences that actually make a difference. Too many of the accepted and easy approaches result in e-learning courses that fail to motivate, engage, or empower learners. Sophisticated simulations and technically-sophisticated designs seem out of reach for many instructional designers.</p><p>In this e-book, learn:</p><ul>  <li>10 practical principles that should be implemented at any level of complexity to create training experiences that are transforming and memorable.</li>  <li>Actionable tips to implement these principles into your e-learning designs.</li></ul>",
+        "content": "Instructional designers of e-learning face a constant challenge of how to create learning experiences that actually make a difference. Too many of the accepted and easy approaches result in e-learning courses that fail to motivate, engage, or empower learners. Sophisticated simulations and technically-sophisticated designs seem out of reach for many instructional designers.In this e-book, learn:  10 practical principles that should be implemented at any level of complexity to create training experiences that are transforming and memorable.  Actionable tips to implement these principles into your e-learning designs.",
+        "url": "/principles-for-impactful-elearning"
+      }
+      ,
+    
+      "improved-elearning-challenges": {
+        "title": "7 Steps To Improved E-Learning Challenges",
+        "author": "",
+        "category": "",
+        "image": "/improved-elearning-challenges.png",
+        "resourceUrl": "http://learn.alleninteractions.com/7-steps-improved-elearning-challenges",
+        "resourceAuthor": "Ethan Edwards",
+        "resourceOrg": "Allen Interactions",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "7-Steps-To-Improved-E-Learning-Challenges",
+        "contentHTML": "<p>The Context, Challenge, Activity, and Feedback (CCAF) Instructional Design Model is a powerful tool to guide the design of engaging and effective online interactions.</p><p>Instructional designers appreciate the power of these elements and are impressed when presented with finished interactions that exemplify these principles. However, when faced with designing an interaction from scratch, many designers find it difficult to break out of the traditional tedious multiple choice and true/false formats that are used so often.</p><p>This e-book provides seven small steps to improved interactions while recognizing that capabilities with authoring software might be quite limited. If you begin applying these steps while you are designing questions, you will quickly open up a world of much more powerful design possibilities.</p>",
+        "content": "The Context, Challenge, Activity, and Feedback (CCAF) Instructional Design Model is a powerful tool to guide the design of engaging and effective online interactions.Instructional designers appreciate the power of these elements and are impressed when presented with finished interactions that exemplify these principles. However, when faced with designing an interaction from scratch, many designers find it difficult to break out of the traditional tedious multiple choice and true/false formats that are used so often.This e-book provides seven small steps to improved interactions while recognizing that capabilities with authoring software might be quite limited. If you begin applying these steps while you are designing questions, you will quickly open up a world of much more powerful design possibilities.",
+        "url": "/improved-elearning-challenges"
+      }
+      ,
+    
+      "elearning-for-beginners": {
+        "title": "E-Learning for Beginners",
+        "author": "",
+        "category": "",
+        "image": "/elearning-for-beginners.png",
+        "resourceUrl": "https://community.articulate.com/e-books/e-learning-for-beginners",
+        "resourceAuthor": "",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "E-Learning-for-Beginners",
+        "contentHTML": "<p>New to e-learning? Our in-depth e-book will tell you everything you need to know. You’ll be creating great courses in no time!</p>",
+        "content": "New to e-learning? Our in-depth e-book will tell you everything you need to know. You’ll be creating great courses in no time!",
+        "url": "/elearning-for-beginners"
+      }
+      ,
+    
+      "elearning-business-potential": {
+        "title": "Unleash the Potential of Elearning in Your Business",
+        "author": "",
+        "category": "",
+        "image": "/unleash-elearning-potential.png",
+        "resourceUrl": "http://www.unleashelearningpotential.com",
+        "resourceAuthor": "Ant Pugh",
+        "resourceOrg": "E-Learning Architect",
+        "resourceType": "Email Course",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Unleash-the-Potential-of-Elearning-in-Your-Business",
+        "contentHTML": "<p>Are you thinking about implementing an e-learning programme within your business but not sure where to start? Or are you already delivering online training and not seeing the levels of engagement you know are possible? Then this course is for you!</p><p>In this email crash course you’ll learn:</p><ul>  <li>Why many e-learning programmes fail</li>  <li>How to guarantee engagement with your audience</li>  <li>How to demonstrate a tangible return on investment</li>  <li>The basic components required for a successful e-learning programme</li>  <li>Specific, actionable techniques you can apply to your business today</li></ul>",
+        "content": "Are you thinking about implementing an e-learning programme within your business but not sure where to start? Or are you already delivering online training and not seeing the levels of engagement you know are possible? Then this course is for you!In this email crash course you’ll learn:  Why many e-learning programmes fail  How to guarantee engagement with your audience  How to demonstrate a tangible return on investment  The basic components required for a successful e-learning programme  Specific, actionable techniques you can apply to your business today",
+        "url": "/elearning-business-potential"
+      }
+      ,
+    
+      "effective-elearning-strategies": {
+        "title": "5 Highly Effective Strategies for Creating Engaging E-Learning",
+        "author": "",
+        "category": "",
+        "image": "/effective-elearning-strategies.png",
+        "resourceUrl": "https://community.articulate.com/e-books/5-highly-effective-strategies-for-creating-engaging-e-learning",
+        "resourceAuthor": "",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "5-Highly-Effective-Strategies-for-Creating-Engaging-E-Learning",
+        "contentHTML": "<p>Want to create more engaging e-learning courses, but aren’t sure where to start? In this go-to guide, you’ll learn how to attract—and keep—your learners’ attention.</p><p>From demystifying visual design principles to uncovering the secret to building great interactions, this e-book shares the pro strategies you need to make more compelling, more engaging, and more effective courses.</p>",
+        "content": "Want to create more engaging e-learning courses, but aren’t sure where to start? In this go-to guide, you’ll learn how to attract—and keep—your learners’ attention.From demystifying visual design principles to uncovering the secret to building great interactions, this e-book shares the pro strategies you need to make more compelling, more engaging, and more effective courses.",
+        "url": "/effective-elearning-strategies"
+      }
+      ,
+    
+      "disney-princesses-disasters": {
+        "title": "Disney Princesses Reimagined As E-Learning Disasters",
+        "author": "",
+        "category": "",
+        "image": "/disney-princess-disasters.png",
+        "resourceUrl": "http://learn.alleninteractions.com/disney-princesses-reimagined-as-elearning-disasters",
+        "resourceAuthor": "Ethan Edwards",
+        "resourceOrg": "Allen Interactions",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "Disney-Princesses-Reimagined-As-E-Learning-Disasters",
+        "contentHTML": "<p>One of the more robust Internet trends has been reimagining the well-loved Disney Princesses in different situations. From the imaginative Disney Princesses Reimagined as “Real Life” Women to the provocative Disney Princesses Reimagined as Different Races to the absurd Disney Princesses Reimagined as Hot Dogs, these iconic characters seem to be useful in revealing aspects of our world that might otherwise go unrecognized.</p><p>In this spirit, Ethan Edwards puts this lens to the design of e-learning to shed new light on some problems and risks that we face and have become blind to by illustrating 12 Disney Princesses Reimagined as e-Learning Disasters.</p>",
+        "content": "One of the more robust Internet trends has been reimagining the well-loved Disney Princesses in different situations. From the imaginative Disney Princesses Reimagined as “Real Life” Women to the provocative Disney Princesses Reimagined as Different Races to the absurd Disney Princesses Reimagined as Hot Dogs, these iconic characters seem to be useful in revealing aspects of our world that might otherwise go unrecognized.In this spirit, Ethan Edwards puts this lens to the design of e-learning to shed new light on some problems and risks that we face and have become blind to by illustrating 12 Disney Princesses Reimagined as e-Learning Disasters.",
+        "url": "/disney-princesses-disasters"
+      }
+      ,
+    
+      "definitive-guide-to-multidevice": {
+        "title": "The Definitive Guide to Multi-Device E-Learning",
+        "author": "",
+        "category": "",
+        "image": "/definitive-guide-multidevice.png",
+        "resourceUrl": "https://community.articulate.com/e-books/the-definitive-guide-to-multi-device-e-learning",
+        "resourceAuthor": "",
+        "resourceOrg": "Articulate",
+        "resourceType": "Ebook",
+        "access": "Requires Registration",
+        "siteURL": "",
+        "learningItemID": "The-Definitive-Guide-to-Multi-Device-E-Learning",
+        "contentHTML": "<p>Learners don’t just access e-learning from their desktop computers anymore. They’re using all kinds of devices, including smartphones and laptops. That means e-learning professionals are being asked to build courses that work on any device and screen size.</p><p>This request comes with a lot of new design and development considerations. How do you create e-learning that’s effective and looks great across multiple types of devices? How do you choose the right mobile learning development tools?</p><p>This e-book answers those big questions and more. In this definitive guide, we explain what multi-device e-learning is, break down the approaches to creating multi-device e-learning, and talk through what to consider when evaluating different mobile e-learning solutions.</p><p>You’ll also get insights, tips, and tricks for creating multi-device e-learning that you can apply immediately, whether you’re just getting started or want to take your courses to the next-level.</p>",
+        "content": "Learners don’t just access e-learning from their desktop computers anymore. They’re using all kinds of devices, including smartphones and laptops. That means e-learning professionals are being asked to build courses that work on any device and screen size.This request comes with a lot of new design and development considerations. How do you create e-learning that’s effective and looks great across multiple types of devices? How do you choose the right mobile learning development tools?This e-book answers those big questions and more. In this definitive guide, we explain what multi-device e-learning is, break down the approaches to creating multi-device e-learning, and talk through what to consider when evaluating different mobile e-learning solutions.You’ll also get insights, tips, and tricks for creating multi-device e-learning that you can apply immediately, whether you’re just getting started or want to take your courses to the next-level.",
+        "url": "/definitive-guide-to-multidevice"
+      }
+      ,
+    
+      "bitesize-microlearning": {
+        "title": "A Bite-Sized Guide to Microlearning",
+        "author": "",
+        "category": "",
+        "image": "/bite-size-microlearning.png",
+        "resourceUrl": "http://learn.alleninteractions.com/bite-sized-guide-to-microlearning",
+        "resourceAuthor": "Ellen Burns",
+        "resourceOrg": "Allen Interactions",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "A-Bite-Sized-Guide-to-Microlearning",
+        "contentHTML": "<p>You have heard the buzz and excitement in the learning industry about microlearning—but how do you put the principles and theories behind microlearning into action?</p><p>Explore the basics of microlearning design and get foundational knowledge on implementing microlearning at your organization!</p><p>This e-book delivers insights into what makes successful microlearning gleaned from Ellen’s experience working with varied companies and organizations.</p>",
+        "content": "You have heard the buzz and excitement in the learning industry about microlearning—but how do you put the principles and theories behind microlearning into action?Explore the basics of microlearning design and get foundational knowledge on implementing microlearning at your organization!This e-book delivers insights into what makes successful microlearning gleaned from Ellen’s experience working with varied companies and organizations.",
+        "url": "/bitesize-microlearning"
+      }
+      ,
+    
+      "14-tips-elearning-feast": {
+        "title": "14 Tips for Preparing an e-Learning Feast",
+        "author": "",
+        "category": "",
+        "image": "/tips-elearning-feast.png",
+        "resourceUrl": "http://learn.alleninteractions.com/14-tips-for-preparing-an-elearning-feast",
+        "resourceAuthor": "Ethan Edwards",
+        "resourceOrg": "Allen Interactions",
+        "resourceType": "Ebook",
+        "access": "Requires Email",
+        "siteURL": "",
+        "learningItemID": "14-Tips-for-Preparing-an-e-Learning-Feast",
+        "contentHTML": "<p>As we all get ready to join our family and friends for the Thanksgiving holidays and prepare for the big meal, it’s nearly impossible to avoid the endless advice on TV, radio, and online about how to prepare the perfect feast.</p><p>As it turns out, so much of that advice can easily be related to planning and preparing perfect e-learning.</p>",
+        "content": "As we all get ready to join our family and friends for the Thanksgiving holidays and prepare for the big meal, it’s nearly impossible to avoid the endless advice on TV, radio, and online about how to prepare the perfect feast.As it turns out, so much of that advice can easily be related to planning and preparing perfect e-learning.",
+        "url": "/14-tips-elearning-feast"
+      }
+      
+    
+  };
+</script>
+<script src="assets/themes/hack-id/js/lunr.min.js"></script>
+<script src="assets/themes//hack-id/js/search.js"></script>
+
+</div>
+
+      </div>
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p>&copy; 2017 K. Anthony
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a> | Licensed by <a href="https://anthkris.mit-license.org/">MIT</a>
+        </p>
+      </div>
+    </div>
+
+    
+
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 3.x (2.x+ not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="/assets/themes/hack-id/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      // Filtering with Isotope: http://cagrimmett.com/projects/2016/09/15/jekyll-categories-isotope.html
+      // init Isotope
+      var $grid = $('.experiences').isotope({
+        // options
+        itemSelector: '.learning-item'
+      });
+      // filter items on button click
+      $('.filter-button-group').on( 'click', 'a', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+      });
+      $('.button-group a.button').on('click', function(){
+      	$('.button-group a.button').removeClass('active');
+      	$(this).addClass('active');
+      });
+    </script>
+  </body>
+</html>
+
