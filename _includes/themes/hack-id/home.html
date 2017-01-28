@@ -7,10 +7,10 @@
         <div>
         </div>
         <div class="button-group filter-button-group">
-          <a href="javascript:void(0);" class="button active" data-filter="*">All</a>
+          <a href="javascript:void(0);" class="button active" data-filter="*" role="button">All</a>
           {% assign tags_sorted = site.tags | sort %}
           {% for tag in tags_sorted %}
-            <a class="button" href="javascript:void(0);" data-filter=".{{ tag | first }}">{{ tag | first | replace:'-cat','' | replace:'-',' ' | capitalize }}</a>
+            <a class="button" href="javascript:void(0);" data-filter=".{{ tag | first }}" role="button">{{ tag | first | replace:'-cat','' | replace:'-',' ' | capitalize }}</a>
           {% endfor %}
         </div>
         <!-- Projects Row -->
