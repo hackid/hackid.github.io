@@ -19,17 +19,17 @@ body {
 }
 
 h1, h2, h3, h4 {
-  color: #ed4f3e;
+  color: #F84339;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
 a {
-  color: #64cdf2;
+  color: #005C81;
 }
 
 .navbar-default .navbar-brand {
-  color: #ed4f3e;
+  color: #F84339;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
@@ -44,11 +44,11 @@ a {
 .button {
   margin: 1em 0;
   padding: 0.5em 0.75em;
-  color: #64cdf2;
+  color: #005C81;
 }
 
 .button.active {
-  background: #64cdf2;
+  background: #005C81;
   color: #FFF;
 }
 
@@ -135,7 +135,7 @@ a {
 .view-button {
   margin: 1em 0;
   padding: 0.25em 0.5em;
-  background-color: #64cdf2;
+  background-color: #005C81;
   color: #FFF;
   width: 100%;
 }
@@ -144,7 +144,7 @@ a {
 .category-heading:focus,
 .view-button:hover,
 .view-button:focus {
-  background-color: #ed4f3e;
+  background-color: #F84339;
   color: #FFF;
   text-decoration: none;
 }
@@ -155,7 +155,7 @@ a {
 }
 
 .labels i {
-  color: #64cdf2;
+  color: #005C81;
 }
 
 .cat-image {
