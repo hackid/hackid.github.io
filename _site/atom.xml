@@ -4,13 +4,39 @@
  <title>Hack ID</title>
  <link href="http://hackid.github.io/atom.xml" rel="self"/>
  <link href="http://hackid.github.io"/>
- <updated>2017-01-28T19:53:49-06:00</updated>
+ <updated>2017-02-12T00:42:08-06:00</updated>
  <id>http://hackid.github.io</id>
  <author>
    <name>K. Anthony</name>
    <email>kristin@knanthony.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Teaching in Higher Ed Podcast</title>
+   <link href="http://hackid.github.io/teaching-in-highered"/>
+   <updated>2017-02-12T00:00:00-06:00</updated>
+   <id>http://hackid.github.io/teaching-in-highered</id>
+   <content type="html">
+&lt;p&gt;Bonnie Stachowiak interviews higher ed professionals and shares tips about instructional design, teaching, educational technology, and educational psychology.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Eliminate Nonessential Content</title>
+   <link href="http://hackid.github.io/eliminate-nonessential-content"/>
+   <updated>2017-02-12T00:00:00-06:00</updated>
+   <id>http://hackid.github.io/eliminate-nonessential-content</id>
+   <content type="html">
+&lt;p&gt;How we write learning content is as important as what we write. For example:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Complex writing makes the message hard to understand.&lt;/li&gt;
+  &lt;li&gt;Mixing unnecessary content with important content makes it difficult to find and remember the most critical messages.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this eBook by Patti Shank, PhD, we concentrate on five critical tactics to remove unnecessary words and content in order to make it content more learnable.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Designing for Mixed Reality</title>
@@ -232,30 +258,6 @@ So I wrote a book about how to avoid and deal with such clients.&lt;/p&gt;
    <id>http://hackid.github.io/rough-guide-games</id>
    <content type="html">
 &lt;p&gt;Games are gaining ground in workplace elearning with an estimated 40% of global organisations already using them in some shape or form. Learn more about what makes a good elearning game and why you should be using games in your elearning.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>How To Shoot Rich Cultural Training Videos on a Smartphone (A Guide)</title>
-   <link href="http://hackid.github.io/rich-cultural-video"/>
-   <updated>2016-12-29T00:00:00-06:00</updated>
-   <id>http://hackid.github.io/rich-cultural-video</id>
-   <content type="html">
-&lt;p&gt;The value of creating rich, engaging cultural stories using video is often outweighed by the perceived time, expertise and outside resources needed to produce these videos. Especially in the L&amp;amp;D world, where video creation is one area where content creators and instructional designers don’t feel as comfortable giving it a shot.&lt;/p&gt;
-
-&lt;p&gt;In this guide, we will take you step-by-step through the proven Wisetail video production process from a filmmaking novice’s point of view. We’ll give you both the insight and techniques needed to tell your rich cultural stories using the tools (smartphone &amp;amp; laptop) already at your disposal.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Responsive eLearning Design &amp; Development</title>
-   <link href="http://hackid.github.io/responsive-design-development"/>
-   <updated>2016-12-29T00:00:00-06:00</updated>
-   <id>http://hackid.github.io/responsive-design-development</id>
-   <content type="html">
-&lt;p&gt;Today’s learners use multiple computing/communication devices during the course of the day - for learning, work, entertainment, and decision making. They are on the move, both within and outside the workplace, and want to use their “downtime” effectively. Responsive eLearning helps organizations to leverage this “downtime” while extending the reach and availability of their training.&lt;/p&gt;
-
-&lt;p&gt;Like any other approach, Responsive eLearning comes with its own set of planning, design, development and testing considerations and guidelines - and it forces those of us who create responsive eLearning to think beyond just one fixed display size and one uniform use context. Hence, understanding the key features, benefits, types, examples of Responsive eLearning is important in drawing up a strategy that works for your organization. With respect to the strategy, decision factors like when to use responsive eLearning, how to get started and the various challenges you may encounter in the design, development and testing process are crucial to the success of your strategy. Learn about it all in this eBook.&lt;/p&gt;
 </content>
  </entry>
  
