@@ -1,6 +1,6 @@
 ---
 layout: post
-image: udacity-accessibiity.png
+image: udacity-accessibility.png
 tags: [accessibility-cat]
 resource-url: https://www.udacity.com/course/web-accessibility--ud891
 access: Requires Registration
