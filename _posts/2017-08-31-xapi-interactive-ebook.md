@@ -5,8 +5,8 @@ tags: [learning-technologies-cat]
 resource-url: http://melearningsolutions.com/resources/
 access: Free
 resource-type: Ebook
-resource-author: “Sarah Gilbert, meLearning Solutions/Sean Putman, Learning Ninjas”
-title: "xAPI Learning Cohort"
+resource-author: Sarah Gilbert, meLearning Solutions / Sean Putman, Learning Ninjas
+title: "xAPI for Interactive Ebooks"
 ---
 {% include JB/setup %}
 
