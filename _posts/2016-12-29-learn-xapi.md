@@ -2,12 +2,16 @@
 layout: post
 image: learn-xAPI.png
 tags: [learning-technologies-cat]
-resource-url: http://beta.curatr3.com/courses/xapi/home
+resource-url: https://www.ht2labs.com/resources/free-lrs-mooc/#.WdPCsRNSzGI
 access: Requires Registration
 resource-type: Course
 resource-org: Curatr
-title: "Learn xAPI"
+title: "Run Your Own LRS in 4-Weeks or Less"
 ---
 {% include JB/setup %}
 
-Join this MOOC to explore both the technical realities and the strategic possibilities of the Experience API. If you want to write your first xAPI statement and understand the difference between an Activity Type and a Context Extension, this is the place to be.
+This course focuses on the technical side of xAPI: getting up-and-running with a Learning Record Store.
+
+You won’t need to be a programmer to take part, but you will need some experience of implementing servers, software and systems administration in general.
+
+You’ll also need access to a server (either on cloud, like AWS, or on your own devices) and administration rights to install new software.
