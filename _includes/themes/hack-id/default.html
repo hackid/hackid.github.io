@@ -134,10 +134,22 @@
       	$(this).addClass('active');
       });
     </script>
+
     {% if page.path == "index.md" %}
       <script type="text/javascript">
+      var viewportwidth;
+      var viewportheight;
+
+      // the more standards compliant browsers (mozilla/netscape/opera/IE7) use window.innerWidth and window.innerHeight
+
+      if (typeof window.innerWidth != 'undefined')
+      {
+        viewportwidth = window.innerWidth,
+        viewportheight = window.innerHeight
+      }
       // use category view for mobile home
-        if (screen.width <= 800) {
+        if (viewportwidth <= 800) {
+          //console.log(screen.width);
           window.location = "https://hackid.github.io/categories";
         }
       </script>
