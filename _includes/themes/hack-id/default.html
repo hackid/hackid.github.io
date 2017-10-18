@@ -134,7 +134,8 @@
       	$(this).addClass('active');
       });
     </script>
-
+    <!-- This works but forces user to category page even if they click on view all
+      Need different solution
     {% if page.path == "index.md" %}
       <script type="text/javascript">
       var viewportwidth;
@@ -148,11 +149,11 @@
         viewportheight = window.innerHeight
       }
       // use category view for mobile home
-        if (viewportwidth <= 800) {
+        if (viewportwidth <= 768) {
           //console.log(screen.width);
           window.location = "https://hackid.github.io/categories";
         }
       </script>
-    {% endif %}
+    {% endif %}-->
   </body>
 </html>
