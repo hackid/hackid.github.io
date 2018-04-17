@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /How-To-Create-Online-Course-A-to-Z.png
+image: How-To-Create-Online-Course-A-to-Z.png
 tags: [instructional-design-cat, elearning-cat]
 resource-url: https://www.ispringsolutions.com/blog/how-to-create-online-course/
 access: Free

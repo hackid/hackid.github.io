@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /online-lecture-toolkit.png
+image: online-lecture-toolkit.png
 tags: [video-production-cat, elearning-cat]
 resource-url: https://www.onlinelecturetoolkit.com/
 access: Free

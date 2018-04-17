@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /writing-for-id.png
+image: writing-for-id.png
 tags : [writing-cat, instructional-design-cat]
 resource-url: http://theelearningcoach.com/
 access: Requires Email

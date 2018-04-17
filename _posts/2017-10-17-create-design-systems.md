@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /creating-design-system.png
+image: creating-design-system.png
 tags: [systems-design-cat]
 resource-url: https://www.uxpin.com/create-design-system-guide
 access: Free

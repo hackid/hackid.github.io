@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /breaking-into-id.png
+image: breaking-into-id.png
 tags: [portfolio-cat, instructional-design-cat]
 resource-url:  http://breakingintoid.com/
 access: Requires Email

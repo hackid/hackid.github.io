@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /gds-course.png
+image: gds-course.png
 tags: [portfolio-cat]
 resource-url: https://kristinanthony.withcoach.com/go-design-something-building-your-job-winning-portfolio
 access: Requires Registration
