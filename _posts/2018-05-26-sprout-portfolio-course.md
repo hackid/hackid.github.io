@@ -6,7 +6,7 @@ resource-url:  http://www.sproutelearning.com/courses/build-your-e-learning-port
 access: Requires Registration
 resource-type: Course
 resource-author: Ashley Chiasson
-resource-org: http://www.sproutelearning.com/courses/build-your-e-learning-portfolio
+resource-org: Sprout Elearning
 title: "Build Your E-Learning Portfolio!"
 ---
 {% include JB/setup %}
