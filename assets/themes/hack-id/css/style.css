@@ -64,6 +64,12 @@ a {
   background-color: #d8d8d8;
 }
 
+#site-posts-showing {
+  display: block;
+  padding: 10px;
+  text-align: right;
+}
+
 /* home page items */
 
 .logo {
